@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Next.js build
+.next/
+out/
+
+# Misc
+.DS_Store
+*.pem
+.env*
+!.env.example
+
+# Vercel
+.vercel
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# PDF source files (large binaries, not needed in repo)
+Results/
+
+# Claude session data
+.claude/
