@@ -27,3 +27,5 @@ Results/
 
 # Claude session data
 .claude/
+
+.vercel
