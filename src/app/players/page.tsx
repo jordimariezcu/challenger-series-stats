@@ -4,22 +4,24 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { playerSlug } from "@/lib/utils";
 import type { PlayerStats } from "@/lib/data";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 type SortKey = "wins" | "win_rate" | "deuce_win_rate" | "comeback_rate" | "tournaments_played";
-
-const COLS: { key: SortKey; label: string; short: string }[] = [
-  { key: "wins",               label: "Most Wins",       short: "Wins" },
-  { key: "win_rate",           label: "Win Rate",        short: "Win %" },
-  { key: "deuce_win_rate",     label: "Deuce Win Rate",  short: "Deuce %" },
-  { key: "comeback_rate",      label: "Comeback Rate",   short: "Comeback" },
-  { key: "tournaments_played", label: "Tournaments",     short: "Tourneys" },
-];
 
 export default function PlayersPage() {
   const [players, setPlayers] = useState<PlayerStats[]>([]);
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<SortKey>("wins");
   const [loading, setLoading] = useState(true);
+  const { t } = useLanguage();
+
+  const COLS: { key: SortKey; label: string; short: string }[] = [
+    { key: "wins",               label: t.sort_wins,     short: t.sort_wins },
+    { key: "win_rate",           label: t.sort_win_rate, short: t.col_win_pct },
+    { key: "deuce_win_rate",     label: t.sort_deuce,    short: t.col_deuce },
+    { key: "comeback_rate",      label: t.sort_comeback, short: t.col_comeback },
+    { key: "tournaments_played", label: t.sort_tourneys, short: t.col_tourneys },
+  ];
 
   useEffect(() => {
     fetch("/api/players")
@@ -38,10 +40,10 @@ export default function PlayersPage() {
     <div>
       {/* Header */}
       <div className="flex items-end gap-3 mb-6">
-        <h1 className="text-3xl font-black uppercase tracking-tight">Players</h1>
+        <h1 className="text-3xl font-black uppercase tracking-tight">{t.players_title}</h1>
         {!loading && (
           <span className="text-[var(--muted)] text-sm mb-1">
-            {filtered.length} players
+            {filtered.length} {t.players_title.toLowerCase()}
           </span>
         )}
       </div>
@@ -54,7 +56,7 @@ export default function PlayersPage() {
             className="w-full bg-[var(--surface)] border border-[var(--border)] rounded-lg
                        pl-8 pr-4 py-2.5 text-sm placeholder:text-[var(--muted)]
                        focus:outline-none focus:border-[var(--accent)]/50 transition-colors"
-            placeholder="Search player…"
+            placeholder={t.players_search}
             value={search}
             onChange={(e) => setSearch(e.target.value)}
           />
@@ -84,12 +86,12 @@ export default function PlayersPage() {
           <div className="grid grid-cols-[1fr_70px_65px_75px_80px_70px] gap-2
                           px-4 py-2.5 text-[10px] text-[var(--muted)] uppercase tracking-widest
                           border-b border-[var(--border)] bg-[var(--surface2)]">
-            <span>Player</span>
-            <span className="text-right">Record</span>
-            <span className="text-right">Win %</span>
-            <span className="text-right">Deuce %</span>
-            <span className="text-right">Comeback</span>
-            <span className="text-right">Tourneys</span>
+            <span>{t.players_title}</span>
+            <span className="text-right">{t.col_record}</span>
+            <span className="text-right">{t.col_win_pct}</span>
+            <span className="text-right">{t.col_deuce}</span>
+            <span className="text-right">{t.col_comeback}</span>
+            <span className="text-right">{t.col_tourneys}</span>
           </div>
 
           {filtered.map((p, i) => (

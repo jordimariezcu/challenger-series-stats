@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { playerSlug, type PlayerStats } from "@/lib/data";
+import { playerSlug } from "@/lib/utils";
 
 interface LeaderboardRowProps {
   name: string;

@@ -4,12 +4,14 @@ import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
 import { playerSlug } from "@/lib/utils";
 import type { PlayerStats } from "@/lib/data";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function H2HPage() {
   const [players, setPlayers] = useState<PlayerStats[]>([]);
   const [p1, setP1] = useState("");
   const [p2, setP2] = useState("");
   const [loading, setLoading] = useState(true);
+  const { t } = useLanguage();
 
   useEffect(() => {
     fetch("/api/players")
@@ -36,18 +38,16 @@ export default function H2HPage() {
     <div>
       <div className="mb-8">
         <div className="flex items-end gap-4 mb-2">
-          <h1 className="text-3xl font-black uppercase tracking-tight">Head-to-Head</h1>
+          <h1 className="text-3xl font-black uppercase tracking-tight">{t.h2h_page_title}</h1>
         </div>
-        <p className="text-[var(--muted)] text-sm">
-          Compare the historical record between any two players
-        </p>
+        <p className="text-[var(--muted)] text-sm">{t.h2h_page_sub}</p>
       </div>
 
       {/* Player selectors */}
       <div className="grid grid-cols-1 sm:grid-cols-[1fr_48px_1fr] gap-3 items-center mb-8">
-        <PlayerSelect label="Player 1" value={p1} names={names} onChange={setP1} loading={loading} />
+        <PlayerSelect label={t.h2h_select_p1} value={p1} names={names} onChange={setP1} loading={loading} searchPlaceholder={t.h2h_search} />
         <div className="text-center font-black text-[var(--accent)] text-xl">VS</div>
-        <PlayerSelect label="Player 2" value={p2} names={names} onChange={setP2} loading={loading} />
+        <PlayerSelect label={t.h2h_select_p2} value={p2} names={names} onChange={setP2} loading={loading} searchPlaceholder={t.h2h_search} />
       </div>
 
       {/* Result */}
@@ -55,7 +55,7 @@ export default function H2HPage() {
         <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
           {total === 0 ? (
             <div className="py-14 text-center text-[var(--muted)]">
-              No recorded matches between these players.
+              {t.h2h_no_data}
             </div>
           ) : (
             <>
@@ -66,17 +66,17 @@ export default function H2HPage() {
                     {p1}
                   </Link>
                   <div className="text-6xl font-black text-[var(--accent)] tabular-nums">{result.wins}</div>
-                  <div className="text-xs text-[var(--muted)] uppercase tracking-widest mt-2">wins</div>
+                  <div className="text-xs text-[var(--muted)] uppercase tracking-widest mt-2">{t.h2h_matches}</div>
                 </div>
 
                 <div className="text-center px-4">
-                  <div className="text-xs text-[var(--muted)] uppercase tracking-widest mb-2">Sets</div>
+                  <div className="text-xs text-[var(--muted)] uppercase tracking-widest mb-2">{t.h2h_sets}</div>
                   <div className="text-2xl font-black font-mono tabular-nums">
                     <span className="text-[var(--accent)]">{result.sets_won}</span>
                     <span className="text-[var(--muted)]">:</span>
                     <span className="text-red-400">{result.sets_lost}</span>
                   </div>
-                  <div className="text-xs text-[var(--muted)] mt-2">{total} matches</div>
+                  <div className="text-xs text-[var(--muted)] mt-2">{total} {t.h2h_matches}</div>
                 </div>
 
                 <div className="text-center">
@@ -84,7 +84,7 @@ export default function H2HPage() {
                     {p2}
                   </Link>
                   <div className="text-6xl font-black text-red-400 tabular-nums">{result.losses}</div>
-                  <div className="text-xs text-[var(--muted)] uppercase tracking-widest mt-2">wins</div>
+                  <div className="text-xs text-[var(--muted)] uppercase tracking-widest mt-2">{t.h2h_matches}</div>
                 </div>
               </div>
 
@@ -105,10 +105,10 @@ export default function H2HPage() {
               {/* Stats grid */}
               <div className="grid grid-cols-3 border-t border-[var(--border)] divide-x divide-[var(--border)]">
                 {[
-                  { label: "Total Matches", value: total },
-                  { label: "Sets Played", value: result.sets_won + result.sets_lost },
+                  { label: t.h2h_matches, value: total },
+                  { label: t.h2h_sets,    value: result.sets_won + result.sets_lost },
                   {
-                    label: "Avg Sets/Match",
+                    label: "Ø Sets",
                     value: ((result.sets_won + result.sets_lost) / total).toFixed(1),
                   },
                 ].map(({ label, value }) => (
@@ -126,7 +126,7 @@ export default function H2HPage() {
       {!p1 && !p2 && !loading && (
         <div className="text-center py-20 text-[var(--muted)]">
           <div className="text-4xl mb-3">🏓</div>
-          <p className="text-sm">Select two players to see their head-to-head record</p>
+          <p className="text-sm">{t.h2h_page_sub}</p>
         </div>
       )}
     </div>
@@ -139,12 +139,14 @@ function PlayerSelect({
   names,
   onChange,
   loading,
+  searchPlaceholder,
 }: {
   label: string;
   value: string;
   names: string[];
   onChange: (v: string) => void;
   loading: boolean;
+  searchPlaceholder: string;
 }) {
   const [search, setSearch] = useState("");
   const [open, setOpen] = useState(false);
@@ -164,7 +166,7 @@ function PlayerSelect({
         onClick={() => setOpen((o) => !o)}
       >
         <span className={value ? "text-[var(--text)] font-semibold" : "text-[var(--muted)]"}>
-          {loading ? "Loading…" : value || "Select player…"}
+          {loading ? "Loading…" : value || label}
         </span>
         <span className="text-[var(--accent)] text-xs font-bold">▾</span>
       </div>
@@ -175,7 +177,7 @@ function PlayerSelect({
             <input
               autoFocus
               className="w-full bg-[var(--bg)] rounded px-3 py-2 text-sm focus:outline-none placeholder:text-[var(--muted)]"
-              placeholder="Search…"
+              placeholder={searchPlaceholder}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             />
@@ -192,7 +194,7 @@ function PlayerSelect({
               </div>
             ))}
             {filtered.length === 0 && (
-              <div className="px-4 py-5 text-sm text-[var(--muted)] text-center">No players found</div>
+              <div className="px-4 py-5 text-sm text-[var(--muted)] text-center">–</div>
             )}
           </div>
         </div>
