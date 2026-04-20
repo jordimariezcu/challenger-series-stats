@@ -193,7 +193,7 @@ export default function Dashboard() {
             >
               <div
                 className={`text-3xl font-black tabular-nums mb-1 ${
-                  idx === 0 ? "text-yellow-400" : idx === 1 ? "text-slate-300" : idx === 2 ? "text-orange-400" : "text-[var(--accent)]"
+                  idx === 0 ? "text-yellow-400" : idx === 1 ? "text-slate-500" : idx === 2 ? "text-orange-400" : "text-[var(--accent)]"
                 }`}
               >
                 {p.tournament_wins}

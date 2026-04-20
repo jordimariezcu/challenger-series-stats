@@ -95,7 +95,7 @@ export default function StatsPage() {
                   <div key={row.name} className="flex items-center gap-4 px-5 py-3 hover:bg-[var(--surface2)] transition-colors">
                     <span
                       className={`text-xs font-bold w-5 text-right shrink-0 tabular-nums
-                        ${i === 0 ? "text-yellow-400" : i === 1 ? "text-slate-300" : i === 2 ? "text-orange-400" : "text-[var(--muted)]"}`}
+                        ${i === 0 ? "text-yellow-400" : i === 1 ? "text-slate-500" : i === 2 ? "text-orange-400" : "text-[var(--muted)]"}`}
                     >
                       {i + 1}
                     </span>

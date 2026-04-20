@@ -186,7 +186,7 @@ export default async function PlayerPage({
                   <td className="px-4 py-2.5 text-center">
                     <span className={`font-black text-sm ${
                       tr.rank === 1 ? "text-yellow-400"
-                      : tr.rank === 2 ? "text-slate-300"
+                      : tr.rank === 2 ? "text-slate-500"
                       : tr.rank === 3 ? "text-orange-400"
                       : "text-[var(--muted)]"
                     }`}>

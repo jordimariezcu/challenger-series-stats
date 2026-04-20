@@ -10,7 +10,7 @@ interface LeaderboardRowProps {
 
 export function LeaderboardRow({ name, value, sub, rank }: LeaderboardRowProps) {
   const isTop3 = rank <= 3;
-  const rankColors = ["text-yellow-400", "text-slate-300", "text-orange-400"];
+  const rankColors = ["text-yellow-400", "text-slate-500", "text-orange-400"];
 
   return (
     <Link
