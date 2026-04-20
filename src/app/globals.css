@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+:root {
+  --bg:      #111111;
+  --surface: #1c1c1c;
+  --surface2:#242424;
+  --border:  #2e2e2e;
+  --text:    #ffffff;
+  --muted:   #888888;
+  --accent:  #da183c;
+  --accent2: #ff2d52;
+  --accent-glow: rgba(218, 24, 60, 0.20);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Accent glow utility */
+.glow {
+  box-shadow: 0 0 20px var(--accent-glow);
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 5px; height: 5px; }
+::-webkit-scrollbar-track { background: var(--bg); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--accent); }
