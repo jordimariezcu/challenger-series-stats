@@ -1,22 +1,11 @@
-import { getData, getPlayer, playerSlug, formatDate } from "@/lib/data";
-import { StatCard, MiniBar, SectionHeader } from "@/components/StatCard";
+import { getData, getPlayer, playerSlug } from "@/lib/data";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import PlayerTabs from "@/components/PlayerTabs";
 
 export async function generateStaticParams() {
   const data = getData();
   return Object.keys(data.players).map((name) => ({ slug: playerSlug(name) }));
-}
-
-function WinLossBadge({ won }: { won: boolean }) {
-  return (
-    <span
-      className={`inline-flex items-center justify-center w-6 h-6 rounded text-xs font-black shrink-0
-        ${won ? "bg-green-500/20 text-green-400" : "bg-red-500/20 text-red-400"}`}
-    >
-      {won ? "W" : "L"}
-    </span>
-  );
 }
 
 export default async function PlayerPage({
@@ -29,20 +18,6 @@ export default async function PlayerPage({
   if (!player) notFound();
   const p = player;
 
-  const h2hSorted = Object.entries(p.h2h)
-    .map(([opp, rec]) => ({ opp, ...rec, total: rec.wins + rec.losses }))
-    .sort((a, b) => b.total - a.total);
-
-  const firstSetImpactPct =
-    p.first_set_total > 0
-      ? Math.round((p.first_set_win_match_win / p.first_set_total) * 100)
-      : null;
-
-  const setRatio =
-    p.sets_won + p.sets_lost > 0
-      ? ((p.sets_won / (p.sets_won + p.sets_lost)) * 100).toFixed(1)
-      : null;
-
   return (
     <div>
       {/* Breadcrumb */}
@@ -50,7 +25,7 @@ export default async function PlayerPage({
         href="/players"
         className="text-xs text-[var(--muted)] hover:text-[var(--accent)] mb-6 inline-flex items-center gap-1 transition-colors uppercase tracking-wide font-medium"
       >
-        ← Players
+        ← Jugadores
       </Link>
 
       {/* Player header */}
@@ -59,24 +34,23 @@ export default async function PlayerPage({
         <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/5 to-transparent pointer-events-none" />
         <div className="relative flex items-start justify-between gap-4 flex-wrap">
           <div>
-            <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-1">Player Profile</div>
+            <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-1">Perfil de Jugador</div>
             <h1 className="text-3xl font-black text-[var(--text)] mb-1">{p.name}</h1>
             <p className="text-sm text-[var(--muted)]">
-              {p.tournaments_played} tournaments · {p.total_matches} matches
+              {p.tournaments_played} torneos · {p.total_matches} partidos
             </p>
-            {/* Form trend badge */}
             {p.form_trend !== null && (
               <div className="mt-2 inline-flex items-center gap-1.5">
                 <span className={`text-xs font-black px-2 py-0.5 rounded-full ${
-                  p.form_trend >= 10 ? "bg-green-500/15 text-green-600" :
-                  p.form_trend >= 0  ? "bg-green-500/10 text-green-500" :
+                  p.form_trend >= 10  ? "bg-green-500/15 text-green-600" :
+                  p.form_trend >= 0   ? "bg-green-500/10 text-green-500" :
                   p.form_trend >= -10 ? "bg-orange-500/10 text-orange-500" :
                   "bg-red-500/10 text-red-500"
                 }`}>
                   {p.form_trend >= 0 ? "▲" : "▼"} {Math.abs(p.form_trend)}pp
                 </span>
                 <span className="text-xs text-[var(--muted)]">
-                  {p.form_last10}% last 10 vs {p.win_rate}% career
+                  {p.form_last10}% últimos 10 · {p.win_rate}% carrera
                 </span>
               </div>
             )}
@@ -85,276 +59,15 @@ export default async function PlayerPage({
             {p.tournament_wins > 0 && (
               <div className="bg-yellow-400/10 border border-yellow-400/30 rounded-lg px-5 py-3 text-center">
                 <div className="text-2xl font-black text-yellow-400">🏆 {p.tournament_wins}</div>
-                <div className="text-[10px] text-[var(--muted)] uppercase tracking-wider mt-0.5">Champion</div>
+                <div className="text-[10px] text-[var(--muted)] uppercase tracking-wider mt-0.5">Títulos</div>
               </div>
             )}
           </div>
         </div>
       </div>
 
-      {/* KPI grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-6">
-        <StatCard label="Win Rate" value={`${p.win_rate}%`} accent sub={`${p.wins}W / ${p.losses}L`} />
-        <StatCard label="Deuce Win Rate" value={p.deuce_win_rate !== null ? `${p.deuce_win_rate}%` : "–"} sub={`${p.deuce_won}/${p.deuce_total} deuce sets`} />
-        <StatCard label="Comeback Rate" value={p.comeback_rate !== null ? `${p.comeback_rate}%` : "–"} sub={`${p.comeback_wins}/${p.comeback_chances} chances`} />
-        <StatCard label="1st Set Impact" value={firstSetImpactPct !== null ? `${firstSetImpactPct}%` : "–"} sub="wins match after winning 1st set" />
-      </div>
-
-      {/* Clutch + Score distribution */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
-
-        {/* Clutch Rating */}
-        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-          <SectionHeader
-            title="🎯 Clutch Rating"
-            subtitle="Performance in semifinals & finals vs. group stage"
-          />
-          <div className="p-5 grid grid-cols-2 gap-4">
-            {/* KO */}
-            <div className="bg-[var(--surface2)] rounded-lg p-4 text-center">
-              <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-2">Knockouts</div>
-              <div className={`text-3xl font-black tabular-nums ${p.clutch_rate !== null ? "text-[var(--accent)]" : "text-[var(--muted)]"}`}>
-                {p.clutch_rate !== null ? `${p.clutch_rate}%` : "–"}
-              </div>
-              <div className="text-xs text-[var(--muted)] mt-1">{p.ko_wins}W / {p.ko_losses}L</div>
-              {p.clutch_rate === null && <div className="text-[10px] text-[var(--muted)] mt-1">min. 5 matches</div>}
-            </div>
-            {/* Group */}
-            <div className="bg-[var(--surface2)] rounded-lg p-4 text-center">
-              <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-2">Group Stage</div>
-              <div className="text-3xl font-black tabular-nums text-[var(--text)]">
-                {p.group_win_rate !== null ? `${p.group_win_rate}%` : "–"}
-              </div>
-              <div className="text-xs text-[var(--muted)] mt-1">{p.group_wins}W / {p.group_losses}L</div>
-            </div>
-            {/* Delta */}
-            {p.clutch_rate !== null && p.group_win_rate !== null && (
-              <div className="col-span-2 text-center text-sm">
-                <span className={`font-bold ${p.clutch_rate >= p.group_win_rate ? "text-green-500" : "text-red-400"}`}>
-                  {p.clutch_rate >= p.group_win_rate ? "▲" : "▼"}{" "}
-                  {Math.abs(Math.round(p.clutch_rate - p.group_win_rate))}pp
-                </span>
-                <span className="text-[var(--muted)] text-xs ml-2">
-                  {p.clutch_rate >= p.group_win_rate ? "better in knockouts" : "better in group stage"}
-                </span>
-              </div>
-            )}
-          </div>
-        </div>
-
-        {/* Score Distribution */}
-        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-          <SectionHeader
-            title="💥 Score Distribution"
-            subtitle="How wins and losses are achieved"
-          />
-          <div className="p-5 space-y-3">
-            {[
-              { label: "2–0 wins", value: p.wins_2_0, total: p.wins, color: "#22c55e", isWin: true },
-              { label: "2–1 wins", value: p.wins_2_1, total: p.wins, color: "#86efac", isWin: true },
-              { label: "1–2 losses", value: p.losses_1_2, total: p.losses, color: "#fca5a5", isWin: false },
-              { label: "0–2 losses", value: p.losses_0_2, total: p.losses, color: "#ef4444", isWin: false },
-            ].map(({ label, value, total, color }) => {
-              const pct = total > 0 ? Math.round((value / total) * 100) : 0;
-              return (
-                <div key={label}>
-                  <div className="flex justify-between text-xs mb-1">
-                    <span className="text-[var(--muted)] font-medium">{label}</span>
-                    <span className="font-bold tabular-nums" style={{ color }}>{value} <span className="text-[var(--muted)] font-normal">({pct}%)</span></span>
-                  </div>
-                  <MiniBar value={value} max={total} color={color} />
-                </div>
-              );
-            })}
-            <div className="pt-2 border-t border-[var(--border)] flex justify-between text-xs text-[var(--muted)]">
-              <span>Dominance score</span>
-              <span className="font-bold text-[var(--text)] tabular-nums">
-                {p.wins > 0 ? `${Math.round((p.wins_2_0 / p.wins) * 100)}%` : "–"}
-                <span className="font-normal text-[var(--muted)] ml-1">of wins are 2–0</span>
-              </span>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      {/* Rival / Nemesis */}
-      {(p.best_victim || p.nemesis) && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6">
-          {p.best_victim && (
-            <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-              <SectionHeader title="😈 Favourite Victim" subtitle="Most dominant H2H (min. 3 matches)" />
-              <div className="p-5">
-                <Link
-                  href={`/players/${playerSlug(p.best_victim.name)}`}
-                  className="text-lg font-black hover:text-[var(--accent)] transition-colors block mb-3"
-                >
-                  {p.best_victim.name}
-                </Link>
-                <div className="flex items-center gap-4">
-                  <div className="text-3xl font-black text-green-500 tabular-nums">{p.best_victim.win_pct}%</div>
-                  <div className="text-sm text-[var(--muted)]">
-                    <span className="text-green-500 font-bold">{p.best_victim.wins}W</span>
-                    {" – "}
-                    <span className="text-red-400 font-bold">{p.best_victim.losses}L</span>
-                    <div className="text-xs mt-0.5">{p.best_victim.wins + p.best_victim.losses} matches played</div>
-                  </div>
-                </div>
-                <MiniBar value={p.best_victim.wins} max={p.best_victim.wins + p.best_victim.losses} color="#22c55e" />
-              </div>
-            </div>
-          )}
-          {p.nemesis && (
-            <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-              <SectionHeader title="💀 Nemesis" subtitle="Hardest H2H opponent (min. 3 matches)" />
-              <div className="p-5">
-                <Link
-                  href={`/players/${playerSlug(p.nemesis.name)}`}
-                  className="text-lg font-black hover:text-[var(--accent)] transition-colors block mb-3"
-                >
-                  {p.nemesis.name}
-                </Link>
-                <div className="flex items-center gap-4">
-                  <div className="text-3xl font-black text-red-500 tabular-nums">{p.nemesis.win_pct}%</div>
-                  <div className="text-sm text-[var(--muted)]">
-                    <span className="text-green-500 font-bold">{p.nemesis.wins}W</span>
-                    {" – "}
-                    <span className="text-red-400 font-bold">{p.nemesis.losses}L</span>
-                    <div className="text-xs mt-0.5">{p.nemesis.wins + p.nemesis.losses} matches played</div>
-                  </div>
-                </div>
-                <MiniBar value={p.nemesis.wins} max={p.nemesis.wins + p.nemesis.losses} color="#ef4444" />
-              </div>
-            </div>
-          )}
-        </div>
-      )}
-
-      {/* Sets performance */}
-      <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg mb-6">
-        <SectionHeader title="Sets Performance" />
-        <div className="p-5 grid grid-cols-1 sm:grid-cols-3 gap-5">
-          <div className="sm:col-span-2 space-y-4">
-            <div>
-              <div className="flex justify-between text-sm mb-1.5">
-                <span className="text-[var(--muted)] uppercase text-xs tracking-wide font-medium">Sets Won</span>
-                <span className="font-bold tabular-nums text-green-400">{p.sets_won}</span>
-              </div>
-              <MiniBar value={p.sets_won} max={p.sets_won + p.sets_lost} color="#22c55e" />
-            </div>
-            <div>
-              <div className="flex justify-between text-sm mb-1.5">
-                <span className="text-[var(--muted)] uppercase text-xs tracking-wide font-medium">Sets Lost</span>
-                <span className="font-bold tabular-nums text-red-400">{p.sets_lost}</span>
-              </div>
-              <MiniBar value={p.sets_lost} max={p.sets_won + p.sets_lost} color="#ef4444" />
-            </div>
-          </div>
-          <div className="flex flex-col justify-center items-center bg-[var(--surface2)] rounded-lg p-4">
-            <div className="text-3xl font-black text-[var(--accent)] tabular-nums">{setRatio ?? "–"}%</div>
-            <div className="text-xs text-[var(--muted)] uppercase tracking-wider mt-1">Set Win Rate</div>
-          </div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
-        {/* Recent form */}
-        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-          <SectionHeader title="Recent Form" subtitle="last 5 matches" />
-          <div className="divide-y divide-[var(--border)]">
-            {p.recent_5.length === 0 ? (
-              <p className="px-5 py-6 text-[var(--muted)] text-sm">No data</p>
-            ) : (
-              p.recent_5.map((m, i) => (
-                <div key={i} className="px-4 py-3 flex items-center gap-3">
-                  <WinLossBadge won={m.won} />
-                  <Link
-                    href={`/players/${playerSlug(m.opponent)}`}
-                    className="flex-1 text-sm hover:text-[var(--accent)] transition-colors truncate font-medium"
-                  >
-                    {m.opponent}
-                  </Link>
-                  <span className={`text-sm font-black tabular-nums shrink-0 ${m.won ? "text-green-400" : "text-red-400"}`}>
-                    {m.score}
-                  </span>
-                  <span className="text-xs text-[var(--muted)] shrink-0">{formatDate(m.date)}</span>
-                </div>
-              ))
-            )}
-          </div>
-        </div>
-
-        {/* H2H */}
-        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-          <SectionHeader title="Head-to-Head" />
-          <div className="divide-y divide-[var(--border)] max-h-72 overflow-y-auto">
-            {h2hSorted.length === 0 ? (
-              <p className="px-5 py-6 text-[var(--muted)] text-sm">No data</p>
-            ) : (
-              h2hSorted.map(({ opp, wins, losses, sets_won, sets_lost }) => (
-                <div key={opp} className="px-4 py-2.5 flex items-center gap-3 hover:bg-[var(--surface2)] transition-colors">
-                  <Link
-                    href={`/players/${playerSlug(opp)}`}
-                    className="flex-1 text-sm hover:text-[var(--accent)] transition-colors truncate"
-                  >
-                    {opp}
-                  </Link>
-                  <div className="flex items-center gap-2 shrink-0 text-sm font-mono">
-                    <span className="text-green-400 font-bold tabular-nums w-4 text-right">{wins}</span>
-                    <span className="text-[var(--muted)]">–</span>
-                    <span className="text-red-400 font-bold tabular-nums w-4">{losses}</span>
-                    <span className="text-xs text-[var(--muted)] tabular-nums ml-1">
-                      ({sets_won}:{sets_lost})
-                    </span>
-                  </div>
-                </div>
-              ))
-            )}
-          </div>
-        </div>
-      </div>
-
-      {/* Tournament history */}
-      <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-        <SectionHeader title="Tournament History" subtitle={`${p.tournament_results.length} appearances`} />
-        <div className="overflow-x-auto">
-          <table className="w-full text-sm">
-            <thead>
-              <tr className="text-[10px] text-[var(--muted)] uppercase tracking-widest border-b border-[var(--border)] bg-[var(--surface2)]">
-                <th className="text-left px-4 py-2.5 font-medium">Date</th>
-                <th className="text-center px-4 py-2.5 font-medium">Rank</th>
-                <th className="text-center px-4 py-2.5 font-medium">Matches</th>
-                <th className="text-center px-4 py-2.5 font-medium">Sets</th>
-              </tr>
-            </thead>
-            <tbody className="divide-y divide-[var(--border)]">
-              {p.tournament_results.slice(0, 20).map((tr) => (
-                <tr key={tr.tournament_id} className="hover:bg-[var(--surface2)] transition-colors">
-                  <td className="px-4 py-2.5 text-[var(--muted)] font-mono text-xs">{formatDate(tr.date)}</td>
-                  <td className="px-4 py-2.5 text-center">
-                    <span className={`font-black text-sm ${
-                      tr.rank === 1 ? "text-yellow-400"
-                      : tr.rank === 2 ? "text-slate-500"
-                      : tr.rank === 3 ? "text-orange-400"
-                      : "text-[var(--muted)]"
-                    }`}>
-                      #{tr.rank}
-                    </span>
-                  </td>
-                  <td className="px-4 py-2.5 text-center tabular-nums">
-                    <span className="text-green-400 font-bold">{tr.matches_won}</span>
-                    <span className="text-[var(--border)] mx-1">–</span>
-                    <span className="text-red-400 font-bold">{tr.matches_lost}</span>
-                  </td>
-                  <td className="px-4 py-2.5 text-center text-[var(--muted)] tabular-nums font-mono text-xs">
-                    {tr.sets_won}:{tr.sets_lost}
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </div>
+      {/* Tabbed content */}
+      <PlayerTabs p={p} />
     </div>
   );
 }
