@@ -64,13 +64,31 @@ export default async function PlayerPage({
             <p className="text-sm text-[var(--muted)]">
               {p.tournaments_played} tournaments · {p.total_matches} matches
             </p>
+            {/* Form trend badge */}
+            {p.form_trend !== null && (
+              <div className="mt-2 inline-flex items-center gap-1.5">
+                <span className={`text-xs font-black px-2 py-0.5 rounded-full ${
+                  p.form_trend >= 10 ? "bg-green-500/15 text-green-600" :
+                  p.form_trend >= 0  ? "bg-green-500/10 text-green-500" :
+                  p.form_trend >= -10 ? "bg-orange-500/10 text-orange-500" :
+                  "bg-red-500/10 text-red-500"
+                }`}>
+                  {p.form_trend >= 0 ? "▲" : "▼"} {Math.abs(p.form_trend)}pp
+                </span>
+                <span className="text-xs text-[var(--muted)]">
+                  {p.form_last10}% last 10 vs {p.win_rate}% career
+                </span>
+              </div>
+            )}
           </div>
-          {p.tournament_wins > 0 && (
-            <div className="bg-yellow-400/10 border border-yellow-400/30 rounded-lg px-5 py-3 text-center">
-              <div className="text-2xl font-black text-yellow-400">🏆 {p.tournament_wins}</div>
-              <div className="text-[10px] text-[var(--muted)] uppercase tracking-wider mt-0.5">Champion</div>
-            </div>
-          )}
+          <div className="flex gap-3 flex-wrap">
+            {p.tournament_wins > 0 && (
+              <div className="bg-yellow-400/10 border border-yellow-400/30 rounded-lg px-5 py-3 text-center">
+                <div className="text-2xl font-black text-yellow-400">🏆 {p.tournament_wins}</div>
+                <div className="text-[10px] text-[var(--muted)] uppercase tracking-wider mt-0.5">Champion</div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
@@ -159,6 +177,58 @@ export default async function PlayerPage({
         </div>
 
       </div>
+
+      {/* Rival / Nemesis */}
+      {(p.best_victim || p.nemesis) && (
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5 mb-6">
+          {p.best_victim && (
+            <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
+              <SectionHeader title="😈 Favourite Victim" subtitle="Most dominant H2H (min. 3 matches)" />
+              <div className="p-5">
+                <Link
+                  href={`/players/${playerSlug(p.best_victim.name)}`}
+                  className="text-lg font-black hover:text-[var(--accent)] transition-colors block mb-3"
+                >
+                  {p.best_victim.name}
+                </Link>
+                <div className="flex items-center gap-4">
+                  <div className="text-3xl font-black text-green-500 tabular-nums">{p.best_victim.win_pct}%</div>
+                  <div className="text-sm text-[var(--muted)]">
+                    <span className="text-green-500 font-bold">{p.best_victim.wins}W</span>
+                    {" – "}
+                    <span className="text-red-400 font-bold">{p.best_victim.losses}L</span>
+                    <div className="text-xs mt-0.5">{p.best_victim.wins + p.best_victim.losses} matches played</div>
+                  </div>
+                </div>
+                <MiniBar value={p.best_victim.wins} max={p.best_victim.wins + p.best_victim.losses} color="#22c55e" />
+              </div>
+            </div>
+          )}
+          {p.nemesis && (
+            <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
+              <SectionHeader title="💀 Nemesis" subtitle="Hardest H2H opponent (min. 3 matches)" />
+              <div className="p-5">
+                <Link
+                  href={`/players/${playerSlug(p.nemesis.name)}`}
+                  className="text-lg font-black hover:text-[var(--accent)] transition-colors block mb-3"
+                >
+                  {p.nemesis.name}
+                </Link>
+                <div className="flex items-center gap-4">
+                  <div className="text-3xl font-black text-red-500 tabular-nums">{p.nemesis.win_pct}%</div>
+                  <div className="text-sm text-[var(--muted)]">
+                    <span className="text-green-500 font-bold">{p.nemesis.wins}W</span>
+                    {" – "}
+                    <span className="text-red-400 font-bold">{p.nemesis.losses}L</span>
+                    <div className="text-xs mt-0.5">{p.nemesis.wins + p.nemesis.losses} matches played</div>
+                  </div>
+                </div>
+                <MiniBar value={p.nemesis.wins} max={p.nemesis.wins + p.nemesis.losses} color="#ef4444" />
+              </div>
+            </div>
+          )}
+        </div>
+      )}
 
       {/* Sets performance */}
       <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg mb-6">

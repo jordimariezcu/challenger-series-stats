@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T21:43:39.122030",
+  "generated_at": "2026-04-20T21:54:46.356675",
   "total_tournaments": 144,
   "total_players": 240,
   "tournaments": [
@@ -127015,6 +127015,10 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 40.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -127230,6 +127234,20 @@
       "group_total": 110,
       "clutch_rate": 28.6,
       "group_win_rate": 48.2,
+      "form_last10": 20.0,
+      "form_trend": -24.7,
+      "best_victim": {
+        "name": "Kanabe, Szilard",
+        "wins": 6,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 13,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -127643,6 +127661,20 @@
       "group_total": 203,
       "clutch_rate": 0.0,
       "group_win_rate": 37.4,
+      "form_last10": 50.0,
+      "form_trend": 14.6,
+      "best_victim": {
+        "name": "Colvin, Tom",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -128296,6 +128328,20 @@
       "group_total": 75,
       "clutch_rate": 20.0,
       "group_win_rate": 37.3,
+      "form_last10": 70.0,
+      "form_trend": 34.2,
+      "best_victim": {
+        "name": "Stefanidis, Marco",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 6,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -128673,6 +128719,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -128780,6 +128830,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 30.8,
+      "form_last10": 30.0,
+      "form_trend": -0.8,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -128923,6 +128977,10 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 5.0,
+      "form_last10": 0.0,
+      "form_trend": -5.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -129102,6 +129160,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 33.3,
+      "form_last10": 33.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -129209,6 +129271,20 @@
       "group_total": 98,
       "clutch_rate": 35.7,
       "group_win_rate": 55.1,
+      "form_last10": 50.0,
+      "form_trend": -2.6,
+      "best_victim": {
+        "name": "Willeke, Johannes",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 5,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -129592,6 +129668,20 @@
       "group_total": 175,
       "clutch_rate": 72.7,
       "group_win_rate": 86.3,
+      "form_last10": 80.0,
+      "form_trend": -3.1,
+      "best_victim": {
+        "name": "Coton, Adrien",
+        "wins": 6,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Kulczycki, Samuel",
+        "wins": 1,
+        "losses": 3,
+        "win_pct": 25.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -130113,6 +130203,20 @@
       "group_total": 231,
       "clutch_rate": 48.0,
       "group_win_rate": 69.3,
+      "form_last10": 60.0,
+      "form_trend": -4.8,
+      "best_victim": {
+        "name": "Bosbach, Lukas",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -130784,6 +130888,20 @@
       "group_total": 301,
       "clutch_rate": 56.9,
       "group_win_rate": 71.4,
+      "form_last10": 60.0,
+      "form_trend": -9.1,
+      "best_victim": {
+        "name": "Mosiuk, Mykhailo",
+        "wins": 13,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 8,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -131557,6 +131675,20 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 85.7,
+      "form_last10": 80.0,
+      "form_trend": 2.2,
+      "best_victim": {
+        "name": "Klein, Dennis",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -131694,6 +131826,20 @@
       "group_total": 35,
       "clutch_rate": null,
       "group_win_rate": 20.0,
+      "form_last10": 20.0,
+      "form_trend": 0.0,
+      "best_victim": {
+        "name": "Alcayde, Guillaume",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Alcayde, Guillaume",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -131921,6 +132067,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 30.0,
+      "form_trend": 5.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -132076,6 +132226,20 @@
       "group_total": 150,
       "clutch_rate": 9.5,
       "group_win_rate": 58.0,
+      "form_last10": 30.0,
+      "form_trend": -21.1,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 8,
+        "losses": 1,
+        "win_pct": 88.9
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 8,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -132627,6 +132791,20 @@
       "group_total": 146,
       "clutch_rate": 0.0,
       "group_win_rate": 30.8,
+      "form_last10": 10.0,
+      "form_trend": -18.4,
+      "best_victim": {
+        "name": "Naplokov, Oleksii",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Alcayde, Guillaume",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -133172,6 +133350,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -133279,6 +133461,20 @@
       "group_total": 35,
       "clutch_rate": null,
       "group_win_rate": 25.7,
+      "form_last10": 10.0,
+      "form_trend": -17.0,
+      "best_victim": {
+        "name": "Kanabe, Szilard",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -133512,6 +133708,20 @@
       "group_total": 75,
       "clutch_rate": 0.0,
       "group_win_rate": 33.3,
+      "form_last10": 20.0,
+      "form_trend": -10.6,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -133877,6 +134087,20 @@
       "group_total": 67,
       "clutch_rate": null,
       "group_win_rate": 31.3,
+      "form_last10": 10.0,
+      "form_trend": -19.6,
+      "best_victim": {
+        "name": "Walter, Karl",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Hollo, Mike",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -134224,6 +134448,20 @@
       "group_total": 70,
       "clutch_rate": null,
       "group_win_rate": 27.1,
+      "form_last10": 20.0,
+      "form_trend": -7.1,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Mosiuk, Mykhailo",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -134547,6 +134785,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 85.7,
+      "form_last10": 77.8,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -134660,6 +134902,10 @@
       "group_total": 35,
       "clutch_rate": null,
       "group_win_rate": 8.6,
+      "form_last10": 0.0,
+      "form_trend": -8.6,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -134929,6 +135175,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -135042,6 +135292,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 28.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -135155,6 +135409,20 @@
       "group_total": 56,
       "clutch_rate": null,
       "group_win_rate": 8.9,
+      "form_last10": 10.0,
+      "form_trend": 1.1,
+      "best_victim": {
+        "name": "Kim, Minsu",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -135454,6 +135722,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -135503,6 +135775,20 @@
       "group_total": 332,
       "clutch_rate": null,
       "group_win_rate": 16.6,
+      "form_last10": 20.0,
+      "form_trend": 3.4,
+      "best_victim": {
+        "name": "Grauer, Juri",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 11,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -136300,6 +136586,20 @@
       "group_total": 193,
       "clutch_rate": 68.3,
       "group_win_rate": 62.2,
+      "form_last10": 60.0,
+      "form_trend": -4.3,
+      "best_victim": {
+        "name": "Coton, Adrien",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -136899,6 +137199,20 @@
       "group_total": 33,
       "clutch_rate": null,
       "group_win_rate": 66.7,
+      "form_last10": 90.0,
+      "form_trend": 23.3,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137126,6 +137440,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 66.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137239,6 +137557,10 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 9.5,
+      "form_last10": 0.0,
+      "form_trend": -9.5,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137418,6 +137740,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137467,6 +137793,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137574,6 +137904,20 @@
       "group_total": 27,
       "clutch_rate": 50.0,
       "group_win_rate": 70.4,
+      "form_last10": 80.0,
+      "form_trend": 14.3,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137771,6 +138115,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137820,6 +138168,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137869,6 +138221,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137918,6 +138274,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -137967,6 +138327,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -138016,6 +138380,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -138065,6 +138433,20 @@
       "group_total": 158,
       "clutch_rate": 53.1,
       "group_win_rate": 62.7,
+      "form_last10": 60.0,
+      "form_trend": -0.9,
+      "best_victim": {
+        "name": "Naplokov, Oleksii",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 1,
+        "losses": 5,
+        "win_pct": 16.7
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -138580,6 +138962,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 55.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -138693,6 +139079,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 28.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -138806,6 +139196,20 @@
       "group_total": 206,
       "clutch_rate": 23.8,
       "group_win_rate": 47.1,
+      "form_last10": 20.0,
+      "form_trend": -25.0,
+      "best_victim": {
+        "name": "Koehl, William",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Bertrand, Irvin",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -139453,6 +139857,20 @@
       "group_total": 62,
       "clutch_rate": null,
       "group_win_rate": 32.3,
+      "form_last10": 10.0,
+      "form_trend": -23.3,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 5,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -139800,6 +140218,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 7.1,
+      "form_last10": 0.0,
+      "form_trend": -7.1,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -139949,6 +140371,20 @@
       "group_total": 83,
       "clutch_rate": null,
       "group_win_rate": 30.1,
+      "form_last10": 20.0,
+      "form_trend": -8.1,
+      "best_victim": {
+        "name": "Bluhm, Florian",
+        "wins": 2,
+        "losses": 4,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -140338,6 +140774,20 @@
       "group_total": 183,
       "clutch_rate": 56.5,
       "group_win_rate": 72.1,
+      "form_last10": 70.0,
+      "form_trend": 0.6,
+      "best_victim": {
+        "name": "Koehl, William",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 1,
+        "losses": 17,
+        "win_pct": 5.6
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -140937,6 +141387,20 @@
       "group_total": 156,
       "clutch_rate": 40.6,
       "group_win_rate": 59.6,
+      "form_last10": 60.0,
+      "form_trend": 4.4,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 6,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Qiu, Liang",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -141464,6 +141928,20 @@
       "group_total": 56,
       "clutch_rate": 20.0,
       "group_win_rate": 44.6,
+      "form_last10": 70.0,
+      "form_trend": 26.2,
+      "best_victim": {
+        "name": "Stefanidis, Marco",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Danzer, Matthias",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -141781,6 +142259,20 @@
       "group_total": 86,
       "clutch_rate": 28.6,
       "group_win_rate": 65.1,
+      "form_last10": 60.0,
+      "form_trend": -0.4,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 7,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -142152,6 +142644,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -142265,6 +142761,20 @@
       "group_total": 104,
       "clutch_rate": 16.7,
       "group_win_rate": 43.3,
+      "form_last10": 40.0,
+      "form_trend": -2.1,
+      "best_victim": {
+        "name": "Amann, Samuel",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Danzer, Matthias",
+        "wins": 0,
+        "losses": 6,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -142684,6 +143194,20 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 30.0,
+      "form_trend": 5.0,
+      "best_victim": {
+        "name": "Danzer, Matthias",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Danzer, Matthias",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -142833,6 +143357,20 @@
       "group_total": 40,
       "clutch_rate": 42.9,
       "group_win_rate": 60.0,
+      "form_last10": 50.0,
+      "form_trend": -10.0,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Danzer, Matthias",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -143096,6 +143634,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -143209,6 +143751,20 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 35.7,
+      "form_last10": 30.0,
+      "form_trend": -1.2,
+      "best_victim": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -143358,6 +143914,20 @@
       "group_total": 74,
       "clutch_rate": 86.4,
       "group_win_rate": 86.5,
+      "form_last10": 100.0,
+      "form_trend": 13.5,
+      "best_victim": {
+        "name": "Cheaib, Dauud",
+        "wins": 6,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Henninger, Marius",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -143723,6 +144293,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 88.9,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -143836,6 +144410,20 @@
       "group_total": 48,
       "clutch_rate": null,
       "group_win_rate": 20.8,
+      "form_last10": 0.0,
+      "form_trend": -20.0,
+      "best_victim": {
+        "name": "Löffler, Jeromy",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -144105,6 +144693,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -144218,6 +144810,20 @@
       "group_total": 178,
       "clutch_rate": 29.6,
       "group_win_rate": 58.4,
+      "form_last10": 70.0,
+      "form_trend": 16.8,
+      "best_victim": {
+        "name": "Willeke, Johannes",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -144799,6 +145405,20 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 64.3,
+      "form_last10": 80.0,
+      "form_trend": 13.3,
+      "best_victim": {
+        "name": "Piguave, Diego",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Piguave, Diego",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -144942,6 +145562,20 @@
       "group_total": 42,
       "clutch_rate": 62.5,
       "group_win_rate": 59.5,
+      "form_last10": 70.0,
+      "form_trend": 10.4,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 1,
+        "losses": 3,
+        "win_pct": 25.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -145187,6 +145821,20 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 46.4,
+      "form_last10": 40.0,
+      "form_trend": -4.1,
+      "best_victim": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -145402,6 +146050,20 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 80.0,
+      "form_last10": 60.0,
+      "form_trend": -5.4,
+      "best_victim": {
+        "name": "Qiu, Liang",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -145563,6 +146225,20 @@
       "group_total": 34,
       "clutch_rate": null,
       "group_win_rate": 5.9,
+      "form_last10": 0.0,
+      "form_trend": -5.9,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Zech, Damian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -145808,6 +146484,20 @@
       "group_total": 104,
       "clutch_rate": null,
       "group_win_rate": 13.5,
+      "form_last10": 20.0,
+      "form_trend": 6.8,
+      "best_victim": {
+        "name": "Happek, Sven",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Löffler, Jeromy",
+        "wins": 0,
+        "losses": 6,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -146233,6 +146923,20 @@
       "group_total": 28,
       "clutch_rate": 50.0,
       "group_win_rate": 64.3,
+      "form_last10": 70.0,
+      "form_trend": 11.7,
+      "best_victim": {
+        "name": "Alcayde, Guillaume",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 1,
+        "losses": 3,
+        "win_pct": 25.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -146442,6 +147146,20 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 52.4,
+      "form_last10": 50.0,
+      "form_trend": 2.0,
+      "best_victim": {
+        "name": "Henninger, Marius",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -146627,6 +147345,20 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 35.7,
+      "form_last10": 30.0,
+      "form_trend": -3.3,
+      "best_victim": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -146842,6 +147574,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 10.0,
+      "form_trend": -4.3,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -146991,6 +147727,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 42.9,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -147104,6 +147844,20 @@
       "group_total": 104,
       "clutch_rate": 33.3,
       "group_win_rate": 36.5,
+      "form_last10": 40.0,
+      "form_trend": 3.5,
+      "best_victim": {
+        "name": "Kraus, Luis",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 6,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -147565,6 +148319,20 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 57.1,
+      "form_last10": 50.0,
+      "form_trend": -6.2,
+      "best_victim": {
+        "name": "Löffler, Jeromy",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Löffler, Jeromy",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -147708,6 +148476,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 77.8,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -147821,6 +148593,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 33.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -147934,6 +148710,10 @@
       "group_total": 26,
       "clutch_rate": null,
       "group_win_rate": 42.3,
+      "form_last10": 30.0,
+      "form_trend": -9.3,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -148155,6 +148935,20 @@
       "group_total": 83,
       "clutch_rate": 0.0,
       "group_win_rate": 50.6,
+      "form_last10": 70.0,
+      "form_trend": 23.6,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 5,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -148520,6 +149314,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -148633,6 +149431,20 @@
       "group_total": 82,
       "clutch_rate": null,
       "group_win_rate": 18.3,
+      "form_last10": 20.0,
+      "form_trend": 2.1,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 2,
+        "losses": 3,
+        "win_pct": 40.0
+      },
+      "nemesis": {
+        "name": "Stefanidis, Marco",
+        "wins": 0,
+        "losses": 5,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -149004,6 +149816,20 @@
       "group_total": 34,
       "clutch_rate": 66.7,
       "group_win_rate": 79.4,
+      "form_last10": 90.0,
+      "form_trend": 12.7,
+      "best_victim": {
+        "name": "Cheaib, Dauud",
+        "wins": 5,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Nunez, Miguel",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -149243,6 +150069,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -149356,6 +150186,20 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 55.0,
+      "form_last10": 40.0,
+      "form_trend": -18.3,
+      "best_victim": {
+        "name": "Levenko, Andreas",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Bertrand, Irvin",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -149535,6 +150379,20 @@
       "group_total": 42,
       "clutch_rate": null,
       "group_win_rate": 40.5,
+      "form_last10": 30.0,
+      "form_trend": -9.1,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Mosiuk, Mykhailo",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -149792,6 +150650,20 @@
       "group_total": 33,
       "clutch_rate": 33.3,
       "group_win_rate": 69.7,
+      "form_last10": 50.0,
+      "form_trend": -13.4,
+      "best_victim": {
+        "name": "Hollo, Mike",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -150043,6 +150915,20 @@
       "group_total": 42,
       "clutch_rate": null,
       "group_win_rate": 2.4,
+      "form_last10": 0.0,
+      "form_trend": -2.4,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Zech, Damian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -150312,6 +151198,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 28.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -150425,6 +151315,20 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 50.0,
+      "form_last10": 50.0,
+      "form_trend": -3.1,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Alcayde, Guillaume",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -150616,6 +151520,20 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 47.6,
+      "form_last10": 30.0,
+      "form_trend": -14.0,
+      "best_victim": {
+        "name": "Cheaib, Dauud",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -150789,6 +151707,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 85.7,
+      "form_last10": 66.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -150902,6 +151824,20 @@
       "group_total": 70,
       "clutch_rate": 30.0,
       "group_win_rate": 52.9,
+      "form_last10": 40.0,
+      "form_trend": -10.0,
+      "best_victim": {
+        "name": "Nogami, Makoto",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -151243,6 +152179,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 16.7,
+      "form_last10": 16.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -151350,6 +152290,20 @@
       "group_total": 234,
       "clutch_rate": null,
       "group_win_rate": 23.5,
+      "form_last10": 40.0,
+      "form_trend": 16.2,
+      "best_victim": {
+        "name": "Colvin, Tom",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 8,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -151961,6 +152915,20 @@
       "group_total": 41,
       "clutch_rate": null,
       "group_win_rate": 26.8,
+      "form_last10": 20.0,
+      "form_trend": -5.6,
+      "best_victim": {
+        "name": "Turrini, Rafael",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Turrini, Rafael",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152230,6 +153198,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 60.0,
+      "form_trend": -6.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152379,6 +153351,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 40.0,
+      "form_trend": 2.5,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152534,6 +153510,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 57.1,
+      "form_last10": 55.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152647,6 +153627,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152760,6 +153744,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 42.9,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152873,6 +153861,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 66.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -152986,6 +153978,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 77.8,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -153099,6 +154095,10 @@
       "group_total": 38,
       "clutch_rate": null,
       "group_win_rate": 5.3,
+      "form_last10": 10.0,
+      "form_trend": 4.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -153344,6 +154344,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 85.7,
+      "form_last10": 77.8,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -153457,6 +154461,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 33.3,
+      "form_last10": 30.0,
+      "form_trend": 2.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -153594,6 +154602,20 @@
       "group_total": 77,
       "clutch_rate": 57.1,
       "group_win_rate": 57.1,
+      "form_last10": 30.0,
+      "form_trend": -26.8,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 4,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Qiu, Liang",
+        "wins": 1,
+        "losses": 3,
+        "win_pct": 25.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -153947,6 +154969,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -153996,6 +155022,10 @@
       "group_total": 22,
       "clutch_rate": null,
       "group_win_rate": 63.6,
+      "form_last10": 50.0,
+      "form_trend": -10.9,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -154187,6 +155217,20 @@
       "group_total": 32,
       "clutch_rate": null,
       "group_win_rate": 28.1,
+      "form_last10": 20.0,
+      "form_trend": -8.1,
+      "best_victim": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -154414,6 +155458,20 @@
       "group_total": 28,
       "clutch_rate": 42.9,
       "group_win_rate": 53.6,
+      "form_last10": 50.0,
+      "form_trend": -2.8,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
+      "nemesis": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -154629,6 +155687,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -154742,6 +155804,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -154855,6 +155921,20 @@
       "group_total": 171,
       "clutch_rate": 40.0,
       "group_win_rate": 33.9,
+      "form_last10": 30.0,
+      "form_trend": -3.7,
+      "best_victim": {
+        "name": "Sältzer, Tobias",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -155358,6 +156438,10 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 5.0,
+      "form_last10": 10.0,
+      "form_trend": 5.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -155537,6 +156621,20 @@
       "group_total": 34,
       "clutch_rate": null,
       "group_win_rate": 50.0,
+      "form_last10": 40.0,
+      "form_trend": -7.5,
+      "best_victim": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -155776,6 +156874,10 @@
       "group_total": 22,
       "clutch_rate": null,
       "group_win_rate": 18.2,
+      "form_last10": 20.0,
+      "form_trend": 1.8,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -155961,6 +157063,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -156010,6 +157116,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 15.4,
+      "form_last10": 10.0,
+      "form_trend": -5.4,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -156159,6 +157269,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 22.2,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -156272,6 +157386,20 @@
       "group_total": 150,
       "clutch_rate": 69.2,
       "group_win_rate": 84.0,
+      "form_last10": 70.0,
+      "form_trend": -11.2,
+      "best_victim": {
+        "name": "Henninger, Marius",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Qiu, Liang",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -156763,6 +157891,20 @@
       "group_total": 20,
       "clutch_rate": 40.0,
       "group_win_rate": 60.0,
+      "form_last10": 40.0,
+      "form_trend": -17.7,
+      "best_victim": {
+        "name": "Dixon, Xavier",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Bluhm, Florian",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -156942,6 +158084,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 22.2,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -157055,6 +158201,10 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 10.7,
+      "form_last10": 0.0,
+      "form_trend": -10.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -157276,6 +158426,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 77.8,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -157389,6 +158543,20 @@
       "group_total": 26,
       "clutch_rate": 75.0,
       "group_win_rate": 69.2,
+      "form_last10": 90.0,
+      "form_trend": 19.4,
+      "best_victim": {
+        "name": "Henninger, Marius",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Henninger, Marius",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -157580,6 +158748,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 33.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -157693,6 +158865,10 @@
       "group_total": 40,
       "clutch_rate": null,
       "group_win_rate": 35.0,
+      "form_last10": 30.0,
+      "form_trend": -1.8,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -157956,6 +159132,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 15.4,
+      "form_last10": 20.0,
+      "form_trend": 4.6,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158093,6 +159273,20 @@
       "group_total": 25,
       "clutch_rate": null,
       "group_win_rate": 40.0,
+      "form_last10": 50.0,
+      "form_trend": 14.5,
+      "best_victim": {
+        "name": "Senkbeil, Vincent",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Cheaib, Dauud",
+        "wins": 0,
+        "losses": 6,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158272,6 +159466,20 @@
       "group_total": 34,
       "clutch_rate": 44.4,
       "group_win_rate": 67.6,
+      "form_last10": 70.0,
+      "form_trend": 6.4,
+      "best_victim": {
+        "name": "Fadeev, Kirill",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158517,6 +159725,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158630,6 +159842,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158679,6 +159895,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158728,6 +159948,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158777,6 +160001,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158826,6 +160054,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -158875,6 +160107,20 @@
       "group_total": 81,
       "clutch_rate": 63.6,
       "group_win_rate": 71.6,
+      "form_last10": 90.0,
+      "form_trend": 20.5,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Turrini, Rafael",
+        "wins": 1,
+        "losses": 5,
+        "win_pct": 16.7
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159234,6 +160480,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 57.1,
+      "form_last10": 44.4,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159347,6 +160597,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 20.0,
+      "form_trend": 5.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159490,6 +160744,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 35.7,
+      "form_last10": 20.0,
+      "form_trend": -15.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159633,6 +160891,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 85.7,
+      "form_last10": 66.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159746,6 +161008,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159859,6 +161125,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 42.9,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -159972,6 +161242,20 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 45.0,
+      "form_last10": 30.0,
+      "form_trend": -15.8,
+      "best_victim": {
+        "name": "Hollo, Mike",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Hollo, Mike",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160145,6 +161429,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 15.4,
+      "form_last10": 20.0,
+      "form_trend": 4.6,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160288,6 +161576,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160337,6 +161629,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160386,6 +161682,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160435,6 +161735,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160484,6 +161788,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160533,6 +161841,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160582,6 +161894,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160695,6 +162011,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -160744,6 +162064,20 @@
       "group_total": 47,
       "clutch_rate": null,
       "group_win_rate": 19.1,
+      "form_last10": 30.0,
+      "form_trend": 10.9,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 2,
+        "losses": 3,
+        "win_pct": 40.0
+      },
+      "nemesis": {
+        "name": "Klein, Dennis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -161007,6 +162341,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -161120,6 +162458,10 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 40.0,
+      "form_trend": 11.4,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -161287,6 +162629,10 @@
       "group_total": 19,
       "clutch_rate": null,
       "group_win_rate": 47.4,
+      "form_last10": 60.0,
+      "form_trend": 12.4,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -161472,6 +162818,20 @@
       "group_total": 60,
       "clutch_rate": null,
       "group_win_rate": 36.7,
+      "form_last10": 20.0,
+      "form_trend": -13.8,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Zeimys, Kestutis",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -161753,6 +163113,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -161802,6 +163166,10 @@
       "group_total": 27,
       "clutch_rate": null,
       "group_win_rate": 59.3,
+      "form_last10": 40.0,
+      "form_trend": -14.3,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -162023,6 +163391,10 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 76.2,
+      "form_last10": 90.0,
+      "form_trend": 19.6,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -162220,6 +163592,20 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 45.0,
+      "form_last10": 40.0,
+      "form_trend": -1.7,
+      "best_victim": {
+        "name": "Henninger, Marius",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Henninger, Marius",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -162393,6 +163779,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 42.9,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -162506,6 +163896,10 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 20.0,
+      "form_last10": 10.0,
+      "form_trend": -10.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -162673,6 +164067,10 @@
       "group_total": 27,
       "clutch_rate": null,
       "group_win_rate": 18.5,
+      "form_last10": 40.0,
+      "form_trend": 21.5,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -162870,6 +164268,20 @@
       "group_total": 96,
       "clutch_rate": 10.0,
       "group_win_rate": 44.8,
+      "form_last10": 20.0,
+      "form_trend": -21.2,
+      "best_victim": {
+        "name": "Willeke, Johannes",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Turrini, Rafael Vinicius",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -163265,6 +164677,20 @@
       "group_total": 39,
       "clutch_rate": 70.0,
       "group_win_rate": 74.4,
+      "form_last10": 50.0,
+      "form_trend": -24.5,
+      "best_victim": {
+        "name": "Walter, Karl",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -163534,6 +164960,20 @@
       "group_total": 35,
       "clutch_rate": null,
       "group_win_rate": 31.4,
+      "form_last10": 30.0,
+      "form_trend": 0.3,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 3,
+        "losses": 0,
+        "win_pct": 100.0
+      },
+      "nemesis": {
+        "name": "Shim, Joon",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -163767,6 +165207,10 @@
       "group_total": 20,
       "clutch_rate": null,
       "group_win_rate": 30.0,
+      "form_last10": 30.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -163934,6 +165378,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 28.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -164047,6 +165495,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 88.9,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -164160,6 +165612,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 20.0,
+      "form_trend": 5.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -164315,6 +165771,20 @@
       "group_total": 27,
       "clutch_rate": null,
       "group_win_rate": 29.6,
+      "form_last10": 10.0,
+      "form_trend": -21.0,
+      "best_victim": {
+        "name": "Sältzer, Tobias",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
+      "nemesis": {
+        "name": "Sältzer, Tobias",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -164512,6 +165982,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -164561,6 +166035,20 @@
       "group_total": 128,
       "clutch_rate": 16.7,
       "group_win_rate": 35.2,
+      "form_last10": 30.0,
+      "form_trend": -4.1,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 6,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165046,6 +166534,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165153,6 +166645,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165202,6 +166698,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165251,6 +166751,10 @@
       "group_total": 2,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165307,6 +166811,10 @@
       "group_total": 2,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165363,6 +166871,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165412,6 +166924,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165461,6 +166977,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165574,6 +167094,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165687,6 +167211,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165824,6 +167352,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 50.0,
+      "form_last10": 50.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -165931,6 +167463,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 60.0,
+      "form_trend": -6.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166086,6 +167622,20 @@
       "group_total": 34,
       "clutch_rate": null,
       "group_win_rate": 17.6,
+      "form_last10": 20.0,
+      "form_trend": 2.4,
+      "best_victim": {
+        "name": "Amann, Samuel",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
+      "nemesis": {
+        "name": "Amann, Samuel",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166313,6 +167863,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166426,6 +167980,20 @@
       "group_total": 74,
       "clutch_rate": null,
       "group_win_rate": 41.9,
+      "form_last10": 50.0,
+      "form_trend": 11.0,
+      "best_victim": {
+        "name": "Zech, Damian",
+        "wins": 4,
+        "losses": 1,
+        "win_pct": 80.0
+      },
+      "nemesis": {
+        "name": "Hollo, Mike",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166761,6 +168329,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166810,6 +168382,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166859,6 +168435,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166908,6 +168488,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -166957,6 +168541,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167006,6 +168594,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167119,6 +168711,20 @@
       "group_total": 41,
       "clutch_rate": null,
       "group_win_rate": 22.0,
+      "form_last10": 10.0,
+      "form_trend": -12.0,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 2,
+        "losses": 1,
+        "win_pct": 66.7
+      },
+      "nemesis": {
+        "name": "Lama, Jaime",
+        "wins": 1,
+        "losses": 2,
+        "win_pct": 33.3
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167376,6 +168982,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167425,6 +169035,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 7.7,
+      "form_last10": 10.0,
+      "form_trend": 2.3,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167562,6 +169176,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167611,6 +169229,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 50.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167667,6 +169289,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167716,6 +169342,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167765,6 +169395,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167814,6 +169448,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 100.0,
+      "form_last10": 100.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167863,6 +169501,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -167976,6 +169618,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 7.7,
+      "form_last10": 0.0,
+      "form_trend": -7.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168119,6 +169765,10 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 20.0,
+      "form_trend": 5.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168340,6 +169990,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 57.1,
+      "form_last10": 55.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168453,6 +170107,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 57.1,
+      "form_last10": 66.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168566,6 +170224,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 66.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168679,6 +170341,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168792,6 +170458,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 33.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168905,6 +170575,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -168954,6 +170628,20 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 46.4,
+      "form_last10": 50.0,
+      "form_trend": 6.2,
+      "best_victim": {
+        "name": "Robben, Bennet",
+        "wins": 2,
+        "losses": 2,
+        "win_pct": 50.0
+      },
+      "nemesis": {
+        "name": "Fadeev, Kirill",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -169169,6 +170857,10 @@
       "group_total": 18,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -169348,6 +171040,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 42.9,
+      "form_last10": 44.4,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -169461,6 +171157,10 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 19.0,
+      "form_last10": 20.0,
+      "form_trend": 1.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -169646,6 +171346,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 71.4,
+      "form_last10": 50.0,
+      "form_trend": -16.7,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -169801,6 +171505,20 @@
       "group_total": 28,
       "clutch_rate": null,
       "group_win_rate": 39.3,
+      "form_last10": 30.0,
+      "form_trend": -4.4,
+      "best_victim": {
+        "name": "Turrini, Rafael",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Turrini, Rafael",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -169992,6 +171710,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 23.1,
+      "form_last10": 30.0,
+      "form_trend": 6.9,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -170123,6 +171845,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 23.1,
+      "form_last10": 30.0,
+      "form_trend": 6.9,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -170266,6 +171992,20 @@
       "group_total": 67,
       "clutch_rate": null,
       "group_win_rate": 7.5,
+      "form_last10": 0.0,
+      "form_trend": -7.5,
+      "best_victim": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Koloidenko, Pylyp",
+        "wins": 0,
+        "losses": 4,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -170589,6 +172329,10 @@
       "group_total": 13,
       "clutch_rate": null,
       "group_win_rate": 61.5,
+      "form_last10": 60.0,
+      "form_trend": 1.2,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -170732,6 +172476,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 16.7,
+      "form_last10": 16.7,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -170839,6 +172587,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 85.7,
+      "form_last10": 77.8,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -170952,6 +172704,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171065,6 +172821,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171178,6 +172938,20 @@
       "group_total": 21,
       "clutch_rate": null,
       "group_win_rate": 4.8,
+      "form_last10": 10.0,
+      "form_trend": 5.2,
+      "best_victim": {
+        "name": "Lama, Jaime",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Lama, Jaime",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171351,6 +173125,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171464,6 +173242,20 @@
       "group_total": 27,
       "clutch_rate": 28.6,
       "group_win_rate": 85.2,
+      "form_last10": 70.0,
+      "form_trend": -4.3,
+      "best_victim": {
+        "name": "Rinderer, Daniel",
+        "wins": 3,
+        "losses": 1,
+        "win_pct": 75.0
+      },
+      "nemesis": {
+        "name": "Bertrand, Irvin",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171661,6 +173453,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 14.3,
+      "form_last10": 14.3,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171774,6 +173570,10 @@
       "group_total": 1,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171823,6 +173623,10 @@
       "group_total": 14,
       "clutch_rate": null,
       "group_win_rate": 28.6,
+      "form_last10": 30.0,
+      "form_trend": 1.4,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -171966,6 +173770,10 @@
       "group_total": 0,
       "clutch_rate": null,
       "group_win_rate": null,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -172015,6 +173823,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -172128,6 +173940,10 @@
       "group_total": 6,
       "clutch_rate": null,
       "group_win_rate": 0.0,
+      "form_last10": 0.0,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {
@@ -172235,6 +174051,10 @@
       "group_total": 7,
       "clutch_rate": null,
       "group_win_rate": 57.1,
+      "form_last10": 55.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
       "tournament_wins": 0,
       "tournaments_played": 0,
       "h2h": {

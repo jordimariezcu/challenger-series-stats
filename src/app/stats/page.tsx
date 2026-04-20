@@ -38,6 +38,11 @@ export default function StatsPage() {
     .sort((a, b) => (b.clutch_rate ?? 0) - (a.clutch_rate ?? 0))
     .slice(0, 15);
 
+  const hotForm = [...players]
+    .filter((p) => p.form_trend !== null && p.total_matches >= 10)
+    .sort((a, b) => (b.form_trend ?? 0) - (a.form_trend ?? 0))
+    .slice(0, 15);
+
   const dominanceIndex = [...players]
     .filter((p) => p.wins >= 20)
     .map((p) => ({
@@ -82,6 +87,16 @@ export default function StatsPage() {
         name: p.name,
         value: p.set_ratio,
         sub: `${p.sets_won}/${p.sets_won + p.sets_lost} sets`,
+      })),
+    },
+    {
+      title: "🔥 Hot Form — Last 10 vs. Career",
+      subtitle: "Difference between last 10 matches win rate and career average. Positive = on a hot streak.",
+      unit: "pp" as const,
+      data: hotForm.map((p) => ({
+        name: p.name,
+        value: p.form_trend,
+        sub: `${p.form_last10}% last 10 · ${p.win_rate}% career`,
       })),
     },
     {
@@ -142,10 +157,14 @@ export default function StatsPage() {
                       <div className="flex justify-between items-center mb-1">
                         <div />
                         <span className={`text-sm font-black tabular-nums ${isTop3 ? "text-[var(--accent)]" : "text-[var(--accent)]"}`}>
-                          {row.value !== null ? `${row.value}%` : "–"}
+                          {row.value !== null
+                            ? s.unit === "pp"
+                              ? `${row.value >= 0 ? "+" : ""}${row.value}pp`
+                              : `${row.value}%`
+                            : "–"}
                         </span>
                       </div>
-                      <MiniBar value={row.value ?? 0} />
+                      <MiniBar value={s.unit === "pp" ? (row.value ?? 0) + 100 : (row.value ?? 0)} max={s.unit === "pp" ? 200 : 100} />
                     </div>
                   </div>
                 );

@@ -90,6 +90,10 @@ export interface PlayerStats {
   group_total: number;
   clutch_rate: number | null;
   group_win_rate: number | null;
+  form_last10: number | null;
+  form_trend: number | null;
+  best_victim: { name: string; wins: number; losses: number; win_pct: number } | null;
+  nemesis: { name: string; wins: number; losses: number; win_pct: number } | null;
   tournament_wins: number;
   tournaments_played: number;
   h2h: Record<string, H2HRecord>;

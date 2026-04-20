@@ -398,6 +398,30 @@ def compute_stats(tournaments: list):
             for m in sorted_matches[:5]
         ]
 
+        # --- Form trend: last 10 matches vs. career average ---
+        last10 = sorted_matches[:10]
+        form_last10_wins = sum(1 for m in last10 if m["won"])
+        form_last10 = round(form_last10_wins / len(last10) * 100, 1) if last10 else None
+        career_rate = round(wins / total_matches * 100, 1) if total_matches else None
+        form_trend = round(form_last10 - career_rate, 1) if (form_last10 is not None and career_rate is not None) else None
+
+        # --- Rival / Nemesis (min 3 H2H matches) ---
+        best_victim = None
+        nemesis = None
+        best_victim_pct = -1.0
+        nemesis_pct = 101.0
+        for opp, rec in h2h.items():
+            total_h2h = rec["wins"] + rec["losses"]
+            if total_h2h < 3:
+                continue
+            win_pct = rec["wins"] / total_h2h * 100
+            if win_pct > best_victim_pct:
+                best_victim_pct = win_pct
+                best_victim = {"name": opp, "wins": rec["wins"], "losses": rec["losses"], "win_pct": round(win_pct, 1)}
+            if win_pct < nemesis_pct:
+                nemesis_pct = win_pct
+                nemesis = {"name": opp, "wins": rec["wins"], "losses": rec["losses"], "win_pct": round(win_pct, 1)}
+
         # --- Score distribution (2-0, 2-1, 1-2, 0-2) ---
         wins_2_0 = sum(1 for m in matches if m["won"] and m["opp_sets"] == 0)
         wins_2_1 = sum(1 for m in matches if m["won"] and m["opp_sets"] == 1)
@@ -448,6 +472,10 @@ def compute_stats(tournaments: list):
             "group_total": len(group_matches),
             "clutch_rate": clutch_rate,
             "group_win_rate": group_win_rate,
+            "form_last10": form_last10,
+            "form_trend": form_trend,
+            "best_victim": best_victim,
+            "nemesis": nemesis,
             "tournament_wins": tournament_wins,
             "tournaments_played": tournaments_played,
             "h2h": {k: dict(v) for k, v in h2h.items()},
