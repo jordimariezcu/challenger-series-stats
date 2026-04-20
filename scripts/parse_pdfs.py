@@ -293,18 +293,39 @@ def compute_stats(tournaments: list):
         tid = t["id"]
         date = t["date_start"]
 
-        # Tournament rankings
-        for p in t["players"]:
-            name = p["name"]
+        # --- Compute per-tournament stats from match data (more reliable than overview page) ---
+        t_stats = defaultdict(lambda: {
+            "matches_won": 0, "matches_lost": 0,
+            "sets_won": 0, "sets_lost": 0,
+        })
+        for m in t["matches"]:
+            p1, p2 = m["player1"], m["player2"]
+            t_stats[p1]["sets_won"]    += m["p1_sets"]
+            t_stats[p1]["sets_lost"]   += m["p2_sets"]
+            t_stats[p2]["sets_won"]    += m["p2_sets"]
+            t_stats[p2]["sets_lost"]   += m["p1_sets"]
+            if m["p1_sets"] > m["p2_sets"]:
+                t_stats[p1]["matches_won"]  += 1
+                t_stats[p2]["matches_lost"] += 1
+            else:
+                t_stats[p2]["matches_won"]  += 1
+                t_stats[p1]["matches_lost"] += 1
+
+        # Rank by matches won DESC, then sets won DESC
+        ranked = sorted(
+            t_stats.items(),
+            key=lambda x: (-x[1]["matches_won"], -x[1]["sets_won"])
+        )
+        for rank, (name, stats) in enumerate(ranked, start=1):
             player_data[name]["name"] = name
             player_data[name]["tournament_results"].append({
                 "tournament_id": tid,
                 "date": date,
-                "rank": p["rank"],
-                "matches_won": p["matches_won"],
-                "matches_lost": p["matches_lost"],
-                "sets_won": p["sets_won"],
-                "sets_lost": p["sets_lost"],
+                "rank": rank,
+                "matches_won":  stats["matches_won"],
+                "matches_lost": stats["matches_lost"],
+                "sets_won":     stats["sets_won"],
+                "sets_lost":    stats["sets_lost"],
             })
 
         # Individual matches
