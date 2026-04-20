@@ -150,7 +150,7 @@ export default function Dashboard() {
 
         {/* Deuce Kings */}
         <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-          <SectionHeader title="👑 Rey del Deuce" subtitle="min. 10 deuce sets" />
+          <SectionHeader title="👑 King of Deuce" subtitle="min. 10 deuce sets" />
           <div className="divide-y divide-[var(--border)]">
             {deuceKings.map((p, i) => (
               <LeaderboardRow

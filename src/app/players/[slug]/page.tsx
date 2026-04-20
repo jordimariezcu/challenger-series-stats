@@ -25,7 +25,7 @@ export default async function PlayerPage({
         href="/players"
         className="text-xs text-[var(--muted)] hover:text-[var(--accent)] mb-6 inline-flex items-center gap-1 transition-colors uppercase tracking-wide font-medium"
       >
-        ← Jugadores
+        ← Players
       </Link>
 
       {/* Player header */}
@@ -34,10 +34,10 @@ export default async function PlayerPage({
         <div className="absolute inset-0 bg-gradient-to-r from-[var(--accent)]/5 to-transparent pointer-events-none" />
         <div className="relative flex items-start justify-between gap-4 flex-wrap">
           <div>
-            <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-1">Perfil de Jugador</div>
+            <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-1">Player Profile</div>
             <h1 className="text-3xl font-black text-[var(--text)] mb-1">{p.name}</h1>
             <p className="text-sm text-[var(--muted)]">
-              {p.tournaments_played} torneos · {p.total_matches} partidos
+              {p.tournaments_played} tournaments · {p.total_matches} matches
             </p>
             {p.form_trend !== null && (
               <div className="mt-2 inline-flex items-center gap-1.5">
@@ -50,7 +50,7 @@ export default async function PlayerPage({
                   {p.form_trend >= 0 ? "▲" : "▼"} {Math.abs(p.form_trend)}pp
                 </span>
                 <span className="text-xs text-[var(--muted)]">
-                  {p.form_last10}% últimos 10 · {p.win_rate}% carrera
+                  {p.form_last10}% last 10 · {p.win_rate}% career
                 </span>
               </div>
             )}
@@ -59,7 +59,7 @@ export default async function PlayerPage({
             {p.tournament_wins > 0 && (
               <div className="bg-yellow-400/10 border border-yellow-400/30 rounded-lg px-5 py-3 text-center">
                 <div className="text-2xl font-black text-yellow-400">🏆 {p.tournament_wins}</div>
-                <div className="text-[10px] text-[var(--muted)] uppercase tracking-wider mt-0.5">Títulos</div>
+                <div className="text-[10px] text-[var(--muted)] uppercase tracking-wider mt-0.5">Titles</div>
               </div>
             )}
           </div>

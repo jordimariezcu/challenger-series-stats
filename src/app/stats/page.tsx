@@ -54,7 +54,7 @@ export default function StatsPage() {
 
   const sections = [
     {
-      title: "👑 Rey del Deuce — Deuce Win Rate",
+      title: "👑 King of Deuce — Deuce Win Rate",
       subtitle: "% of sets won after reaching 10–10. These players thrive under maximum pressure.",
       data: deuceKings.map((p) => ({
         name: p.name,
