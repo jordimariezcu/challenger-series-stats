@@ -78,6 +78,18 @@ export interface PlayerStats {
   comeback_chances: number;
   comeback_wins: number;
   comeback_rate: number | null;
+  wins_2_0: number;
+  wins_2_1: number;
+  losses_0_2: number;
+  losses_1_2: number;
+  ko_wins: number;
+  ko_losses: number;
+  ko_total: number;
+  group_wins: number;
+  group_losses: number;
+  group_total: number;
+  clutch_rate: number | null;
+  group_win_rate: number | null;
   tournament_wins: number;
   tournaments_played: number;
   h2h: Record<string, H2HRecord>;

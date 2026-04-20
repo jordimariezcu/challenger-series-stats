@@ -398,6 +398,24 @@ def compute_stats(tournaments: list):
             for m in sorted_matches[:5]
         ]
 
+        # --- Score distribution (2-0, 2-1, 1-2, 0-2) ---
+        wins_2_0 = sum(1 for m in matches if m["won"] and m["opp_sets"] == 0)
+        wins_2_1 = sum(1 for m in matches if m["won"] and m["opp_sets"] == 1)
+        losses_0_2 = sum(1 for m in matches if not m["won"] and m["my_sets"] == 0)
+        losses_1_2 = sum(1 for m in matches if not m["won"] and m["my_sets"] == 1)
+
+        # --- Phase performance: group stage vs knockout (semi + final) ---
+        ko_matches = [m for m in matches if m["phase"] in {"semifinal", "final"}]
+        group_matches = [m for m in matches if m["phase"] == "round_robin"]
+
+        ko_wins   = sum(1 for m in ko_matches if m["won"])
+        ko_losses = len(ko_matches) - ko_wins
+        group_wins_count   = sum(1 for m in group_matches if m["won"])
+        group_losses_count = len(group_matches) - group_wins_count
+
+        clutch_rate    = round(ko_wins / len(ko_matches) * 100, 1) if len(ko_matches) >= 5 else None
+        group_win_rate = round(group_wins_count / len(group_matches) * 100, 1) if group_matches else None
+
         # --- Tournament wins (rank 1) ---
         tournament_wins = sum(1 for tr in data["tournament_results"] if tr["rank"] == 1)
         tournaments_played = len(data["tournament_results"])
@@ -418,6 +436,18 @@ def compute_stats(tournaments: list):
             "comeback_chances": comeback_chances,
             "comeback_wins": comeback_wins,
             "comeback_rate": round(comeback_wins / comeback_chances * 100, 1) if comeback_chances else None,
+            "wins_2_0": wins_2_0,
+            "wins_2_1": wins_2_1,
+            "losses_0_2": losses_0_2,
+            "losses_1_2": losses_1_2,
+            "ko_wins": ko_wins,
+            "ko_losses": ko_losses,
+            "ko_total": len(ko_matches),
+            "group_wins": group_wins_count,
+            "group_losses": group_losses_count,
+            "group_total": len(group_matches),
+            "clutch_rate": clutch_rate,
+            "group_win_rate": group_win_rate,
             "tournament_wins": tournament_wins,
             "tournaments_played": tournaments_played,
             "h2h": {k: dict(v) for k, v in h2h.items()},

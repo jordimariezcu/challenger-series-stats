@@ -33,6 +33,20 @@ export default function StatsPage() {
     .sort((a, b) => b.set_ratio - a.set_ratio)
     .slice(0, 15);
 
+  const clutchPlayers = [...players]
+    .filter((p) => p.clutch_rate !== null)
+    .sort((a, b) => (b.clutch_rate ?? 0) - (a.clutch_rate ?? 0))
+    .slice(0, 15);
+
+  const dominanceIndex = [...players]
+    .filter((p) => p.wins >= 20)
+    .map((p) => ({
+      ...p,
+      dominance_pct: Math.round((p.wins_2_0 / p.wins) * 100),
+    }))
+    .sort((a, b) => b.dominance_pct - a.dominance_pct)
+    .slice(0, 15);
+
   const sections = [
     {
       title: "👑 Rey del Deuce — Deuce Win Rate",
@@ -68,6 +82,24 @@ export default function StatsPage() {
         name: p.name,
         value: p.set_ratio,
         sub: `${p.sets_won}/${p.sets_won + p.sets_lost} sets`,
+      })),
+    },
+    {
+      title: "🎯 Clutch Rating — Knockout Win Rate",
+      subtitle: "Win % in semifinals & finals only. Min. 5 KO matches. Who rises when it matters most.",
+      data: clutchPlayers.map((p) => ({
+        name: p.name,
+        value: p.clutch_rate,
+        sub: `${p.ko_wins}/${p.ko_total} KO matches`,
+      })),
+    },
+    {
+      title: "💥 Dominance Index — 2–0 Win Rate",
+      subtitle: "% of victories that are clean 2–0 sweeps. Min. 20 wins. Separates dominant winners from grinders.",
+      data: dominanceIndex.map((p) => ({
+        name: p.name,
+        value: p.dominance_pct,
+        sub: `${p.wins_2_0} sweeps / ${p.wins} wins`,
       })),
     },
   ];

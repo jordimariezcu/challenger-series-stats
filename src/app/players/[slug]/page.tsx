@@ -82,6 +82,84 @@ export default async function PlayerPage({
         <StatCard label="1st Set Impact" value={firstSetImpactPct !== null ? `${firstSetImpactPct}%` : "–"} sub="wins match after winning 1st set" />
       </div>
 
+      {/* Clutch + Score distribution */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-6">
+
+        {/* Clutch Rating */}
+        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
+          <SectionHeader
+            title="🎯 Clutch Rating"
+            subtitle="Performance in semifinals & finals vs. group stage"
+          />
+          <div className="p-5 grid grid-cols-2 gap-4">
+            {/* KO */}
+            <div className="bg-[var(--surface2)] rounded-lg p-4 text-center">
+              <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-2">Knockouts</div>
+              <div className={`text-3xl font-black tabular-nums ${p.clutch_rate !== null ? "text-[var(--accent)]" : "text-[var(--muted)]"}`}>
+                {p.clutch_rate !== null ? `${p.clutch_rate}%` : "–"}
+              </div>
+              <div className="text-xs text-[var(--muted)] mt-1">{p.ko_wins}W / {p.ko_losses}L</div>
+              {p.clutch_rate === null && <div className="text-[10px] text-[var(--muted)] mt-1">min. 5 matches</div>}
+            </div>
+            {/* Group */}
+            <div className="bg-[var(--surface2)] rounded-lg p-4 text-center">
+              <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-2">Group Stage</div>
+              <div className="text-3xl font-black tabular-nums text-[var(--text)]">
+                {p.group_win_rate !== null ? `${p.group_win_rate}%` : "–"}
+              </div>
+              <div className="text-xs text-[var(--muted)] mt-1">{p.group_wins}W / {p.group_losses}L</div>
+            </div>
+            {/* Delta */}
+            {p.clutch_rate !== null && p.group_win_rate !== null && (
+              <div className="col-span-2 text-center text-sm">
+                <span className={`font-bold ${p.clutch_rate >= p.group_win_rate ? "text-green-500" : "text-red-400"}`}>
+                  {p.clutch_rate >= p.group_win_rate ? "▲" : "▼"}{" "}
+                  {Math.abs(Math.round(p.clutch_rate - p.group_win_rate))}pp
+                </span>
+                <span className="text-[var(--muted)] text-xs ml-2">
+                  {p.clutch_rate >= p.group_win_rate ? "better in knockouts" : "better in group stage"}
+                </span>
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* Score Distribution */}
+        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
+          <SectionHeader
+            title="💥 Score Distribution"
+            subtitle="How wins and losses are achieved"
+          />
+          <div className="p-5 space-y-3">
+            {[
+              { label: "2–0 wins", value: p.wins_2_0, total: p.wins, color: "#22c55e", isWin: true },
+              { label: "2–1 wins", value: p.wins_2_1, total: p.wins, color: "#86efac", isWin: true },
+              { label: "1–2 losses", value: p.losses_1_2, total: p.losses, color: "#fca5a5", isWin: false },
+              { label: "0–2 losses", value: p.losses_0_2, total: p.losses, color: "#ef4444", isWin: false },
+            ].map(({ label, value, total, color }) => {
+              const pct = total > 0 ? Math.round((value / total) * 100) : 0;
+              return (
+                <div key={label}>
+                  <div className="flex justify-between text-xs mb-1">
+                    <span className="text-[var(--muted)] font-medium">{label}</span>
+                    <span className="font-bold tabular-nums" style={{ color }}>{value} <span className="text-[var(--muted)] font-normal">({pct}%)</span></span>
+                  </div>
+                  <MiniBar value={value} max={total} color={color} />
+                </div>
+              );
+            })}
+            <div className="pt-2 border-t border-[var(--border)] flex justify-between text-xs text-[var(--muted)]">
+              <span>Dominance score</span>
+              <span className="font-bold text-[var(--text)] tabular-nums">
+                {p.wins > 0 ? `${Math.round((p.wins_2_0 / p.wins) * 100)}%` : "–"}
+                <span className="font-normal text-[var(--muted)] ml-1">of wins are 2–0</span>
+              </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
       {/* Sets performance */}
       <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg mb-6">
         <SectionHeader title="Sets Performance" />
