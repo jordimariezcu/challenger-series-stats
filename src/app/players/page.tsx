@@ -2,13 +2,10 @@
 
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
+import { playerSlug } from "@/lib/utils";
 import type { PlayerStats } from "@/lib/data";
 
 type SortKey = "wins" | "win_rate" | "deuce_win_rate" | "comeback_rate" | "tournaments_played";
-
-function playerSlug(name: string) {
-  return encodeURIComponent(name);
-}
 
 const COLS: { key: SortKey; label: string; short: string }[] = [
   { key: "wins",               label: "Most Wins",       short: "Wins" },

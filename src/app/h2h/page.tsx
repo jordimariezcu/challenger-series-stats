@@ -2,11 +2,8 @@
 
 import { useEffect, useState, useMemo } from "react";
 import Link from "next/link";
+import { playerSlug } from "@/lib/utils";
 import type { PlayerStats } from "@/lib/data";
-
-function playerSlug(name: string) {
-  return encodeURIComponent(name);
-}
 
 export default function H2HPage() {
   const [players, setPlayers] = useState<PlayerStats[]>([]);

@@ -1,5 +1,7 @@
 import fs from "fs";
 import path from "path";
+import { playerSlug } from "./utils";
+export { playerSlug, formatDate } from "./utils";
 
 export interface SetScore {
   0: number;
@@ -108,16 +110,8 @@ export function getAllPlayers(): PlayerStats[] {
 
 export function getPlayer(slug: string): PlayerStats | null {
   const data = getData();
-  const name = decodeURIComponent(slug).replace(/_/g, " ");
-  return data.players[name] ?? null;
-}
-
-export function playerSlug(name: string): string {
-  return encodeURIComponent(name);
-}
-
-export function formatDate(dateStr: string | null): string {
-  if (!dateStr) return "–";
-  const [y, m, d] = dateStr.split("-");
-  return `${d}.${m}.${y}`;
+  for (const [name, player] of Object.entries(data.players)) {
+    if (playerSlug(name) === slug) return player;
+  }
+  return null;
 }
