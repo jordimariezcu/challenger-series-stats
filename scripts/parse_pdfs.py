@@ -34,12 +34,29 @@ NAME_FIXES = {
     "St\ufffdck": "Stück",
 }
 
+# ---------------------------------------------------------------------------
+# Name aliases – merge duplicate players caused by PDF misspellings
+# Key   = erroneous spelling (as it appears in the PDF)
+# Value = canonical name
+# ---------------------------------------------------------------------------
+NAME_ALIASES = {
+    "Jeong, Wooben":           "Jeong, Woobeen",
+    "Kishegy, Akos":           "Kishegyi, Akos",
+    "Klein, Dennnis":          "Klein, Dennis",
+    "Lehman, Matthew":         "Lehmann, Matthew",
+    "Manhani, Umberto":        "Manhani, Humberto",
+    "Turrini, Rafael":         "Turrini, Rafael Vinicius",
+    "Turrini, Rafael Invicius":"Turrini, Rafael Vinicius",
+}
+
 
 def fix_name(name: str) -> str:
-    """Apply known encoding fixes and strip extra whitespace."""
+    """Apply known encoding fixes, alias merges, and strip extra whitespace."""
     name = " ".join(name.split())
     for bad, good in NAME_FIXES.items():
         name = name.replace(bad, good)
+    # Merge duplicate spellings into canonical name
+    name = NAME_ALIASES.get(name, name)
     return name
 
 
