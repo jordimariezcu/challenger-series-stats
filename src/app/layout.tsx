@@ -3,6 +3,8 @@ import "./globals.css";
 import Link from "next/link";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { NavClient, FooterClient } from "@/components/NavClient";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 export const metadata: Metadata = {
   title: "Challenger Series – Stats",
@@ -60,6 +62,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
         </LanguageProvider>
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
