@@ -44,6 +44,8 @@ const translations = {
     sort_deuce:       "Deuce Win Rate",
     sort_comeback:    "Comeback Rate",
     sort_tourneys:    "Tournaments",
+    sort_earnings:    "Earnings",
+    col_earnings:     "Earnings",
 
     // Player profile header
     profile_label:    "Player Profile",
@@ -240,6 +242,8 @@ const translations = {
     sort_deuce:       "Deuce-Quote",
     sort_comeback:    "Comeback-Quote",
     sort_tourneys:    "Turniere",
+    sort_earnings:    "Einnahmen",
+    col_earnings:     "Einnahmen",
 
     // Player profile header
     profile_label:    "Spielerprofil",

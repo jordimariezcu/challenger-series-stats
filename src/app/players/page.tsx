@@ -6,7 +6,7 @@ import { playerSlug } from "@/lib/utils";
 import type { PlayerStats } from "@/lib/data";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-type SortKey = "wins" | "win_rate" | "deuce_win_rate" | "comeback_rate" | "tournaments_played";
+type SortKey = "wins" | "win_rate" | "deuce_win_rate" | "comeback_rate" | "tournaments_played" | "total_earnings";
 
 export default function PlayersPage() {
   const [players, setPlayers] = useState<PlayerStats[]>([]);
@@ -16,11 +16,12 @@ export default function PlayersPage() {
   const { t } = useLanguage();
 
   const COLS: { key: SortKey; label: string; short: string }[] = [
-    { key: "wins",               label: t.sort_wins,     short: t.sort_wins },
-    { key: "win_rate",           label: t.sort_win_rate, short: t.col_win_pct },
-    { key: "deuce_win_rate",     label: t.sort_deuce,    short: t.col_deuce },
-    { key: "comeback_rate",      label: t.sort_comeback, short: t.col_comeback },
+    { key: "wins",            label: t.sort_wins,     short: t.sort_wins },
+    { key: "win_rate",        label: t.sort_win_rate, short: t.col_win_pct },
+    { key: "deuce_win_rate",  label: t.sort_deuce,    short: t.col_deuce },
+    { key: "comeback_rate",   label: t.sort_comeback, short: t.col_comeback },
     { key: "tournaments_played", label: t.sort_tourneys, short: t.col_tourneys },
+    { key: "total_earnings",  label: t.sort_earnings, short: "€" },
   ];
 
   useEffect(() => {
@@ -83,7 +84,7 @@ export default function PlayersPage() {
       ) : (
         <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
           {/* Table header */}
-          <div className="grid grid-cols-[1fr_70px_65px_75px_80px_70px] gap-2
+          <div className="grid grid-cols-[1fr_60px_58px_68px_72px_62px_80px] gap-2
                           px-4 py-2.5 text-[10px] text-[var(--muted)] uppercase tracking-widest
                           border-b border-[var(--border)] bg-[var(--surface2)]">
             <span>{t.players_title}</span>
@@ -92,13 +93,14 @@ export default function PlayersPage() {
             <span className="text-right">{t.col_deuce}</span>
             <span className="text-right">{t.col_comeback}</span>
             <span className="text-right">{t.col_tourneys}</span>
+            <span className="text-right">{t.col_earnings}</span>
           </div>
 
           {filtered.map((p, i) => (
             <Link
               key={p.name}
               href={`/players/${playerSlug(p.name)}`}
-              className="grid grid-cols-[1fr_70px_65px_75px_80px_70px] gap-2 items-center
+              className="grid grid-cols-[1fr_60px_58px_68px_72px_62px_80px] gap-2 items-center
                          px-4 py-3 hover:bg-[var(--surface2)] transition-colors group
                          border-b border-[var(--border)] last:border-b-0"
             >
@@ -129,6 +131,11 @@ export default function PlayersPage() {
               </span>
               <span className="text-right text-sm tabular-nums text-[var(--muted)]">
                 {p.tournaments_played}
+              </span>
+              <span className={`text-right text-sm font-bold tabular-nums ${
+                sort === "total_earnings" ? "text-[var(--accent)]" : "text-[var(--text)]"
+              }`}>
+                €{p.total_earnings.toLocaleString()}
               </span>
             </Link>
           ))}
