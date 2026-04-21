@@ -3,10 +3,11 @@ export type Locale = "en" | "de";
 const translations = {
   en: {
     // Nav
-    nav_dashboard: "Dashboard",
-    nav_players:   "Players",
-    nav_advanced:  "Advanced",
-    nav_h2h:       "H2H",
+    nav_dashboard:  "Dashboard",
+    nav_players:    "Players",
+    nav_advanced:   "Advanced",
+    nav_h2h:        "H2H",
+    nav_attendance: "Attendance",
     footer_league: "Challenger Series · Table Tennis · Germany",
 
     // Dashboard
@@ -185,6 +186,29 @@ const translations = {
     sub_wins_lbl:    "wins",
     sub_ko_matches:  "KO matches",
 
+    // Attendance page
+    att_title:          "Attendance",
+    att_subtitle:       "Table",
+    att_desc:           "Player participation loyalty across all league tournaments",
+    att_search:         "Search player…",
+    att_col_played:     "Played",
+    att_col_rate:       "Attendance",
+    att_col_streak:     "Streak",
+    att_col_best:       "Best",
+    att_col_last:       "Last Seen",
+    att_col_inactive:   "Away",
+    att_sort_rate:      "Attendance %",
+    att_sort_streak:    "Current Streak",
+    att_sort_best:      "Best Streak",
+    att_sort_inactive:  "Inactive",
+    att_active_now:     "Active",
+    att_inactive_ago:   "ago",
+    att_never:          "–",
+    att_of:             "of",
+    att_tourneys:       "tournaments",
+    att_streak_label:   "🔥 on a streak",
+    att_inactive_label: "💤 inactive",
+
     // Earnings
     earnings_total:    "Total Earnings",
     earnings_per_tour: "per tournament avg.",
@@ -201,10 +225,11 @@ const translations = {
 
   de: {
     // Nav
-    nav_dashboard: "Übersicht",
-    nav_players:   "Spieler",
-    nav_advanced:  "Statistiken",
-    nav_h2h:       "H2H",
+    nav_dashboard:  "Übersicht",
+    nav_players:    "Spieler",
+    nav_advanced:   "Statistiken",
+    nav_h2h:        "H2H",
+    nav_attendance: "Anwesenheit",
     footer_league: "Challenger Series · Tischtennis · Deutschland",
 
     // Dashboard
@@ -382,6 +407,29 @@ const translations = {
     sub_sweeps:      "Erfolge",
     sub_wins_lbl:    "Siege",
     sub_ko_matches:  "K.O.-Partien",
+
+    // Attendance page
+    att_title:          "Anwesenheit",
+    att_subtitle:       "Tabelle",
+    att_desc:           "Teilnahmetreue der Spieler über alle Liga-Turniere",
+    att_search:         "Spieler suchen…",
+    att_col_played:     "Gespielt",
+    att_col_rate:       "Anwesenheit",
+    att_col_streak:     "Serie",
+    att_col_best:       "Beste",
+    att_col_last:       "Zuletzt",
+    att_col_inactive:   "Weg",
+    att_sort_rate:      "Anwesenheit %",
+    att_sort_streak:    "Aktuelle Serie",
+    att_sort_best:      "Beste Serie",
+    att_sort_inactive:  "Inaktiv",
+    att_active_now:     "Aktiv",
+    att_inactive_ago:   "her",
+    att_never:          "–",
+    att_of:             "von",
+    att_tourneys:       "Turnieren",
+    att_streak_label:   "🔥 aktive Serie",
+    att_inactive_label: "💤 inaktiv",
 
     // Earnings
     earnings_total:    "Gesamteinnahmen",

@@ -98,6 +98,12 @@ export interface PlayerStats {
   tournament_wins: number;
   tournaments_played: number;
   total_earnings: number;
+  attendance_rate: number;
+  current_streak: number;
+  longest_streak: number;
+  tournaments_since: number;
+  last_seen: string | null;
+  first_seen: string | null;
   h2h: Record<string, H2HRecord>;
   recent_5: RecentMatch[];
   tournament_results: TournamentResult[];

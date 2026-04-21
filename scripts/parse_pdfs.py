@@ -465,6 +465,42 @@ def compute_stats(tournaments: list):
         tournament_wins = sum(1 for tr in data["tournament_results"] if tr["rank"] == 1)
         tournaments_played = len(data["tournament_results"])
 
+        # --- Attendance stats ---
+        total_tournaments = len(tournaments)
+        attendance_rate = round(tournaments_played / total_tournaments * 100, 1) if total_tournaments else 0
+
+        player_tids = {tr["tournament_id"] for tr in data["tournament_results"]}
+        sorted_tournaments = sorted(tournaments, key=lambda t: t["date_start"] or "")
+
+        # Current streak: consecutive attended from most recent backwards
+        current_streak = 0
+        for t in reversed(sorted_tournaments):
+            if t["id"] in player_tids:
+                current_streak += 1
+            else:
+                break
+
+        # Longest streak ever
+        longest_streak = 0
+        streak = 0
+        for t in sorted_tournaments:
+            if t["id"] in player_tids:
+                streak += 1
+                longest_streak = max(longest_streak, streak)
+            else:
+                streak = 0
+
+        # Last seen date + how many tournaments since
+        last_result = max(data["tournament_results"], key=lambda x: x["date"] or "", default=None)
+        last_seen = last_result["date"] if last_result else None
+        tournaments_since = sum(
+            1 for t in sorted_tournaments if t["date_start"] and last_seen and t["date_start"] > last_seen
+        )
+
+        # First tournament date
+        first_result = min(data["tournament_results"], key=lambda x: x["date"] or "9999", default=None)
+        first_seen = first_result["date"] if first_result else None
+
         # --- Earnings ---
         # Prize structure (incl. German tax):
         #   Participation:            €75
@@ -522,6 +558,12 @@ def compute_stats(tournaments: list):
             "tournament_wins": tournament_wins,
             "tournaments_played": tournaments_played,
             "total_earnings": round(total_earnings, 2),
+            "attendance_rate": attendance_rate,
+            "current_streak": current_streak,
+            "longest_streak": longest_streak,
+            "tournaments_since": tournaments_since,
+            "last_seen": last_seen,
+            "first_seen": first_seen,
             "h2h": {k: dict(v) for k, v in h2h.items()},
             "recent_5": recent_5,
             "tournament_results": sorted(

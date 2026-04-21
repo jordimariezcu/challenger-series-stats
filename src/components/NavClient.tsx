@@ -7,10 +7,11 @@ export function NavClient() {
   const { locale, setLocale, t } = useLanguage();
 
   const navLinks = [
-    { href: "/",        label: t.nav_dashboard },
-    { href: "/players", label: t.nav_players },
-    { href: "/stats",   label: t.nav_advanced },
-    { href: "/h2h",     label: t.nav_h2h },
+    { href: "/",           label: t.nav_dashboard },
+    { href: "/players",    label: t.nav_players },
+    { href: "/stats",      label: t.nav_advanced },
+    { href: "/h2h",        label: t.nav_h2h },
+    { href: "/attendance", label: t.nav_attendance },
   ];
 
   return (
