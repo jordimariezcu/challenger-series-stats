@@ -183,6 +183,14 @@ const translations = {
     sub_wins_lbl:    "wins",
     sub_ko_matches:  "KO matches",
 
+    // Earnings
+    earnings_total:    "Total Earnings",
+    earnings_per_tour: "per tournament avg.",
+    earnings_col:      "Earnings",
+    earnings_kpi_sub:  "prize money incl. tax",
+    stats_s8_title:    "💰 Top Earners — Total Prize Money",
+    stats_s8_sub:      "Cumulative earnings across all tournaments. Includes participation, wins and KO bonuses.",
+
     // Dashboard insight banner
     dash_insight_a: "Winning the first set converts to a match win {pct}% of the time. A dominant start is the strongest predictor of victory in this league.",
     dash_insight_b: "First-set winners take the match {pct}% of the time. Starting strong is a critical tactical advantage.",
@@ -370,6 +378,14 @@ const translations = {
     sub_sweeps:      "Erfolge",
     sub_wins_lbl:    "Siege",
     sub_ko_matches:  "K.O.-Partien",
+
+    // Earnings
+    earnings_total:    "Gesamteinnahmen",
+    earnings_per_tour: "Ø pro Turnier",
+    earnings_col:      "Einnahmen",
+    earnings_kpi_sub:  "Preisgeld inkl. Steuer",
+    stats_s8_title:    "💰 Top-Verdiener — Gesamtpreisgeld",
+    stats_s8_sub:      "Kumulierte Einnahmen über alle Turniere. Inkl. Teilnahme, Siege und K.O.-Boni.",
 
     // Dashboard insight banner
     dash_insight_a: "Wer den ersten Satz gewinnt, gewinnt die Partie in {pct}% der Fälle. Ein dominanter Start ist der stärkste Vorhersagefaktor in dieser Liga.",

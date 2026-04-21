@@ -74,6 +74,17 @@ export default function StatsPage() {
     .sort((a, b) => b.value - a.value)
     .slice(0, 15);
 
+  const topEarners = [...players]
+    .filter((p) => p.tournaments_played >= 3)
+    .sort((a, b) => b.total_earnings - a.total_earnings)
+    .slice(0, 15)
+    .map((p) => ({
+      name: p.name,
+      value: p.total_earnings,
+      sub: `${p.tournaments_played} tournaments`,
+      unit: "€" as const,
+    }));
+
   return (
     <StatsClient
       deuceKings={deuceKings}
@@ -83,6 +94,7 @@ export default function StatsPage() {
       hotForm={hotForm}
       clutchPlayers={clutchPlayers}
       dominanceIndex={dominanceIndex}
+      topEarners={topEarners}
     />
   );
 }

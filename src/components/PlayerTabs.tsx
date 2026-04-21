@@ -380,10 +380,10 @@ export default function PlayerTabs({ p }: { p: PlayerStats }) {
           {/* Value indicators */}
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
             {[
-              { label: t.win_rate,   value: `${p.win_rate}%`,           sub: `${p.wins}W / ${p.losses}L`,          accent: true },
-              { label: t.titles,     value: `${p.tournament_wins}`,      sub: `${t.of_tourneys} ${p.tournaments_played} ${t.dash_tournaments.toLowerCase()}` },
-              { label: t.top3_rate,  value: top3Pct !== null ? `${top3Pct}%` : "–", sub: `${top3Count} ${t.top3_finishes}` },
-              { label: t.avg_rank,   value: avgRank ?? "–",              sub: `${opponentsCount} ${t.opp_range_sub}` },
+              { label: t.win_rate,       value: `${p.win_rate}%`,           sub: `${p.wins}W / ${p.losses}L`,          accent: true },
+              { label: t.titles,         value: `${p.tournament_wins}`,      sub: `${t.of_tourneys} ${p.tournaments_played} ${t.dash_tournaments.toLowerCase()}` },
+              { label: t.top3_rate,      value: top3Pct !== null ? `${top3Pct}%` : "–", sub: `${top3Count} ${t.top3_finishes}` },
+              { label: t.earnings_total, value: `€${p.total_earnings.toLocaleString()}`, sub: `€${p.tournaments_played > 0 ? Math.round(p.total_earnings / p.tournaments_played) : 0} ${t.earnings_per_tour}` },
             ].map(({ label, value, sub, accent }) => (
               <div key={label} className={`rounded-lg p-4 border ${accent ? "bg-[var(--accent)]/10 border-[var(--accent)]/40" : "bg-[var(--surface)] border-[var(--border)]"}`}>
                 <div className="text-[10px] font-bold text-[var(--muted)] uppercase tracking-widest mb-1">{label}</div>
@@ -416,6 +416,7 @@ export default function PlayerTabs({ p }: { p: PlayerStats }) {
                     <th className="text-center px-4 py-2.5 font-medium">{t.rank_col}</th>
                     <th className="text-center px-4 py-2.5 font-medium">{t.matches_col}</th>
                     <th className="text-center px-4 py-2.5 font-medium">{t.sets_col}</th>
+                    <th className="text-right px-4 py-2.5 font-medium">{t.earnings_col}</th>
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-[var(--border)]">
@@ -434,6 +435,9 @@ export default function PlayerTabs({ p }: { p: PlayerStats }) {
                       </td>
                       <td className="px-4 py-2.5 text-center text-[var(--muted)] tabular-nums font-mono text-xs">
                         {tr.sets_won}:{tr.sets_lost}
+                      </td>
+                      <td className="px-4 py-2.5 text-right tabular-nums font-bold text-sm text-[var(--accent)]">
+                        €{tr.earnings}
                       </td>
                     </tr>
                   ))}

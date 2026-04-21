@@ -60,6 +60,7 @@ export interface TournamentResult {
   matches_lost: number;
   sets_won: number;
   sets_lost: number;
+  earnings: number;
 }
 
 export interface PlayerStats {
@@ -96,6 +97,7 @@ export interface PlayerStats {
   nemesis: { name: string; wins: number; losses: number; win_pct: number } | null;
   tournament_wins: number;
   tournaments_played: number;
+  total_earnings: number;
   h2h: Record<string, H2HRecord>;
   recent_5: RecentMatch[];
   tournament_results: TournamentResult[];

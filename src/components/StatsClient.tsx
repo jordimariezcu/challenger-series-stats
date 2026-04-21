@@ -9,6 +9,7 @@ interface StatRow {
   name: string;
   value: number | null;
   sub: string;
+  unit?: "€";
 }
 
 interface StatsClientProps {
@@ -19,6 +20,7 @@ interface StatsClientProps {
   hotForm:         StatRow[];
   clutchPlayers:   StatRow[];
   dominanceIndex:  StatRow[];
+  topEarners:      StatRow[];
 }
 
 export default function StatsClient({
@@ -29,10 +31,11 @@ export default function StatsClient({
   hotForm,
   clutchPlayers,
   dominanceIndex,
+  topEarners,
 }: StatsClientProps) {
   const { t } = useLanguage();
 
-  const sections: { title: string; subtitle: string; data: StatRow[]; unit?: "pp" }[] = [
+  const sections: { title: string; subtitle: string; data: StatRow[]; unit?: "pp" | "€" }[] = [
     { title: t.stats_s1_title, subtitle: t.stats_s1_sub, data: deuceKings },
     { title: t.stats_s2_title, subtitle: t.stats_s2_sub, data: comebackKings },
     { title: t.stats_s3_title, subtitle: t.stats_s3_sub, data: firstSetChamps },
@@ -40,6 +43,7 @@ export default function StatsClient({
     { title: t.stats_s5_title, subtitle: t.stats_s5_sub, data: hotForm, unit: "pp" },
     { title: t.stats_s6_title, subtitle: t.stats_s6_sub, data: clutchPlayers },
     { title: t.stats_s7_title, subtitle: t.stats_s7_sub, data: dominanceIndex },
+    { title: t.stats_s8_title, subtitle: t.stats_s8_sub, data: topEarners, unit: "€" },
   ];
 
   return (
@@ -81,11 +85,16 @@ export default function StatsClient({
                           {row.value !== null
                             ? s.unit === "pp"
                               ? `${row.value >= 0 ? "+" : ""}${row.value}pp`
+                              : s.unit === "€"
+                              ? `€${row.value.toLocaleString()}`
                               : `${row.value}%`
                             : "–"}
                         </span>
                       </div>
-                      <MiniBar value={s.unit === "pp" ? (row.value ?? 0) + 100 : (row.value ?? 0)} max={s.unit === "pp" ? 200 : 100} />
+                      <MiniBar
+                        value={s.unit === "pp" ? (row.value ?? 0) + 100 : (row.value ?? 0)}
+                        max={s.unit === "pp" ? 200 : s.unit === "€" ? (topEarners[0]?.value ?? 1) : 100}
+                      />
                     </div>
                   </div>
                 );

@@ -465,6 +465,28 @@ def compute_stats(tournaments: list):
         tournament_wins = sum(1 for tr in data["tournament_results"] if tr["rank"] == 1)
         tournaments_played = len(data["tournament_results"])
 
+        # --- Earnings ---
+        # Prize structure (incl. German tax):
+        #   Participation:            €75
+        #   Group stage win:          €60 each
+        #   Semi-final appearance:    €45  (rank 1–4)
+        #   3rd place win:            €90  (rank 3)
+        #   Semi/Final win:           €180 each (rank 1 = 2 KO wins, rank 2 = 1 KO win)
+        #
+        # Collapsed into: earnings = base(rank) + matches_won × €60
+        # where base already accounts for all KO bonuses relative to wins:
+        #   rank 1 → €360  (€75 + €45 + €180 + €180 − 2×€60 offset absorbed in wins)
+        #   rank 2 → €240  (€75 + €45 + €180 − 1×€60 offset absorbed in wins)
+        #   rank 3 → €150  (€75 + €45 + €90  − 1×€60 offset absorbed in wins)
+        #   rank 4 → €120  (€75 + €45)
+        #   rank 5–8 → €75 (participation only)
+        RANK_BASE = {1: 360, 2: 240, 3: 150, 4: 120}
+        total_earnings = 0
+        for tr in data["tournament_results"]:
+            base = RANK_BASE.get(tr["rank"], 75)
+            tr["earnings"] = base + tr["matches_won"] * 60
+            total_earnings += tr["earnings"]
+
         players_out[name] = {
             "name": name,
             "total_matches": total_matches,
@@ -499,6 +521,7 @@ def compute_stats(tournaments: list):
             "nemesis": nemesis,
             "tournament_wins": tournament_wins,
             "tournaments_played": tournaments_played,
+            "total_earnings": round(total_earnings, 2),
             "h2h": {k: dict(v) for k, v in h2h.items()},
             "recent_5": recent_5,
             "tournament_results": sorted(
@@ -566,7 +589,14 @@ def main():
     print("\nTop 5 players by wins:")
     for p in top_players:
         print(f"  {p['name']:30s}  {p['wins']}W / {p['losses']}L  "
-              f"Deuce: {p['deuce_win_rate']}%  Comeback: {p['comeback_rate']}%")
+              f"Deuce: {p['deuce_win_rate']}%  Comeback: {p['comeback_rate']}%  "
+              f"Earnings: €{p['total_earnings']:.0f}")
+
+    top_earners = sorted(players.values(), key=lambda p: p["total_earnings"], reverse=True)[:5]
+    print("\nTop 5 earners:")
+    for p in top_earners:
+        print(f"  {p['name']:30s}  €{p['total_earnings']:.0f}"
+              f"  ({p['tournaments_played']} tournaments)")
 
 
 if __name__ == "__main__":
