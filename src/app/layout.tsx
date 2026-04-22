@@ -6,9 +6,53 @@ import { NavClient, FooterClient } from "@/components/NavClient";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 
+const BASE_URL = "https://challenger-series-stats.vercel.app";
+
 export const metadata: Metadata = {
-  title: "Challenger Series – Stats",
-  description: "Advanced table tennis statistics for the Challenger Series",
+  metadataBase: new URL(BASE_URL),
+  title: {
+    default: "Challenger Series Stats",
+    template: "%s · Challenger Series Stats",
+  },
+  description:
+    "Advanced table tennis statistics for the Challenger Series league in Germany. Player profiles, earnings, head-to-head records, attendance data and more.",
+  keywords: [
+    "table tennis", "Tischtennis", "Challenger Series", "Germany",
+    "statistics", "ping pong", "player stats", "Tischtennis Liga",
+  ],
+  authors: [{ name: "Challenger Series", url: "https://www.challengerseries.net" }],
+  openGraph: {
+    type: "website",
+    siteName: "Challenger Series Stats",
+    locale: "en_US",
+    url: BASE_URL,
+    title: "Challenger Series Stats",
+    description:
+      "Advanced table tennis statistics for the Challenger Series league in Germany.",
+  },
+  twitter: {
+    card: "summary",
+    title: "Challenger Series Stats",
+    description: "Advanced table tennis statistics for the Challenger Series.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-snippet": -1 },
+  },
+  alternates: {
+    canonical: BASE_URL,
+  },
+};
+
+const orgJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "SportsOrganization",
+  name: "Challenger Series",
+  sport: "Table Tennis",
+  url: "https://www.challengerseries.net",
+  description: "Competitive table tennis league in Germany",
+  location: { "@type": "Place", addressCountry: "DE" },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -62,6 +106,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             </div>
           </footer>
         </LanguageProvider>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
         <Analytics />
         <SpeedInsights />
       </body>

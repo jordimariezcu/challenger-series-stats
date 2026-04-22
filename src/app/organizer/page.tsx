@@ -1,5 +1,11 @@
+import type { Metadata } from "next";
 import { getData, getAllPlayers } from "@/lib/data";
 import OrganizerClient from "@/components/OrganizerClient";
+
+export const metadata: Metadata = {
+  title: "Organizer",
+  robots: { index: false, follow: false },
+};
 
 export default function OrganizerPage() {
   const data    = getData();

@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import { getAllPlayers } from "@/lib/data";
 import StatsClient from "@/components/StatsClient";
+
+export const metadata: Metadata = {
+  title: "Advanced Stats",
+  description:
+    "Deep statistical leaderboards: deuce win rate, comeback rate, first-set impact, clutch performance in knockouts, dominance index and top earners.",
+};
 
 export default function StatsPage() {
   const players = getAllPlayers();

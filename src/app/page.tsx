@@ -1,5 +1,12 @@
+import type { Metadata } from "next";
 import { getData, getAllPlayers } from "@/lib/data";
 import DashboardClient from "@/components/DashboardClient";
+
+export const metadata: Metadata = {
+  title: "Dashboard",
+  description:
+    "Live statistics hub for the Challenger Series table tennis league in Germany. Win rates, deuce records, comeback kings, tournament champions and more.",
+};
 
 export default function Dashboard() {
   const data = getData();
