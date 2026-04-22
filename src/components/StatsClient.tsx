@@ -78,7 +78,7 @@ export default function StatsClient({
                       {row.name}
                     </Link>
                     <span className="text-xs text-[var(--muted)] shrink-0 hidden sm:block">{row.sub}</span>
-                    <div className="w-28 shrink-0">
+                    <div className="w-20 sm:w-28 shrink-0">
                       <div className="flex justify-between items-center mb-1">
                         <div />
                         <span className={`text-sm font-black tabular-nums ${isTop3 ? "text-[var(--accent)]" : "text-[var(--accent)]"}`}>

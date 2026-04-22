@@ -43,11 +43,11 @@ export default function DashboardClient({
     <div>
       {/* Hero */}
       <div className="mb-8">
-        <div className="flex items-end gap-4 mb-2">
-          <h1 className="text-4xl font-black uppercase tracking-tight text-[var(--text)]">
+        <div className="flex items-end gap-3 mb-2">
+          <h1 className="text-3xl sm:text-4xl font-black uppercase tracking-tight text-[var(--text)]">
             {t.dash_title}
           </h1>
-          <span className="text-4xl font-black uppercase tracking-tight text-[var(--accent)]">
+          <span className="text-3xl sm:text-4xl font-black uppercase tracking-tight text-[var(--accent)]">
             {t.dash_subtitle}
           </span>
         </div>

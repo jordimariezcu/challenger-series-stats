@@ -356,12 +356,12 @@ export default function PlayerTabs({ p }: { p: PlayerStats }) {
                         className="flex-1 text-sm hover:text-[var(--accent)] transition-colors truncate">
                         {opp}
                       </Link>
-                      <div className="flex items-center gap-3 shrink-0 text-sm font-mono">
+                      <div className="flex items-center gap-2 shrink-0 text-sm font-mono">
                         <span className="text-green-500 font-bold w-4 text-right">{wins}</span>
                         <span className="text-[var(--muted)]">–</span>
                         <span className="text-red-400 font-bold w-4">{losses}</span>
-                        <span className="text-xs text-[var(--muted)] w-16 text-right">({sets_won}:{sets_lost})</span>
-                        <span className={`text-xs font-black w-10 text-right tabular-nums ${wpct >= 60 ? "text-green-500" : wpct <= 40 ? "text-red-400" : "text-[var(--muted)]"}`}>
+                        <span className="text-xs text-[var(--muted)] w-16 text-right hidden sm:inline">({sets_won}:{sets_lost})</span>
+                        <span className={`text-xs font-black w-9 text-right tabular-nums ${wpct >= 60 ? "text-green-500" : wpct <= 40 ? "text-red-400" : "text-[var(--muted)]"}`}>
                           {wpct}%
                         </span>
                       </div>

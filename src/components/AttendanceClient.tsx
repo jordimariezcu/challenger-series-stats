@@ -47,9 +47,9 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
     <div>
       {/* Header */}
       <div className="mb-8">
-        <div className="flex items-end gap-4 mb-2">
-          <h1 className="text-3xl font-black uppercase tracking-tight">{t.att_title}</h1>
-          <span className="text-3xl font-black uppercase tracking-tight text-[var(--accent)]">
+        <div className="flex items-end gap-3 mb-2 flex-wrap">
+          <h1 className="text-2xl sm:text-3xl font-black uppercase tracking-tight">{t.att_title}</h1>
+          <span className="text-2xl sm:text-3xl font-black uppercase tracking-tight text-[var(--accent)]">
             {t.att_subtitle}
           </span>
         </div>
@@ -104,19 +104,24 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
         </div>
       </div>
 
-      {/* Table */}
+      {/* Table — columns per breakpoint:
+          mobile: Name + Rate%
+          sm:     + Played + Streak
+          md:     + Best + Last seen + Away               */}
       <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
         {/* Header */}
-        <div className="grid grid-cols-[1fr_90px_90px_70px_70px_100px_70px] gap-2
-                        px-4 py-2.5 text-[10px] text-[var(--muted)] uppercase tracking-widest
+        <div className="grid grid-cols-[1fr_90px]
+                        sm:grid-cols-[1fr_90px_90px_70px]
+                        md:grid-cols-[1fr_90px_90px_70px_70px_100px_70px]
+                        gap-2 px-4 py-2.5 text-[10px] text-[var(--muted)] uppercase tracking-widest
                         border-b border-[var(--border)] bg-[var(--surface2)]">
           <span>{t.players_title}</span>
-          <span className="text-right">{t.att_col_played}</span>
+          <span className="text-right hidden sm:block">{t.att_col_played}</span>
           <span className="text-right">{t.att_col_rate}</span>
-          <span className="text-right">{t.att_col_streak}</span>
-          <span className="text-right">{t.att_col_best}</span>
-          <span className="text-right">{t.att_col_last}</span>
-          <span className="text-right">{t.att_col_inactive}</span>
+          <span className="text-right hidden sm:block">{t.att_col_streak}</span>
+          <span className="text-right hidden md:block">{t.att_col_best}</span>
+          <span className="text-right hidden md:block">{t.att_col_last}</span>
+          <span className="text-right hidden md:block">{t.att_col_inactive}</span>
         </div>
 
         {filtered.map((p, i) => {
@@ -128,14 +133,16 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
             <Link
               key={p.name}
               href={`/players/${playerSlug(p.name)}`}
-              className="grid grid-cols-[1fr_90px_90px_70px_70px_100px_70px] gap-2 items-center
-                         px-4 py-3 hover:bg-[var(--surface2)] transition-colors group
+              className="grid grid-cols-[1fr_90px]
+                         sm:grid-cols-[1fr_90px_90px_70px]
+                         md:grid-cols-[1fr_90px_90px_70px_70px_100px_70px]
+                         gap-2 items-center px-4 py-3 hover:bg-[var(--surface2)] transition-colors group
                          border-b border-[var(--border)] last:border-b-0"
             >
               {/* Name */}
-              <div className="flex items-center gap-2.5 min-w-0">
-                <span className="text-[var(--muted)] text-xs w-6 shrink-0 text-right tabular-nums">{i + 1}</span>
-                <span className="truncate font-semibold group-hover:text-[var(--accent)] transition-colors">
+              <div className="flex items-center gap-2 min-w-0">
+                <span className="text-[var(--muted)] text-xs w-5 shrink-0 text-right tabular-nums">{i + 1}</span>
+                <span className="truncate font-semibold text-sm group-hover:text-[var(--accent)] transition-colors">
                   {p.name}
                 </span>
                 {isStreaking && !isInactive && (
@@ -147,7 +154,7 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
               </div>
 
               {/* Played */}
-              <div className="text-right">
+              <div className="text-right hidden sm:block">
                 <span className="text-sm tabular-nums text-[var(--text)]">{p.tournaments_played}</span>
                 <span className="text-xs text-[var(--muted)]"> / {totalTournaments}</span>
               </div>
@@ -170,7 +177,7 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
               </div>
 
               {/* Current streak */}
-              <div className="text-right">
+              <div className="text-right hidden sm:block">
                 <span className={`text-sm font-bold tabular-nums ${
                   p.current_streak >= 5 ? "text-orange-400" :
                   p.current_streak >= 3 ? "text-yellow-500" :
@@ -181,7 +188,7 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
               </div>
 
               {/* Best streak */}
-              <div className="text-right">
+              <div className="text-right hidden md:block">
                 <span className={`text-sm tabular-nums ${
                   p.longest_streak === maxStreak ? "text-yellow-400 font-black" : "text-[var(--muted)]"
                 }`}>
@@ -190,14 +197,14 @@ export default function AttendanceClient({ players, totalTournaments }: Props) {
               </div>
 
               {/* Last seen */}
-              <div className="text-right">
+              <div className="text-right hidden md:block">
                 <span className={`text-xs tabular-nums ${isActive ? "text-green-500 font-bold" : "text-[var(--muted)]"}`}>
                   {isActive ? t.att_active_now : formatDate(p.last_seen)}
                 </span>
               </div>
 
               {/* Away (tournaments since) */}
-              <div className="text-right">
+              <div className="text-right hidden md:block">
                 <span className={`text-sm font-bold tabular-nums ${
                   isActive ? "text-[var(--muted)]" :
                   p.tournaments_since >= 8 ? "text-red-400" :

@@ -83,56 +83,63 @@ export default function PlayersPage() {
         <div className="text-center py-24 text-[var(--muted)]">Loading…</div>
       ) : (
         <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
-          {/* Table header */}
-          <div className="grid grid-cols-[1fr_60px_58px_68px_72px_62px_80px] gap-2
-                          px-4 py-2.5 text-[10px] text-[var(--muted)] uppercase tracking-widest
+          {/* Table header — columns shown per breakpoint:
+              mobile: Name + Win%
+              sm:     + Record + Deuce
+              md:     + Comeback + Tourneys + Earnings            */}
+          <div className="grid grid-cols-[1fr_58px]
+                          sm:grid-cols-[1fr_60px_58px_68px]
+                          md:grid-cols-[1fr_60px_58px_68px_72px_62px_80px]
+                          gap-2 px-4 py-2.5 text-[10px] text-[var(--muted)] uppercase tracking-widest
                           border-b border-[var(--border)] bg-[var(--surface2)]">
             <span>{t.players_title}</span>
-            <span className="text-right">{t.col_record}</span>
+            <span className="text-right hidden sm:block">{t.col_record}</span>
             <span className="text-right">{t.col_win_pct}</span>
-            <span className="text-right">{t.col_deuce}</span>
-            <span className="text-right">{t.col_comeback}</span>
-            <span className="text-right">{t.col_tourneys}</span>
-            <span className="text-right">{t.col_earnings}</span>
+            <span className="text-right hidden sm:block">{t.col_deuce}</span>
+            <span className="text-right hidden md:block">{t.col_comeback}</span>
+            <span className="text-right hidden md:block">{t.col_tourneys}</span>
+            <span className="text-right hidden md:block">{t.col_earnings}</span>
           </div>
 
           {filtered.map((p, i) => (
             <Link
               key={p.name}
               href={`/players/${playerSlug(p.name)}`}
-              className="grid grid-cols-[1fr_60px_58px_68px_72px_62px_80px] gap-2 items-center
-                         px-4 py-3 hover:bg-[var(--surface2)] transition-colors group
+              className="grid grid-cols-[1fr_58px]
+                         sm:grid-cols-[1fr_60px_58px_68px]
+                         md:grid-cols-[1fr_60px_58px_68px_72px_62px_80px]
+                         gap-2 items-center px-4 py-3 hover:bg-[var(--surface2)] transition-colors group
                          border-b border-[var(--border)] last:border-b-0"
             >
-              <div className="flex items-center gap-2.5 min-w-0">
-                <span className="text-[var(--muted)] text-xs w-6 shrink-0 text-right tabular-nums">
+              <div className="flex items-center gap-2 min-w-0">
+                <span className="text-[var(--muted)] text-xs w-5 shrink-0 text-right tabular-nums">
                   {i + 1}
                 </span>
-                <span className="truncate font-semibold group-hover:text-[var(--accent)] transition-colors">
+                <span className="truncate font-semibold group-hover:text-[var(--accent)] transition-colors text-sm">
                   {p.name}
                 </span>
                 {p.tournament_wins > 0 && (
-                  <span className="text-yellow-400 text-xs shrink-0 font-bold">
+                  <span className="text-yellow-400 text-xs shrink-0 font-bold hidden sm:inline">
                     🏆{p.tournament_wins}
                   </span>
                 )}
               </div>
-              <span className="text-right text-xs text-[var(--muted)] tabular-nums">
+              <span className="text-right text-xs text-[var(--muted)] tabular-nums hidden sm:block">
                 {p.wins}/{p.losses}
               </span>
               <span className="text-right text-sm font-bold tabular-nums text-[var(--accent)]">
                 {p.win_rate}%
               </span>
-              <span className="text-right text-sm tabular-nums text-[var(--text)]">
+              <span className="text-right text-sm tabular-nums text-[var(--text)] hidden sm:block">
                 {p.deuce_win_rate !== null ? `${p.deuce_win_rate}%` : "–"}
               </span>
-              <span className="text-right text-sm tabular-nums text-[var(--text)]">
+              <span className="text-right text-sm tabular-nums text-[var(--text)] hidden md:block">
                 {p.comeback_rate !== null ? `${p.comeback_rate}%` : "–"}
               </span>
-              <span className="text-right text-sm tabular-nums text-[var(--muted)]">
+              <span className="text-right text-sm tabular-nums text-[var(--muted)] hidden md:block">
                 {p.tournaments_played}
               </span>
-              <span className={`text-right text-sm font-bold tabular-nums ${
+              <span className={`text-right text-sm font-bold tabular-nums hidden md:block ${
                 sort === "total_earnings" ? "text-[var(--accent)]" : "text-[var(--text)]"
               }`}>
                 €{p.total_earnings.toLocaleString()}
