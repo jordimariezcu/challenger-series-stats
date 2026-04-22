@@ -5,6 +5,7 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 import { NavClient, FooterClient } from "@/components/NavClient";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { getData } from "@/lib/data";
 
 const BASE_URL = "https://challenger-series-stats.vercel.app";
 
@@ -55,7 +56,20 @@ const orgJsonLd = {
   location: { "@type": "Place", addressCountry: "DE" },
 };
 
+function formatUpdated(iso: string): string {
+  const d = new Date(iso);
+  const dd = d.getDate().toString().padStart(2, "0");
+  const mm = (d.getMonth() + 1).toString().padStart(2, "0");
+  const yyyy = d.getFullYear();
+  const hh = d.getHours().toString().padStart(2, "0");
+  const min = d.getMinutes().toString().padStart(2, "0");
+  return `${dd}.${mm}.${yyyy} ${hh}:${min}`;
+}
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
+  const { generated_at } = getData();
+  const updatedAt = formatUpdated(generated_at);
+
   return (
     <html lang="en">
       <body className="min-h-screen flex flex-col">
@@ -90,11 +104,17 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </main>
 
           <footer className="bg-[var(--surface)] border-t border-[var(--border)] py-6">
-            <div className="max-w-6xl mx-auto px-4 flex items-center justify-between text-xs text-[var(--muted)]">
+            <div className="max-w-6xl mx-auto px-4 flex flex-wrap items-center justify-between gap-3 text-xs text-[var(--muted)]">
               <div className="flex items-center gap-2">
                 <div className="w-5 h-5 rounded bg-[var(--accent)] flex items-center justify-center font-black text-white text-[9px]">CS</div>
                 <FooterClient />
               </div>
+              <span
+                title="Last time results were parsed from PDFs"
+                className="tabular-nums opacity-60"
+              >
+                ↻ {updatedAt}
+              </span>
               <a
                 href="https://www.challengerseries.net"
                 target="_blank"
