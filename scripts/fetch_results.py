@@ -11,7 +11,10 @@ from pathlib import Path
 import time
 import sys
 
-EVENTS_URL  = "https://www.challengerseries.net/events/category/tournaments/list/?eventDisplay=past"
+EVENTS_URLS = [
+    "https://www.challengerseries.net/events/category/tournaments/list/?eventDisplay=past",
+    "https://www.challengerseries.net/events/category/tournaments/list/",
+]
 RESULTS_DIR = Path(__file__).parent.parent / "results"
 HEADERS     = {"User-Agent": "Mozilla/5.0 (compatible; cs-stats-bot/1.0)"}
 
@@ -33,43 +36,47 @@ def get_pdf_links_from_page(url: str, session: requests.Session) -> list[str]:
 
 
 def get_event_links(session: requests.Session) -> list[str]:
-    """Return links to individual tournament event pages from the list page."""
-    try:
-        r = session.get(EVENTS_URL, headers=HEADERS, timeout=30)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"Error fetching events page: {e}")
-        return []
-
-    soup = BeautifulSoup(r.text, "html.parser")
+    """Return links to individual tournament event pages from all list pages."""
     links = []
-    for a in soup.find_all("a", href=True):
-        href = a["href"]
-        if "/events/" in href and href not in (EVENTS_URL,) and href not in links:
-            links.append(href)
+    for base_url in EVENTS_URLS:
+        try:
+            r = session.get(base_url, headers=HEADERS, timeout=30)
+            r.raise_for_status()
+        except Exception as e:
+            print(f"  Warning: could not fetch {base_url} — {e}")
+            continue
+
+        soup = BeautifulSoup(r.text, "html.parser")
+        for a in soup.find_all("a", href=True):
+            href = a["href"]
+            if "/events/" in href and href not in EVENTS_URLS and href not in links:
+                links.append(href)
+
     return links
 
 
 def fetch_all_pdf_links(session: requests.Session) -> list[str]:
     """
-    Two-level scrape:
-    1. Check the events list page directly for PDF links
-    2. Follow each event page and look for PDF links there
+    Two-level scrape across both list URLs:
+    1. Check all events list pages directly for PDF links
+    2. If none found, follow each individual event page
     """
-    print("Scanning events list page...")
-    pdf_links = get_pdf_links_from_page(EVENTS_URL, session)
+    pdf_links = []
+
+    for url in EVENTS_URLS:
+        print(f"Scanning: {url}")
+        pdf_links.extend(get_pdf_links_from_page(url, session))
 
     if not pdf_links:
-        print("No PDFs on list page — following individual event pages...")
+        print("No PDFs found on list pages — following individual event pages...")
         event_links = get_event_links(session)
         print(f"Found {len(event_links)} event pages to check")
         for i, event_url in enumerate(event_links, 1):
             print(f"  [{i}/{len(event_links)}] {event_url}")
-            links = get_pdf_links_from_page(event_url, session)
-            pdf_links.extend(links)
-            time.sleep(0.5)  # polite crawling
+            pdf_links.extend(get_pdf_links_from_page(event_url, session))
+            time.sleep(0.5)
 
-    # Deduplicate
+    # Deduplicate preserving order
     return list(dict.fromkeys(pdf_links))
 
 

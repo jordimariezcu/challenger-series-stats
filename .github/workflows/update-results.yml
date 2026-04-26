@@ -2,11 +2,12 @@ name: Auto-update tournament results
 
 on:
   schedule:
-    # Runs every Tuesday at 10:00 UTC
-    # Tournaments are Monday-Tuesday, results published same day or next morning
-    - cron: "0 10 * * 2"
+    # Tuesday 14:00 UTC = 16:00 CEST — results published Tuesday midday/afternoon
+    - cron: "0 14 * * 2"
+    # Friday 14:00 UTC = 16:00 CEST — second publication window
+    - cron: "0 14 * * 5"
   workflow_dispatch:
-    # Also allows manual trigger from GitHub Actions tab
+    # Manual trigger available anytime from GitHub Actions tab
 
 jobs:
   update:
