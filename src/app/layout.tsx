@@ -7,7 +7,7 @@ import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import { getData } from "@/lib/data";
 
-const BASE_URL = "https://challenger-series-stats.vercel.app";
+const BASE_URL = "https://cs-stats.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),

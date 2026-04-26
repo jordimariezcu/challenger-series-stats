@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next";
 import { getAllPlayers } from "@/lib/data";
 import { playerSlug } from "@/lib/utils";
 
-const BASE = "https://challenger-series-stats.vercel.app";
+const BASE = "https://cs-stats.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const players = getAllPlayers();
