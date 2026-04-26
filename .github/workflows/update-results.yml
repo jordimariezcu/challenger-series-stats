@@ -1,0 +1,58 @@
+name: Auto-update tournament results
+
+on:
+  schedule:
+    # Runs every Tuesday at 10:00 UTC
+    # Tournaments are Monday-Tuesday, results published same day or next morning
+    - cron: "0 10 * * 2"
+  workflow_dispatch:
+    # Also allows manual trigger from GitHub Actions tab
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Install Python dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Fetch new PDFs from website
+        run: python scripts/fetch_results.py
+
+      - name: Parse PDFs → tournaments.json
+        run: python scripts/parse_pdfs.py
+
+      - name: Check if data changed
+        id: diff
+        run: |
+          git diff --quiet data/tournaments.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated data
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/tournaments.json
+          git commit -m "Auto-update tournament data — $(date '+%d.%m.%Y')"
+          git push
+
+      - name: No new data
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "No new tournament data found — nothing to deploy."

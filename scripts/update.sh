@@ -1,30 +1,35 @@
 #!/bin/bash
 # Challenger Series — Update pipeline
 # Usage: bash scripts/update.sh
-# Drops new PDFs in /results, then run this script. That's it.
+# Fetches new PDFs automatically, parses, builds and deploys.
 
 set -e  # stop on any error
 
 echo "🏓 Challenger Series — Update pipeline"
 echo "======================================="
 
-# 1. Parse PDFs → tournaments.json
+# 1. Fetch new PDFs from challengerseries.net
 echo ""
-echo "📄 Step 1/3 — Parsing PDFs..."
+echo "🌐 Step 1/4 — Fetching new PDFs from website..."
+python scripts/fetch_results.py
+
+# 2. Parse PDFs → tournaments.json
+echo ""
+echo "📄 Step 2/4 — Parsing PDFs..."
 python scripts/parse_pdfs.py
 
-# 2. Build check
+# 3. Build check
 echo ""
-echo "🔨 Step 2/3 — Building..."
+echo "🔨 Step 3/4 — Building..."
 npm run build --silent
 
-# 3. Commit + push
+# 4. Commit + push
 echo ""
-echo "🚀 Step 3/3 — Deploying..."
+echo "🚀 Step 4/4 — Deploying..."
 git add data/tournaments.json
-git commit -m "Update tournament data — $(date '+%d.%m.%Y')"
+git commit -m "Update tournament data — $(date '+%d.%m.%Y')" || echo "Nothing new to commit"
 git push
 
 echo ""
 echo "✅ Done! Vercel will deploy in ~30 seconds."
-echo "   https://challenger-series-stats.vercel.app"
+echo "   https://cs-stats.com"
