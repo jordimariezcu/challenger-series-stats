@@ -30,6 +30,13 @@ jobs:
           node-version: "22"
           cache: "npm"
 
+      - name: Restore cached PDFs
+        uses: actions/cache@v4
+        with:
+          path: results/
+          key: pdfs-${{ github.run_id }}
+          restore-keys: pdfs-
+
       - name: Install Python dependencies
         run: pip install -r requirements.txt
 
@@ -42,13 +49,37 @@ jobs:
       - name: Parse PDFs → tournaments.json
         run: python scripts/parse_pdfs.py
 
+      - name: Safety check — prevent data loss
+        id: safety
+        run: |
+          CURRENT=$(git show HEAD:data/tournaments.json | python3 -c "import sys,json; d=json.load(sys.stdin); print(len(d.get('tournaments',[])))")
+          NEW=$(python3 -c "import json; d=json.load(open('data/tournaments.json')); print(len(d.get('tournaments',[])))")
+          echo "current_count=$CURRENT" >> $GITHUB_OUTPUT
+          echo "new_count=$NEW" >> $GITHUB_OUTPUT
+          echo "Current tournaments: $CURRENT | New tournaments: $NEW"
+          if [ "$NEW" -lt "$CURRENT" ]; then
+            echo "safe=false" >> $GITHUB_OUTPUT
+            echo "⚠️  New data has fewer tournaments ($NEW < $CURRENT) — aborting to prevent data loss."
+          else
+            echo "safe=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Abort if data looks incomplete
+        if: steps.safety.outputs.safe == 'false'
+        run: |
+          echo "❌ Safety check failed: parsed ${{ steps.safety.outputs.new_count }} tournaments but repo has ${{ steps.safety.outputs.current_count }}."
+          echo "Restoring original data..."
+          git checkout -- data/tournaments.json
+          exit 1
+
       - name: Check if data changed
         id: diff
+        if: steps.safety.outputs.safe == 'true'
         run: |
           git diff --quiet data/tournaments.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
 
       - name: Commit and push updated data
-        if: steps.diff.outputs.changed == 'true'
+        if: steps.safety.outputs.safe == 'true' && steps.diff.outputs.changed == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -57,5 +88,5 @@ jobs:
           git push
 
       - name: No new data
-        if: steps.diff.outputs.changed == 'false'
+        if: steps.safety.outputs.safe == 'true' && steps.diff.outputs.changed == 'false'
         run: echo "No new tournament data found — nothing to deploy."
