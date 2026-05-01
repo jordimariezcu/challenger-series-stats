@@ -22,9 +22,6 @@ __pycache__/
 .venv/
 venv/
 
-# PDF source files (large binaries, not needed in repo)
-Results/
-
 # Claude session data
 .claude/
 
