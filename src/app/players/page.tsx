@@ -1,12 +1,51 @@
 import type { Metadata } from "next";
+import { getAllPlayers, playerSlug } from "@/lib/data";
 import PlayersClient from "@/components/PlayersClient";
+
+const BASE_URL = "https://cs-stats.com";
 
 export const metadata: Metadata = {
   title: "Players",
   description:
     "All active Challenger Series players ranked by wins, win rate, deuce performance, comeback rate and earnings. 233 players, 145 tournaments.",
+  alternates: { canonical: `${BASE_URL}/players` },
+  openGraph: {
+    title: "Challenger Series — All Players",
+    description: "Rankings by wins, win rate, deuce performance, comeback rate and earnings. 233 players across 145 tournaments.",
+    url: `${BASE_URL}/players`,
+  },
+  twitter: { card: "summary_large_image" },
 };
 
 export default function PlayersPage() {
-  return <PlayersClient />;
+  const players = getAllPlayers();
+
+  const itemListJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "Challenger Series Players",
+    description: "All active table tennis players in the Challenger Series league ranked by wins",
+    numberOfItems: players.length,
+    url: `${BASE_URL}/players`,
+    itemListElement: players
+      .sort((a, b) => b.wins - a.wins)
+      .slice(0, 100)
+      .map((p, idx) => ({
+        "@type": "ListItem",
+        position: idx + 1,
+        name: p.name,
+        url: `${BASE_URL}/players/${playerSlug(p.name)}`,
+        description: `${p.wins}W/${p.losses}L · ${p.win_rate}% win rate`,
+      })),
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
+      <PlayersClient />
+    </>
+  );
 }

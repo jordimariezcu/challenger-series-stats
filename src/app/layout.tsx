@@ -20,8 +20,9 @@ export const metadata: Metadata = {
   keywords: [
     "table tennis", "Tischtennis", "Challenger Series", "Germany",
     "statistics", "ping pong", "player stats", "Tischtennis Liga",
+    "Tischtennisliga", "Tischtennis Statistik",
   ],
-  authors: [{ name: "Challenger Series", url: "https://www.challengerseries.net" }],
+  authors: [{ name: "cs-stats.com", url: BASE_URL }],
   openGraph: {
     type: "website",
     siteName: "Challenger Series Stats",
@@ -29,20 +30,34 @@ export const metadata: Metadata = {
     url: BASE_URL,
     title: "Challenger Series Stats",
     description:
-      "Advanced table tennis statistics for the Challenger Series league in Germany.",
+      "Advanced table tennis statistics for the Challenger Series league in Germany. Players, H2H, earnings, attendance and more.",
+    images: [
+      {
+        url: `${BASE_URL}/opengraph-image`,
+        width: 1200,
+        height: 630,
+        alt: "Challenger Series Stats — Table Tennis Statistics",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Challenger Series Stats",
-    description: "Advanced table tennis statistics for the Challenger Series.",
+    description: "Advanced table tennis statistics for the Challenger Series league.",
+    images: [`${BASE_URL}/opengraph-image`],
   },
   robots: {
     index: true,
     follow: true,
-    googleBot: { index: true, follow: true, "max-snippet": -1 },
+    googleBot: { index: true, follow: true, "max-snippet": -1, "max-image-preview": "large" },
   },
   alternates: {
     canonical: BASE_URL,
+    languages: {
+      "en": BASE_URL,
+      "de": BASE_URL,
+      "x-default": BASE_URL,
+    },
   },
 };
 
@@ -52,8 +67,26 @@ const orgJsonLd = {
   name: "Challenger Series",
   sport: "Table Tennis",
   url: "https://www.challengerseries.net",
-  description: "Competitive table tennis league in Germany",
-  location: { "@type": "Place", addressCountry: "DE" },
+  description: "Competitive table tennis league based in Germany",
+  location: { "@type": "Place", addressCountry: "DE", name: "Germany" },
+  sameAs: ["https://www.challengerseries.net"],
+};
+
+const websiteJsonLd = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: "Challenger Series Stats",
+  url: BASE_URL,
+  description: "Advanced statistics platform for the Challenger Series table tennis league in Germany.",
+  inLanguage: ["en", "de"],
+  potentialAction: {
+    "@type": "SearchAction",
+    target: {
+      "@type": "EntryPoint",
+      urlTemplate: `${BASE_URL}/players?search={search_term_string}`,
+    },
+    "query-input": "required name=search_term_string",
+  },
 };
 
 function formatUpdated(iso: string): string {
@@ -138,6 +171,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
         <Analytics />
         <SpeedInsights />
