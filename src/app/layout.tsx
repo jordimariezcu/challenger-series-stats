@@ -124,6 +124,15 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 challengerseries.net ↗
               </a>
             </div>
+            <div className="max-w-6xl mx-auto px-4 mt-3 text-center text-[10px] text-[var(--muted)] opacity-50">
+              Independent fan project · not affiliated with Challenger Series ·{" "}
+              <a
+                href="mailto:jordi.mariezcurrena@gmail.com"
+                className="hover:text-[var(--accent)] hover:opacity-100 transition-colors"
+              >
+                open to official collaboration
+              </a>
+            </div>
           </footer>
         </LanguageProvider>
         <script
