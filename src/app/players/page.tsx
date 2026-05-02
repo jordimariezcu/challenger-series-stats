@@ -13,8 +13,9 @@ export const metadata: Metadata = {
     title: "Challenger Series — All Players",
     description: "Rankings by wins, win rate, deuce performance, comeback rate and earnings. 233 players across 145 tournaments.",
     url: `${BASE_URL}/players`,
+    images: [{ url: `${BASE_URL}/opengraph-image`, width: 1200, height: 630, alt: "Challenger Series Stats — Table Tennis Statistics" }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: [`${BASE_URL}/opengraph-image`] },
 };
 
 export default function PlayersPage() {

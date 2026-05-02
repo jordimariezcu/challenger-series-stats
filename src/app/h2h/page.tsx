@@ -12,8 +12,9 @@ export const metadata: Metadata = {
     title: "Challenger Series — Head to Head",
     description: "Compare any two players: full match record, set scores, win percentage and rivalry history.",
     url: `${BASE_URL}/h2h`,
+    images: [{ url: `${BASE_URL}/opengraph-image`, width: 1200, height: 630, alt: "Challenger Series Stats — Table Tennis Statistics" }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: [`${BASE_URL}/opengraph-image`] },
 };
 
 const h2hJsonLd = {

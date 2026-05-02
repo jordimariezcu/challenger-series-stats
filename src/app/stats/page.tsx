@@ -13,8 +13,9 @@ export const metadata: Metadata = {
     title: "Challenger Series — Advanced Statistics",
     description: "Deep leaderboards: deuce win rate, comeback rate, clutch performance, dominance index and earnings.",
     url: `${BASE_URL}/stats`,
+    images: [{ url: `${BASE_URL}/opengraph-image`, width: 1200, height: 630, alt: "Challenger Series Stats — Table Tennis Statistics" }],
   },
-  twitter: { card: "summary_large_image" },
+  twitter: { card: "summary_large_image", images: [`${BASE_URL}/opengraph-image`] },
 };
 
 export default function StatsPage() {

@@ -33,11 +33,20 @@ export async function generateMetadata({
       description: desc,
       url,
       type: "profile",
+      images: [
+        {
+          url: `${BASE_URL}/opengraph-image`,
+          width: 1200,
+          height: 630,
+          alt: "Challenger Series Stats — Table Tennis Statistics",
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: `${p.name} · Challenger Series Stats`,
       description: desc,
+      images: [`${BASE_URL}/opengraph-image`],
     },
   };
 }
