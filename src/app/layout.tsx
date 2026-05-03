@@ -176,6 +176,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteJsonLd) }}
         />
+        {/* Umami Analytics (privacy-friendly, no cookies) */}
+        <script
+          defer
+          src="https://umami-production-c3fa.up.railway.app/script.js"
+          data-website-id="51114115-bdcb-4e2b-a8bd-543782bc4fed"
+        />
         <Analytics />
         <SpeedInsights />
       </body>
