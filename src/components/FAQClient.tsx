@@ -109,7 +109,7 @@ const sections: Section[] = [
       },
       {
         q: "Is this an official Challenger Series website?",
-        a: <p>No. cs-stats.com is an independent fan project, not affiliated with Challenger Series. It was created to give players, coaches, agents and enthusiasts deeper insight into the league&apos;s data. If you are from the Challenger Series organization and would like to collaborate, please reach out via <a href="mailto:jordi.mariezcurrena@gmail.com" className="text-[var(--accent)] hover:underline">jordi.mariezcurrena@gmail.com</a>.</p>,
+        a: <p>No. cs-stats.com is an independent fan project, not affiliated with Challenger Series. It was created to give players, coaches, agents and enthusiasts deeper insight into the league&apos;s data. If you are from the Challenger Series organization and would like to collaborate, feel free to connect on <a href="https://www.linkedin.com/in/jordi-mariezcurrena/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-[var(--accent)] hover:underline font-medium">LinkedIn ↗</a>.</p>,
       },
     ],
   },
@@ -331,9 +331,14 @@ export default function FAQClient() {
       <div className="bg-[var(--surface)] border border-[var(--border)] rounded-xl p-5 text-sm text-[var(--muted)]">
         <span className="font-semibold text-[var(--text)]">Missing something?</span>{" "}
         If a statistic is unclear, a player profile looks wrong, or you have a suggestion,
-        reach out at{" "}
-        <a href="mailto:jordi.mariezcurrena@gmail.com" className="text-[var(--accent)] hover:underline">
-          jordi.mariezcurrena@gmail.com
+        connect via{" "}
+        <a
+          href="https://www.linkedin.com/in/jordi-mariezcurrena/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1 text-[var(--accent)] hover:underline font-medium"
+        >
+          LinkedIn ↗
         </a>.
       </div>
 
