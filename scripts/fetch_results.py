@@ -14,6 +14,7 @@ import sys
 EVENTS_URLS = [
     "https://www.challengerseries.net/events/category/tournaments/list/?eventDisplay=past",
     "https://www.challengerseries.net/events/category/tournaments/list/",
+    "https://www.challengerseries.net/tournaments/",
 ]
 RESULTS_DIR = Path(__file__).parent.parent / "results"
 HEADERS     = {"User-Agent": "Mozilla/5.0 (compatible; cs-stats-bot/1.0)"}
@@ -49,7 +50,7 @@ def get_event_links(session: requests.Session) -> list[str]:
         soup = BeautifulSoup(r.text, "html.parser")
         for a in soup.find_all("a", href=True):
             href = a["href"]
-            if "/events/" in href and href not in EVENTS_URLS and href not in links:
+            if ("/events/" in href or "/tournament/" in href) and href not in EVENTS_URLS and href not in links:
                 links.append(href)
 
     return links
@@ -99,7 +100,7 @@ def download_new_pdfs() -> int:
         if filename in existing:
             continue
 
-        print(f"  ↓ Downloading: {filename}")
+        print(f"  Downloading: {filename}")
         try:
             r = session.get(url, headers=HEADERS, timeout=30)
             r.raise_for_status()
@@ -109,7 +110,7 @@ def download_new_pdfs() -> int:
         except Exception as e:
             print(f"    Error downloading {filename}: {e}")
 
-    print(f"\n{'✓' if new_count > 0 else '—'} {new_count} new PDF(s) downloaded")
+    print(f"\n{new_count} new PDF(s) downloaded")
     return new_count
 
 
