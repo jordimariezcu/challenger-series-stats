@@ -8,6 +8,7 @@ const translations = {
     nav_advanced:   "Advanced",
     nav_h2h:        "H2H",
     nav_attendance: "Attendance",
+    nav_faq:        "FAQ",
     footer_league: "Challenger Series · Table Tennis · Germany",
 
     // Dashboard
@@ -275,6 +276,7 @@ const translations = {
     nav_advanced:   "Statistiken",
     nav_h2h:        "H2H",
     nav_attendance: "Anwesenheit",
+    nav_faq:        "FAQ",
     footer_league: "Challenger Series · Tischtennis · Deutschland",
 
     // Dashboard

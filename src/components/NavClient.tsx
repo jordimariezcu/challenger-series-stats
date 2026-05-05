@@ -14,7 +14,7 @@ export function NavClient() {
     { href: "/stats",      label: t.nav_advanced },
     { href: "/h2h",        label: t.nav_h2h },
     { href: "/attendance", label: t.nav_attendance },
-    { href: "/faq",        label: "FAQ" },
+    { href: "/faq",        label: t.nav_faq },
   ];
 
   const LangBtn = () => (
