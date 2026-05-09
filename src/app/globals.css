@@ -1,38 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --bg:      #f4f4f5;
+  --brand: #1d4ed8;
+  --brand-dark: #1e3a8a;
+  --brand-light: #3b82f6;
+  --bg: #f8fafc;
   --surface: #ffffff;
-  --surface2:#f0f0f2;
-  --border:  #e2e2e6;
-  --text:    #111111;
-  --muted:   #71717a;
-  --accent:  #da183c;
-  --accent2: #ff2d52;
-  --accent-glow: rgba(218, 24, 60, 0.15);
+  --border: #e2e8f0;
+  --text: #0f172a;
+  --text-muted: #64748b;
 }
 
 * { box-sizing: border-box; }
 
+html { scroll-behavior: smooth; }
+
 body {
-  background: var(--bg);
+  background-color: var(--bg);
   color: var(--text);
-  font-family: 'Roboto', 'helvetica neue', helvetica, arial, sans-serif;
-  font-size: 15px;
+  font-family: 'Inter', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Accent glow utility */
-.glow {
-  box-shadow: 0 0 20px var(--accent-glow);
-}
-
-/* Custom scrollbar */
 ::-webkit-scrollbar { width: 5px; height: 5px; }
-::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
-::-webkit-scrollbar-thumb:hover { background: var(--accent); }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--brand); }
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg bg-brand-700 px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-brand-800 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg border border-brand-200 bg-white px-4 py-2.5 text-sm font-semibold text-brand-700 transition-colors hover:bg-brand-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2;
+  }
+
+  .card {
+    @apply rounded-xl border border-slate-200 bg-white;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.07);
+  }
+
+  .card-hover {
+    @apply card transition-all duration-200 hover:-translate-y-0.5;
+    &:hover { box-shadow: 0 4px 12px 0 rgb(29 78 216 / 0.1); }
+  }
+
+  .input {
+    @apply w-full rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm text-slate-900 placeholder:text-slate-400 transition-colors focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/20;
+  }
+}

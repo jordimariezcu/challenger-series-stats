@@ -1,13 +1,13 @@
 {
-  "name": "challenger-series-stats",
-  "version": "0.1.0",
+  "name": "subvencions-esport",
+  "version": "1.0.0",
   "private": true,
+  "description": "Buscador de subvencions i ajuts públics d'àmbit esportiu a Espanya — dades BDNS/IGAE",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "parse": "python scripts/parse_pdfs.py"
+    "lint": "next lint"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
