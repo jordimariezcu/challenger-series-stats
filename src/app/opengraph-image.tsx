@@ -1,11 +1,22 @@
 import { ImageResponse } from "next/og";
+import { getData, getAllPlayers } from "@/lib/data";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 export const alt = "Challenger Series Stats — Table Tennis Statistics";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
 export default function Image() {
+  const { total_tournaments } = getData();
+  const players = getAllPlayers();
+  const totalMatches = players.reduce((sum, p) => sum + p.wins + p.losses, 0) / 2;
+
+  const stats = [
+    { label: "Players",     value: String(players.length) },
+    { label: "Tournaments", value: String(total_tournaments) },
+    { label: "Matches",     value: `${Math.round(totalMatches / 100) * 100}+` },
+  ];
+
   return new ImageResponse(
     (
       <div
@@ -88,11 +99,7 @@ export default function Image() {
             marginTop: 8,
           }}
         >
-          {[
-            { label: "Players", value: "233" },
-            { label: "Tournaments", value: "145" },
-            { label: "Matches", value: "4000+" },
-          ].map(({ label, value }) => (
+          {stats.map(({ label, value }) => (
             <div
               key={label}
               style={{

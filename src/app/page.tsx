@@ -5,13 +5,13 @@ import DashboardClient from "@/components/DashboardClient";
 const BASE_URL = "https://cs-stats.com";
 
 export const metadata: Metadata = {
-  title: "Dashboard",
+  title: { absolute: "Challenger Series Stats — Table Tennis Statistics Germany" },
   description:
     "Live statistics hub for the Challenger Series table tennis league in Germany. Win rates, deuce records, comeback kings, tournament champions and more.",
   alternates: { canonical: BASE_URL },
   openGraph: {
-    title: "Challenger Series Stats — Dashboard",
-    description: "Live statistics hub: top winners, deuce kings, comeback leaders, tournament champions. 233 players, 145 tournaments.",
+    title: "Challenger Series Stats — Table Tennis Statistics Germany",
+    description: "Live statistics hub: top winners, deuce kings, comeback leaders, tournament champions.",
     url: BASE_URL,
   },
   twitter: { card: "summary_large_image" },

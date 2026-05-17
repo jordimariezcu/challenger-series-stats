@@ -1,22 +1,26 @@
 import type { Metadata } from "next";
-import { getAllPlayers, playerSlug } from "@/lib/data";
+import { getAllPlayers, getData, playerSlug } from "@/lib/data";
 import PlayersClient from "@/components/PlayersClient";
 
 const BASE_URL = "https://cs-stats.com";
 
-export const metadata: Metadata = {
-  title: "Players",
-  description:
-    "All active Challenger Series players ranked by wins, win rate, deuce performance, comeback rate and earnings. 233 players, 145 tournaments.",
-  alternates: { canonical: `${BASE_URL}/players` },
-  openGraph: {
-    title: "Challenger Series — All Players",
-    description: "Rankings by wins, win rate, deuce performance, comeback rate and earnings. 233 players across 145 tournaments.",
-    url: `${BASE_URL}/players`,
-    images: [{ url: `${BASE_URL}/opengraph-image`, width: 1200, height: 630, alt: "Challenger Series Stats — Table Tennis Statistics" }],
-  },
-  twitter: { card: "summary_large_image", images: [`${BASE_URL}/opengraph-image`] },
-};
+export function generateMetadata(): Metadata {
+  const players = getAllPlayers();
+  const { total_tournaments } = getData();
+  const desc = `All active Challenger Series players ranked by wins, win rate, deuce performance, comeback rate and earnings. ${players.length} players, ${total_tournaments} tournaments.`;
+  return {
+    title: "Players",
+    description: desc,
+    alternates: { canonical: `${BASE_URL}/players` },
+    openGraph: {
+      title: "Challenger Series — All Players",
+      description: `Rankings by wins, win rate, deuce performance, comeback rate and earnings. ${players.length} players across ${total_tournaments} tournaments.`,
+      url: `${BASE_URL}/players`,
+      images: [{ url: `${BASE_URL}/opengraph-image`, width: 1200, height: 630, alt: "Challenger Series Stats — Table Tennis Statistics" }],
+    },
+    twitter: { card: "summary_large_image", images: [`${BASE_URL}/opengraph-image`] },
+  };
+}
 
 export default function PlayersPage() {
   const players = getAllPlayers();

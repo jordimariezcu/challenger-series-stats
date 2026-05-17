@@ -32,7 +32,7 @@ export async function generateMetadata({
       title: `${p.name} · Challenger Series Stats`,
       description: desc,
       url,
-      type: "profile",
+      type: "website",
       images: [
         {
           url: `${BASE_URL}/opengraph-image`,
@@ -75,7 +75,6 @@ export default async function PlayerPage({
       sport: "Table Tennis",
       url: "https://www.challengerseries.net",
     },
-    nationality: { "@type": "Place", name: "Germany" },
   };
 
   const breadcrumbJsonLd = {
