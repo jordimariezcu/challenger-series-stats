@@ -1,0 +1,36 @@
+# cs-stats.com — Challenger Series Table Tennis Statistics
+
+> Advanced statistics platform for the Challenger Series table tennis league in Germany.
+> Independent fan project, not affiliated with Challenger Series.
+
+## What this site covers
+
+- Player profiles: win/loss records, win rates, total earnings, deuce records, comeback rates
+- Head-to-head records between all active players
+- Tournament results and champion history (2024–2026)
+- Attendance data per session and venue
+- 190+ active players across 150+ tournaments
+
+## Data source
+
+Results are automatically parsed from official PDF scoresheets published by challengerseries.net after each tournament weekend. Data is updated within 24 hours of publication.
+
+## Key pages
+
+- /players — full player directory sortable by wins, win rate, earnings, deuce performance
+- /players/[slug] — individual player profile with full stats and match history
+- /h2h — head-to-head match explorer between any two players
+- /stats — advanced cross-player statistics and leaderboards
+- /attendance — venue and session attendance data
+- /faq — guide explaining all statistics and user profiles (bettor, agent, athlete/coach)
+
+## Statistics explained
+
+- Win Rate: wins / total matches (min. 20 matches for leaderboard)
+- Deuce Win Rate: sets won in deuce (10-10) / total deuce sets
+- Comeback Rate: matches won after losing first set / total such opportunities
+- Tournament Wins: number of tournament titles
+
+## Contact
+
+https://www.linkedin.com/in/jordi-mariezcurrena/
