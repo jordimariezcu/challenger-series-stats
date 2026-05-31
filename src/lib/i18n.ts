@@ -8,7 +8,8 @@ const translations = {
     nav_advanced:   "Advanced",
     nav_h2h:        "H2H",
     nav_attendance: "Attendance",
-    nav_faq:        "FAQ",
+    nav_faq:         "FAQ",
+    nav_tournaments: "Tournaments",
     footer_league: "Challenger Series · Table Tennis · Germany",
 
     // Dashboard
@@ -263,6 +264,23 @@ const translations = {
     stats_s8_title:    "💰 Top Earners — Total Prize Money",
     stats_s8_sub:      "Cumulative earnings across all tournaments. Includes participation, wins and KO bonuses.",
 
+    // Tournaments page
+    tour_title:        "Tournaments",
+    tour_subtitle:     "History",
+    tour_desc:         "Complete history of every Challenger Series tournament — champions, finalists and prize money.",
+    tour_search:       "Search player…",
+    tour_all:          "All",
+    tour_alltime:      "All-time Champion",
+    tour_alltime_sub:  "most titles",
+    tour_recent:       "Last Champion",
+    tour_recent_sub:   "most recent tournament",
+    tour_col_no:       "#",
+    tour_col_date:     "Date",
+    tour_col_winner:   "🥇 Winner",
+    tour_col_runner:   "🥈 Runner-up",
+    tour_col_third:    "🥉 3rd Place",
+    tour_col_prize:    "Prize",
+
     // Dashboard insight banner
     dash_insight_a: "Winning the first set converts to a match win {pct}% of the time. A dominant start is the strongest predictor of victory in this league.",
     dash_insight_b: "First-set winners take the match {pct}% of the time. Starting strong is a critical tactical advantage.",
@@ -276,7 +294,8 @@ const translations = {
     nav_advanced:   "Statistiken",
     nav_h2h:        "H2H",
     nav_attendance: "Anwesenheit",
-    nav_faq:        "FAQ",
+    nav_faq:         "FAQ",
+    nav_tournaments: "Turniere",
     footer_league: "Challenger Series · Tischtennis · Deutschland",
 
     // Dashboard
@@ -530,6 +549,23 @@ const translations = {
     earnings_kpi_sub:  "Preisgeld inkl. Steuer",
     stats_s8_title:    "💰 Top-Verdiener — Gesamtpreisgeld",
     stats_s8_sub:      "Kumulierte Einnahmen über alle Turniere. Inkl. Teilnahme, Siege und K.O.-Boni.",
+
+    // Tournaments page
+    tour_title:        "Turniere",
+    tour_subtitle:     "Historie",
+    tour_desc:         "Vollständige Geschichte aller Challenger Series Turniere — Sieger, Finalisten und Preisgelder.",
+    tour_search:       "Spieler suchen…",
+    tour_all:          "Alle",
+    tour_alltime:      "Ewiger Champion",
+    tour_alltime_sub:  "meiste Titel",
+    tour_recent:       "Letzter Champion",
+    tour_recent_sub:   "letztes Turnier",
+    tour_col_no:       "#",
+    tour_col_date:     "Datum",
+    tour_col_winner:   "🥇 Sieger",
+    tour_col_runner:   "🥈 Finalist",
+    tour_col_third:    "🥉 3. Platz",
+    tour_col_prize:    "Preis",
 
     // Dashboard insight banner
     dash_insight_a: "Wer den ersten Satz gewinnt, gewinnt die Partie in {pct}% der Fälle. Ein dominanter Start ist der stärkste Vorhersagefaktor in dieser Liga.",

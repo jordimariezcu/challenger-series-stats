@@ -139,3 +139,61 @@ export function getPlayer(slug: string): PlayerStats | null {
   }
   return null;
 }
+
+export interface TournamentSummary {
+  id: string;
+  date_start: string;
+  date_end: string | null;
+  winner: string;
+  runnerUp: string;
+  third: string | null;
+  participants: number;
+  matches: number;
+  winnerEarnings: number;
+  number: number; // chronological #, 1 = oldest
+}
+
+export function getAllTournamentSummaries(): TournamentSummary[] {
+  const data = getData();
+
+  // earnings map: tournament_id → player_name → earnings
+  const earningsMap: Record<string, Record<string, number>> = {};
+  for (const player of Object.values(data.players)) {
+    for (const tr of player.tournament_results) {
+      if (!earningsMap[tr.tournament_id]) earningsMap[tr.tournament_id] = {};
+      earningsMap[tr.tournament_id][player.name] = tr.earnings;
+    }
+  }
+
+  const list = data.tournaments
+    .filter((t) => t.date_start && t.matches.some((m) => m.phase === "final"))
+    .map((t) => {
+      const finalMatch = t.matches.find((m) => m.phase === "final")!;
+      const winner   = finalMatch.p1_sets > finalMatch.p2_sets ? finalMatch.player1 : finalMatch.player2;
+      const runnerUp = finalMatch.p1_sets > finalMatch.p2_sets ? finalMatch.player2 : finalMatch.player1;
+      const thirdMatch = t.matches.find((m) => m.phase === "third_place");
+      const third = thirdMatch
+        ? (thirdMatch.p1_sets > thirdMatch.p2_sets ? thirdMatch.player1 : thirdMatch.player2)
+        : null;
+      const participants = new Set(t.matches.flatMap((m) => [m.player1, m.player2])).size;
+      const winnerEarnings = earningsMap[t.id]?.[winner] ?? 0;
+      return {
+        id: t.id,
+        date_start: t.date_start!,
+        date_end: t.date_end,
+        winner,
+        runnerUp,
+        third,
+        participants,
+        matches: t.matches.length,
+        winnerEarnings,
+        number: 0, // filled below
+      };
+    })
+    .sort((a, b) => a.date_start.localeCompare(b.date_start));
+
+  // assign chronological numbers
+  list.forEach((t, i) => { t.number = i + 1; });
+
+  return list.reverse(); // newest first for display
+}

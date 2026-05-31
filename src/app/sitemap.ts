@@ -14,8 +14,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${BASE}/players`,    lastModified: dataDate, changeFrequency: "daily",  priority: 0.9 },
     { url: `${BASE}/stats`,      lastModified: dataDate, changeFrequency: "weekly", priority: 0.8 },
     { url: `${BASE}/h2h`,        lastModified: dataDate, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/attendance`, lastModified: dataDate, changeFrequency: "weekly", priority: 0.7 },
-    { url: `${BASE}/faq`,        lastModified: dataDate, changeFrequency: "monthly", priority: 0.6 },
+    { url: `${BASE}/attendance`,   lastModified: dataDate, changeFrequency: "weekly",  priority: 0.7 },
+    { url: `${BASE}/tournaments`,  lastModified: dataDate, changeFrequency: "weekly",  priority: 0.8 },
+    { url: `${BASE}/faq`,          lastModified: dataDate, changeFrequency: "monthly", priority: 0.6 },
   ];
 
   const playerRoutes: MetadataRoute.Sitemap = players.map((p) => ({
