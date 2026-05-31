@@ -185,7 +185,7 @@ export default function PartnerPage() {
             {[
               ["🔗", "Link auf challengerseries.net → cs-stats.com"],
               ["📣", "Erwähnung als offizieller Stats-Partner · Mention as official stats partner"],
-              ["💶", "Monatliche Pauschale · Monthly fee: €250/Monat"],
+              ["💶", "Monatliche Pauschale · Monthly fee: €390/Monat"],
             ].map(([icon, text]) => (
               <div key={text} className="flex gap-3 items-start">
                 <span className="shrink-0">{icon}</span>
@@ -196,10 +196,10 @@ export default function PartnerPage() {
         </div>
 
         <p className="text-xs text-[var(--muted)] mt-3 opacity-70">
-          €250/Monat entspricht weniger als einer Stunde professioneller Webentwicklung —
-          für eine Plattform, die bereits vollständig gebaut ist und funktioniert. ·
-          €250/month is less than one hour of professional web development —
-          for a platform that is already fully built and running.
+          €390/Monat entspricht weniger als 4 Stunden professioneller Webentwicklung in Deutschland —
+          für eine Plattform mit hunderten Entwicklungsstunden, die bereits vollständig läuft. ·
+          €390/month is less than 4 hours of professional web development in Germany —
+          for a platform with hundreds of development hours, already fully operational.
         </p>
       </Section>
 
