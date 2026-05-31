@@ -23,7 +23,7 @@ export function generateMetadata(): Metadata {
 }
 
 export default function PlayersPage() {
-  const players = getAllPlayers();
+  const players = getAllPlayers().sort((a, b) => b.wins - a.wins);
 
   const itemListJsonLd = {
     "@context": "https://schema.org",
@@ -33,7 +33,6 @@ export default function PlayersPage() {
     numberOfItems: players.length,
     url: `${BASE_URL}/players`,
     itemListElement: players
-      .sort((a, b) => b.wins - a.wins)
       .slice(0, 100)
       .map((p, idx) => ({
         "@type": "ListItem",
@@ -50,7 +49,7 @@ export default function PlayersPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
       />
-      <PlayersClient />
+      <PlayersClient initialPlayers={players} />
     </>
   );
 }

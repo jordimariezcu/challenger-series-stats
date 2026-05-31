@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import Link from "next/link";
 import { playerSlug } from "@/lib/utils";
 import type { PlayerStats } from "@/lib/data";
@@ -8,11 +8,10 @@ import { useLanguage } from "@/contexts/LanguageContext";
 
 type SortKey = "wins" | "win_rate" | "deuce_win_rate" | "comeback_rate" | "tournaments_played" | "total_earnings";
 
-export default function PlayersClient() {
-  const [players, setPlayers] = useState<PlayerStats[]>([]);
+export default function PlayersClient({ initialPlayers }: { initialPlayers: PlayerStats[] }) {
+  const [players] = useState<PlayerStats[]>(initialPlayers);
   const [search, setSearch] = useState("");
   const [sort, setSort] = useState<SortKey>("wins");
-  const [loading, setLoading] = useState(true);
   const { t } = useLanguage();
 
   const COLS: { key: SortKey; label: string; short: string }[] = [
@@ -23,12 +22,6 @@ export default function PlayersClient() {
     { key: "tournaments_played", label: t.sort_tourneys, short: t.col_tourneys },
     { key: "total_earnings",  label: t.sort_earnings, short: "€" },
   ];
-
-  useEffect(() => {
-    fetch("/api/players")
-      .then((r) => r.json())
-      .then((data) => { setPlayers(data); setLoading(false); });
-  }, []);
 
   const filtered = useMemo(() => {
     const q = search.toLowerCase();
@@ -42,11 +35,9 @@ export default function PlayersClient() {
       {/* Header */}
       <div className="flex items-end gap-3 mb-6">
         <h1 className="text-3xl font-black uppercase tracking-tight">{t.players_title}</h1>
-        {!loading && (
-          <span className="text-[var(--muted)] text-sm mb-1">
+        <span className="text-[var(--muted)] text-sm mb-1">
             {filtered.length} {t.players_title.toLowerCase()}
           </span>
-        )}
       </div>
 
       {/* Controls */}
@@ -79,10 +70,7 @@ export default function PlayersClient() {
         </div>
       </div>
 
-      {loading ? (
-        <div className="text-center py-24 text-[var(--muted)]">Loading…</div>
-      ) : (
-        <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
+      <div className="bg-[var(--surface)] border border-[var(--border)] rounded-lg overflow-hidden">
           {/* Table header */}
           <div className="grid grid-cols-[1fr_58px]
                           sm:grid-cols-[1fr_60px_58px_68px]
@@ -144,7 +132,6 @@ export default function PlayersClient() {
             </Link>
           ))}
         </div>
-      )}
     </div>
   );
 }
