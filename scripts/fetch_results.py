@@ -14,7 +14,6 @@ import sys
 EVENTS_URLS = [
     "https://www.challengerseries.net/events/category/tournaments/list/?eventDisplay=past",
     "https://www.challengerseries.net/events/category/tournaments/list/",
-    "https://www.challengerseries.net/tournaments/",
 ]
 RESULTS_DIR = Path(__file__).parent.parent / "results"
 HEADERS     = {"User-Agent": "Mozilla/5.0 (compatible; cs-stats-bot/1.0)"}
@@ -58,27 +57,30 @@ def get_event_links(session: requests.Session) -> list[str]:
 
 def fetch_all_pdf_links(session: requests.Session) -> list[str]:
     """
-    Two-level scrape across both list URLs:
-    1. Check all events list pages directly for PDF links
-    2. If none found, follow each individual event page
+    Two-level scrape:
+    1. Check all events list pages for PDF links
+    2. Always also follow individual event pages (catches PDFs only linked there)
     """
     pdf_links = []
 
+    # Level 1: list pages
     for url in EVENTS_URLS:
-        print(f"Scanning: {url}")
+        print(f"Scanning list: {url}")
         pdf_links.extend(get_pdf_links_from_page(url, session))
 
-    if not pdf_links:
-        print("No PDFs found on list pages — following individual event pages...")
-        event_links = get_event_links(session)
-        print(f"Found {len(event_links)} event pages to check")
-        for i, event_url in enumerate(event_links, 1):
-            print(f"  [{i}/{len(event_links)}] {event_url}")
-            pdf_links.extend(get_pdf_links_from_page(event_url, session))
-            time.sleep(0.5)
+    # Level 2: individual event/tournament pages — always run, don't short-circuit
+    # This catches PDFs that are only linked on the specific tournament page
+    event_links = get_event_links(session)
+    print(f"Scanning {len(event_links)} individual event pages...")
+    for i, event_url in enumerate(event_links, 1):
+        print(f"  [{i}/{len(event_links)}] {event_url}")
+        pdf_links.extend(get_pdf_links_from_page(event_url, session))
+        time.sleep(0.3)
 
     # Deduplicate preserving order
-    return list(dict.fromkeys(pdf_links))
+    unique = list(dict.fromkeys(pdf_links))
+    print(f"Total unique PDFs found: {len(unique)}")
+    return unique
 
 
 def download_new_pdfs() -> int:
