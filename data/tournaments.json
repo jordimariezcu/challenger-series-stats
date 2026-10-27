@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-23T18:04:33.924907",
-  "total_tournaments": 187,
-  "total_players": 259,
+  "generated_at": "2026-10-27T19:17:14.996319",
+  "total_tournaments": 188,
+  "total_players": 260,
   "tournaments": [
     {
       "id": "Timetable-Tournament-18.06.2024",
@@ -164412,6 +164412,887 @@
           "phase": "final"
         }
       ]
+    },
+    {
+      "id": "Timetable-Tournament-26.10.-27.10.2026",
+      "filename": "Timetable-Tournament-26.10.-27.10.2026.pdf",
+      "date_start": "2026-10-26",
+      "date_end": "2026-10-27",
+      "players": [],
+      "matches": [
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              8,
+              30
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              8
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 2,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Schmitt, Cosmo",
+          "sets": [
+            [
+              9,
+              0
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              3,
+              11
+            ]
+          ],
+          "p1_sets": 2,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Reichelt, Christian",
+          "player2": "Almeida, Siddharta",
+          "sets": [
+            [
+              9,
+              30
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "p1_sets": 1,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Hübner, Lars",
+          "player2": "Koloidenko, Pylyp",
+          "sets": [
+            [
+              10,
+              0
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "p1_sets": 2,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Kraus, Luis",
+          "sets": [
+            [
+              10,
+              30
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              3
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 1,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Reichelt, Christian",
+          "player2": "Schmitt, Cosmo",
+          "sets": [
+            [
+              11,
+              0
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              9
+            ]
+          ],
+          "p1_sets": 4,
+          "p2_sets": 0,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Hübner, Lars",
+          "player2": "Almeida, Siddharta",
+          "sets": [
+            [
+              11,
+              30
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              11
+            ]
+          ],
+          "p1_sets": 0,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Koloidenko, Pylyp",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              12,
+              0
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              12,
+              14
+            ]
+          ],
+          "p1_sets": 1,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Reichelt, Christian",
+          "sets": [
+            [
+              12,
+              30
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 1,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              13,
+              0
+            ],
+            [
+              14,
+              16
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "p1_sets": 2,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Koloidenko, Pylyp",
+          "player2": "Almeida, Siddharta",
+          "sets": [
+            [
+              13,
+              30
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              7,
+              11
+            ]
+          ],
+          "p1_sets": 0,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Hübner, Lars",
+          "player2": "Schmitt, Cosmo",
+          "sets": [
+            [
+              14,
+              0
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              11,
+              5
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "p1_sets": 4,
+          "p2_sets": 2,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Reichelt, Christian",
+          "sets": [
+            [
+              14,
+              30
+            ],
+            [
+              12,
+              10
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 1,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Almeida, Siddharta",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              15,
+              0
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Koloidenko, Pylyp",
+          "player2": "Schmitt, Cosmo",
+          "sets": [
+            [
+              15,
+              30
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              11,
+              8
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 1,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Hübner, Lars",
+          "sets": [
+            [
+              16,
+              0
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "p1_sets": 4,
+          "p2_sets": 1,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Reichelt, Christian",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              16,
+              30
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              12,
+              14
+            ]
+          ],
+          "p1_sets": 0,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Koloidenko, Pylyp",
+          "sets": [
+            [
+              17,
+              0
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "p1_sets": 4,
+          "p2_sets": 0,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Almeida, Siddharta",
+          "player2": "Schmitt, Cosmo",
+          "sets": [
+            [
+              17,
+              30
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              12,
+              10
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 2,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Hübner, Lars",
+          "sets": [
+            [
+              18,
+              0
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              1
+            ]
+          ],
+          "p1_sets": 4,
+          "p2_sets": 0,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Reichelt, Christian",
+          "player2": "Koloidenko, Pylyp",
+          "sets": [
+            [
+              18,
+              30
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              6,
+              11
+            ]
+          ],
+          "p1_sets": 0,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Almeida, Siddharta",
+          "sets": [
+            [
+              19,
+              0
+            ],
+            [
+              9,
+              11
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          "p1_sets": 1,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Hübner, Lars",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              19,
+              30
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              3,
+              11
+            ],
+            [
+              5,
+              11
+            ]
+          ],
+          "p1_sets": 0,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Koloidenko, Pylyp",
+          "sets": [
+            [
+              8,
+              30
+            ],
+            [
+              11,
+              4
+            ],
+            [
+              11,
+              2
+            ],
+            [
+              11,
+              5
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 1,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Schmitt, Cosmo",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              9,
+              0
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "p1_sets": 1,
+          "p2_sets": 3,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Reichelt, Christian",
+          "player2": "Hübner, Lars",
+          "sets": [
+            [
+              9,
+              30
+            ],
+            [
+              11,
+              5
+            ],
+            [
+              10,
+              12
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              7
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 2,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Lam, Nathan",
+          "player2": "Schmitt, Cosmo",
+          "sets": [
+            [
+              10,
+              0
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              12,
+              10
+            ]
+          ],
+          "p1_sets": 4,
+          "p2_sets": 0,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Almeida, Siddharta",
+          "sets": [
+            [
+              10,
+              30
+            ],
+            [
+              13,
+              15
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "p1_sets": 1,
+          "p2_sets": 4,
+          "phase": "round_robin"
+        },
+        {
+          "player1": "Almeida, Siddharta",
+          "player2": "Kraus, Luis",
+          "sets": [
+            [
+              11,
+              15
+            ],
+            [
+              8,
+              11
+            ],
+            [
+              11,
+              3
+            ],
+            [
+              11,
+              6
+            ],
+            [
+              11,
+              5
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 2,
+          "phase": "semifinal"
+        },
+        {
+          "player1": "Mousavi, Mohamad",
+          "player2": "Lam, Nathan",
+          "sets": [
+            [
+              11,
+              45
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              11,
+              13
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              11,
+              8
+            ],
+            [
+              8,
+              11
+            ]
+          ],
+          "p1_sets": 2,
+          "p2_sets": 4,
+          "phase": "semifinal"
+        },
+        {
+          "player1": "Kraus, Luis",
+          "player2": "Mousavi, Mohamad",
+          "sets": [
+            [
+              12,
+              40
+            ],
+            [
+              5,
+              11
+            ],
+            [
+              7,
+              11
+            ],
+            [
+              4,
+              11
+            ]
+          ],
+          "p1_sets": 0,
+          "p2_sets": 4,
+          "phase": "third_place"
+        },
+        {
+          "player1": "Almeida, Siddharta",
+          "player2": "Lam, Nathan",
+          "sets": [
+            [
+              13,
+              0
+            ],
+            [
+              6,
+              11
+            ],
+            [
+              11,
+              9
+            ],
+            [
+              4,
+              11
+            ],
+            [
+              11,
+              7
+            ],
+            [
+              9,
+              11
+            ]
+          ],
+          "p1_sets": 3,
+          "p2_sets": 3,
+          "phase": "final"
+        }
+      ]
     }
   ],
   "players": {
@@ -164460,10 +165341,10 @@
       "tournament_wins": 3,
       "tournaments_played": 47,
       "total_earnings": 14205,
-      "attendance_rate": 25.1,
+      "attendance_rate": 25.0,
       "current_streak": 0,
       "longest_streak": 4,
-      "tournaments_since": 6,
+      "tournaments_since": 7,
       "last_seen": "2026-09-28",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -165692,7 +166573,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 20,
+      "tournaments_since": 21,
       "last_seen": "2026-07-27",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -166061,7 +166942,7 @@
       "attendance_rate": 5.9,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -166560,7 +167441,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 130,
+      "tournaments_since": 131,
       "last_seen": "2025-03-10",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -166781,7 +167662,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 11,
+      "tournaments_since": 12,
       "last_seen": "2026-09-11",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -166956,7 +167837,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 185,
+      "tournaments_since": 186,
       "last_seen": "2024-06-24",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -167138,10 +168019,10 @@
       "tournament_wins": 1,
       "tournaments_played": 17,
       "total_earnings": 6330,
-      "attendance_rate": 9.1,
+      "attendance_rate": 9.0,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 148,
+      "tournaments_since": 149,
       "last_seen": "2024-12-09",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -167730,7 +168611,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 186,
+      "tournaments_since": 187,
       "last_seen": "2024-06-18",
       "first_seen": "2024-06-18",
       "h2h": {
@@ -167869,7 +168750,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 184,
+      "tournaments_since": 185,
       "last_seen": "2024-06-27",
       "first_seen": "2024-06-24",
       "h2h": {
@@ -168048,7 +168929,7 @@
       "attendance_rate": 14.4,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2024-06-24",
       "h2h": {
@@ -168876,10 +169757,10 @@
       "tournament_wins": 14,
       "tournaments_played": 47,
       "total_earnings": 28890,
-      "attendance_rate": 25.1,
-      "current_streak": 1,
+      "attendance_rate": 25.0,
+      "current_streak": 0,
       "longest_streak": 4,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2024-06-24",
       "h2h": {
@@ -170171,10 +171052,10 @@
       "tournament_wins": 2,
       "tournaments_played": 16,
       "total_earnings": 7695,
-      "attendance_rate": 8.6,
+      "attendance_rate": 8.5,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 36,
+      "tournaments_since": 37,
       "last_seen": "2026-05-14",
       "first_seen": "2024-06-24",
       "h2h": {
@@ -170772,10 +171653,10 @@
       "tournament_wins": 12,
       "tournaments_played": 46,
       "total_earnings": 26235,
-      "attendance_rate": 24.6,
+      "attendance_rate": 24.5,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 14,
+      "tournaments_since": 15,
       "last_seen": "2026-08-24",
       "first_seen": "2024-06-24",
       "h2h": {
@@ -172024,7 +172905,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 168,
+      "tournaments_since": 169,
       "last_seen": "2024-09-05",
       "first_seen": "2024-06-24",
       "h2h": {
@@ -172320,10 +173201,10 @@
       "tournament_wins": 1,
       "tournaments_played": 28,
       "total_earnings": 11655,
-      "attendance_rate": 15.0,
+      "attendance_rate": 14.9,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 9,
+      "tournaments_since": 10,
       "last_seen": "2026-09-17",
       "first_seen": "2024-06-27",
       "h2h": {
@@ -173227,10 +174108,10 @@
       "tournament_wins": 0,
       "tournaments_played": 36,
       "total_earnings": 7530,
-      "attendance_rate": 19.3,
+      "attendance_rate": 19.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 3,
+      "tournaments_since": 4,
       "last_seen": "2026-10-12",
       "first_seen": "2024-06-27",
       "h2h": {
@@ -174255,7 +175136,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 68,
+      "tournaments_since": 69,
       "last_seen": "2025-12-22",
       "first_seen": "2024-06-27",
       "h2h": {
@@ -174452,7 +175333,7 @@
       "attendance_rate": 8.0,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 14,
+      "tournaments_since": 15,
       "last_seen": "2026-08-24",
       "first_seen": "2024-07-01",
       "h2h": {
@@ -175061,7 +175942,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 165,
+      "tournaments_since": 166,
       "last_seen": "2024-09-16",
       "first_seen": "2024-07-01",
       "h2h": {
@@ -175360,7 +176241,7 @@
       "attendance_rate": 5.3,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 134,
+      "tournaments_since": 135,
       "last_seen": "2025-02-17",
       "first_seen": "2024-07-01",
       "h2h": {
@@ -175795,7 +176676,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 182,
+      "tournaments_since": 183,
       "last_seen": "2024-07-04",
       "first_seen": "2024-07-01",
       "h2h": {
@@ -175974,7 +176855,7 @@
       "attendance_rate": 5.3,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 44,
+      "tournaments_since": 45,
       "last_seen": "2026-04-13",
       "first_seen": "2024-07-01",
       "h2h": {
@@ -176433,7 +177314,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 182,
+      "tournaments_since": 183,
       "last_seen": "2024-07-04",
       "first_seen": "2024-07-04",
       "h2h": {
@@ -176578,7 +177459,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 40,
+      "tournaments_since": 41,
       "last_seen": "2026-04-30",
       "first_seen": "2024-07-04",
       "h2h": {
@@ -176941,7 +177822,7 @@
       "attendance_rate": 4.3,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 148,
+      "tournaments_since": 149,
       "last_seen": "2024-12-09",
       "first_seen": "2024-07-04",
       "h2h": {
@@ -177332,7 +178213,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 182,
+      "tournaments_since": 183,
       "last_seen": "2024-07-04",
       "first_seen": "2024-07-04",
       "h2h": {
@@ -177467,7 +178348,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 182,
+      "tournaments_since": 183,
       "last_seen": "2024-07-04",
       "first_seen": "2024-07-04",
       "h2h": {
@@ -177545,10 +178426,10 @@
       "tournament_wins": 12,
       "tournaments_played": 40,
       "total_earnings": 23925,
-      "attendance_rate": 21.4,
+      "attendance_rate": 21.3,
       "current_streak": 0,
       "longest_streak": 4,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2024-07-08",
       "h2h": {
@@ -178667,7 +179548,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 181,
+      "tournaments_since": 182,
       "last_seen": "2024-07-08",
       "first_seen": "2024-07-08",
       "h2h": {
@@ -178809,10 +179690,10 @@
       "tournament_wins": 4,
       "tournaments_played": 13,
       "total_earnings": 7140,
-      "attendance_rate": 7.0,
+      "attendance_rate": 6.9,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 5,
+      "tournaments_since": 6,
       "last_seen": "2026-10-05",
       "first_seen": "2024-07-08",
       "h2h": {
@@ -179332,10 +180213,10 @@
       "tournament_wins": 0,
       "tournaments_played": 63,
       "total_earnings": 11295,
-      "attendance_rate": 33.7,
-      "current_streak": 1,
+      "attendance_rate": 33.5,
+      "current_streak": 0,
       "longest_streak": 4,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2024-07-08",
       "h2h": {
@@ -180838,7 +181719,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 76,
+      "tournaments_since": 77,
       "last_seen": "2025-11-13",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181087,7 +181968,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 156,
+      "tournaments_since": 157,
       "last_seen": "2024-10-28",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181308,7 +182189,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181437,7 +182318,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181508,7 +182389,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181579,7 +182460,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181650,7 +182531,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181721,7 +182602,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181792,7 +182673,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181863,7 +182744,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 180,
+      "tournaments_since": 181,
       "last_seen": "2024-07-11",
       "first_seen": "2024-07-11",
       "h2h": {
@@ -181944,7 +182825,7 @@
       "attendance_rate": 17.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 1,
+      "tournaments_since": 2,
       "last_seen": "2026-10-19",
       "first_seen": "2024-07-15",
       "h2h": {
@@ -182873,7 +183754,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 179,
+      "tournaments_since": 180,
       "last_seen": "2024-07-15",
       "first_seen": "2024-07-15",
       "h2h": {
@@ -183008,7 +183889,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 179,
+      "tournaments_since": 180,
       "last_seen": "2024-07-15",
       "first_seen": "2024-07-15",
       "h2h": {
@@ -183150,10 +184031,10 @@
       "tournament_wins": 3,
       "tournaments_played": 37,
       "total_earnings": 14055,
-      "attendance_rate": 19.8,
+      "attendance_rate": 19.7,
       "current_streak": 0,
       "longest_streak": 4,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2024-07-22",
       "h2h": {
@@ -184246,7 +185127,7 @@
       "attendance_rate": 4.8,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 73,
+      "tournaments_since": 74,
       "last_seen": "2025-12-01",
       "first_seen": "2024-07-22",
       "h2h": {
@@ -184696,10 +185577,10 @@
       "tournament_wins": 7,
       "tournaments_played": 32,
       "total_earnings": 19920,
-      "attendance_rate": 17.1,
+      "attendance_rate": 17.0,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 22,
+      "tournaments_since": 23,
       "last_seen": "2026-07-20",
       "first_seen": "2024-07-29",
       "h2h": {
@@ -185715,10 +186596,10 @@
       "tournament_wins": 0,
       "tournaments_played": 19,
       "total_earnings": 4245,
-      "attendance_rate": 10.2,
+      "attendance_rate": 10.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 1,
+      "tournaments_since": 2,
       "last_seen": "2026-10-19",
       "first_seen": "2024-07-29",
       "h2h": {
@@ -186417,7 +187298,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 167,
+      "tournaments_since": 168,
       "last_seen": "2024-09-09",
       "first_seen": "2024-07-29",
       "h2h": {
@@ -186605,10 +187486,10 @@
       "tournament_wins": 3,
       "tournaments_played": 26,
       "total_earnings": 13365,
-      "attendance_rate": 13.9,
+      "attendance_rate": 13.8,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 38,
+      "tournaments_since": 39,
       "last_seen": "2026-05-07",
       "first_seen": "2024-08-05",
       "h2h": {
@@ -187441,7 +188322,7 @@
       "attendance_rate": 4.8,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 12,
+      "tournaments_since": 13,
       "last_seen": "2026-09-08",
       "first_seen": "2024-08-05",
       "h2h": {
@@ -187885,10 +188766,10 @@
       "tournament_wins": 7,
       "tournaments_played": 19,
       "total_earnings": 11325,
-      "attendance_rate": 10.2,
+      "attendance_rate": 10.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 8,
+      "tournaments_since": 9,
       "last_seen": "2026-09-21",
       "first_seen": "2024-08-08",
       "h2h": {
@@ -188551,7 +189432,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 175,
+      "tournaments_since": 176,
       "last_seen": "2024-08-08",
       "first_seen": "2024-08-08",
       "h2h": {
@@ -188696,7 +189577,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 81,
+      "tournaments_since": 82,
       "last_seen": "2025-10-23",
       "first_seen": "2024-08-12",
       "h2h": {
@@ -189041,7 +189922,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 169,
+      "tournaments_since": 170,
       "last_seen": "2024-09-02",
       "first_seen": "2024-08-12",
       "h2h": {
@@ -189229,10 +190110,10 @@
       "tournament_wins": 0,
       "tournaments_played": 17,
       "total_earnings": 6240,
-      "attendance_rate": 9.1,
+      "attendance_rate": 9.0,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 16,
+      "tournaments_since": 17,
       "last_seen": "2026-08-13",
       "first_seen": "2024-08-12",
       "h2h": {
@@ -189885,7 +190766,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 80,
+      "tournaments_since": 81,
       "last_seen": "2025-10-27",
       "first_seen": "2024-08-12",
       "h2h": {
@@ -190066,7 +190947,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 172,
+      "tournaments_since": 173,
       "last_seen": "2024-08-19",
       "first_seen": "2024-08-12",
       "h2h": {
@@ -190247,7 +191128,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 173,
+      "tournaments_since": 174,
       "last_seen": "2024-08-15",
       "first_seen": "2024-08-15",
       "h2h": {
@@ -190390,9 +191271,9 @@
       "tournaments_played": 21,
       "total_earnings": 16620,
       "attendance_rate": 11.2,
-      "current_streak": 3,
+      "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2024-08-15",
       "h2h": {
@@ -191079,7 +191960,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 171,
+      "tournaments_since": 172,
       "last_seen": "2024-08-22",
       "first_seen": "2024-08-19",
       "h2h": {
@@ -191261,10 +192142,10 @@
       "tournament_wins": 2,
       "tournaments_played": 37,
       "total_earnings": 16170,
-      "attendance_rate": 19.8,
+      "attendance_rate": 19.7,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 3,
+      "tournaments_since": 4,
       "last_seen": "2026-10-12",
       "first_seen": "2024-08-19",
       "h2h": {
@@ -192333,7 +193214,7 @@
       "attendance_rate": 3.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 129,
+      "tournaments_since": 130,
       "last_seen": "2025-03-13",
       "first_seen": "2024-08-19",
       "h2h": {
@@ -192694,7 +193575,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 150,
+      "tournaments_since": 151,
       "last_seen": "2024-11-28",
       "first_seen": "2024-08-19",
       "h2h": {
@@ -193021,7 +193902,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 121,
+      "tournaments_since": 122,
       "last_seen": "2025-04-17",
       "first_seen": "2024-08-22",
       "h2h": {
@@ -193298,7 +194179,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 145,
+      "tournaments_since": 146,
       "last_seen": "2024-12-19",
       "first_seen": "2024-08-29",
       "h2h": {
@@ -193511,7 +194392,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 17,
+      "tournaments_since": 18,
       "last_seen": "2026-08-10",
       "first_seen": "2024-08-29",
       "h2h": {
@@ -193862,7 +194743,7 @@
       "attendance_rate": 8.0,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 53,
+      "tournaments_since": 54,
       "last_seen": "2026-03-09",
       "first_seen": "2024-09-02",
       "h2h": {
@@ -194453,7 +195334,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 140,
+      "tournaments_since": 141,
       "last_seen": "2025-01-16",
       "first_seen": "2024-09-05",
       "h2h": {
@@ -194724,7 +195605,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 134,
+      "tournaments_since": 135,
       "last_seen": "2025-02-17",
       "first_seen": "2024-09-09",
       "h2h": {
@@ -194995,7 +195876,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 108,
+      "tournaments_since": 109,
       "last_seen": "2025-06-16",
       "first_seen": "2024-09-09",
       "h2h": {
@@ -195222,7 +196103,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 166,
+      "tournaments_since": 167,
       "last_seen": "2024-09-12",
       "first_seen": "2024-09-12",
       "h2h": {
@@ -195364,10 +196245,10 @@
       "tournament_wins": 0,
       "tournaments_played": 20,
       "total_earnings": 6150,
-      "attendance_rate": 10.7,
+      "attendance_rate": 10.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 10,
+      "tournaments_since": 11,
       "last_seen": "2026-09-14",
       "first_seen": "2024-09-12",
       "h2h": {
@@ -196100,7 +196981,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 162,
+      "tournaments_since": 163,
       "last_seen": "2024-09-30",
       "first_seen": "2024-09-12",
       "h2h": {
@@ -196281,7 +197162,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 165,
+      "tournaments_since": 166,
       "last_seen": "2024-09-16",
       "first_seen": "2024-09-16",
       "h2h": {
@@ -196426,7 +197307,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 164,
+      "tournaments_since": 165,
       "last_seen": "2024-09-19",
       "first_seen": "2024-09-16",
       "h2h": {
@@ -196601,7 +197482,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 165,
+      "tournaments_since": 166,
       "last_seen": "2024-09-16",
       "first_seen": "2024-09-16",
       "h2h": {
@@ -196743,10 +197624,10 @@
       "tournament_wins": 0,
       "tournaments_played": 13,
       "total_earnings": 4830,
-      "attendance_rate": 7.0,
+      "attendance_rate": 6.9,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 3,
+      "tournaments_since": 4,
       "last_seen": "2026-10-12",
       "first_seen": "2024-09-16",
       "h2h": {
@@ -197278,10 +198159,10 @@
       "tournament_wins": 0,
       "tournaments_played": 13,
       "total_earnings": 4530,
-      "attendance_rate": 7.0,
+      "attendance_rate": 6.9,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2024-09-19",
       "h2h": {
@@ -197806,7 +198687,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 164,
+      "tournaments_since": 165,
       "last_seen": "2024-09-19",
       "first_seen": "2024-09-19",
       "h2h": {
@@ -197951,7 +198832,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 149,
+      "tournaments_since": 150,
       "last_seen": "2024-12-02",
       "first_seen": "2024-09-26",
       "h2h": {
@@ -198259,10 +199140,10 @@
       "tournament_wins": 0,
       "tournaments_played": 16,
       "total_earnings": 2625,
-      "attendance_rate": 8.6,
+      "attendance_rate": 8.5,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 11,
+      "tournaments_since": 12,
       "last_seen": "2026-09-11",
       "first_seen": "2024-09-26",
       "h2h": {
@@ -198877,7 +199758,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 162,
+      "tournaments_since": 163,
       "last_seen": "2024-09-30",
       "first_seen": "2024-09-30",
       "h2h": {
@@ -199022,7 +199903,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 47,
+      "tournaments_since": 48,
       "last_seen": "2026-04-02",
       "first_seen": "2024-10-03",
       "h2h": {
@@ -199253,7 +200134,7 @@
       "attendance_rate": 6.4,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 45,
+      "tournaments_since": 46,
       "last_seen": "2026-04-09",
       "first_seen": "2024-10-03",
       "h2h": {
@@ -199766,7 +200647,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 75,
+      "tournaments_since": 76,
       "last_seen": "2025-11-17",
       "first_seen": "2024-10-07",
       "h2h": {
@@ -200089,7 +200970,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 56,
+      "tournaments_since": 57,
       "last_seen": "2026-02-26",
       "first_seen": "2024-10-07",
       "h2h": {
@@ -200430,7 +201311,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 159,
+      "tournaments_since": 160,
       "last_seen": "2024-10-14",
       "first_seen": "2024-10-14",
       "h2h": {
@@ -200575,7 +201456,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 43,
+      "tournaments_since": 44,
       "last_seen": "2026-04-16",
       "first_seen": "2024-10-17",
       "h2h": {
@@ -200828,7 +201709,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 126,
+      "tournaments_since": 127,
       "last_seen": "2025-03-27",
       "first_seen": "2024-10-21",
       "h2h": {
@@ -201043,7 +201924,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 156,
+      "tournaments_since": 157,
       "last_seen": "2024-10-28",
       "first_seen": "2024-10-28",
       "h2h": {
@@ -201178,7 +202059,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 155,
+      "tournaments_since": 156,
       "last_seen": "2024-11-04",
       "first_seen": "2024-11-04",
       "h2h": {
@@ -201314,10 +202195,10 @@
       "tournament_wins": 1,
       "tournaments_played": 13,
       "total_earnings": 5625,
-      "attendance_rate": 7.0,
+      "attendance_rate": 6.9,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 26,
+      "tournaments_since": 27,
       "last_seen": "2026-06-29",
       "first_seen": "2024-11-04",
       "h2h": {
@@ -201864,7 +202745,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 3,
+      "tournaments_since": 4,
       "last_seen": "2026-10-12",
       "first_seen": "2024-11-11",
       "h2h": {
@@ -202095,7 +202976,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 48,
+      "tournaments_since": 49,
       "last_seen": "2026-03-30",
       "first_seen": "2024-11-11",
       "h2h": {
@@ -202400,34 +203281,34 @@
     },
     "Koloidenko, Pylyp": {
       "name": "Koloidenko, Pylyp",
-      "total_matches": 253,
-      "wins": 61,
-      "losses": 192,
-      "win_rate": 24.1,
-      "sets_won": 488,
-      "sets_lost": 728,
-      "deuce_won": 119,
-      "deuce_total": 249,
-      "deuce_win_rate": 47.8,
-      "first_set_total": 253,
-      "first_set_win_match_win": 28,
-      "comeback_chances": 125,
-      "comeback_wins": 33,
-      "comeback_rate": 26.4,
-      "wins_2_0": 10,
-      "wins_2_1": 28,
-      "losses_0_2": 36,
-      "losses_1_2": 71,
+      "total_matches": 260,
+      "wins": 64,
+      "losses": 196,
+      "win_rate": 24.6,
+      "sets_won": 500,
+      "sets_lost": 745,
+      "deuce_won": 120,
+      "deuce_total": 254,
+      "deuce_win_rate": 47.2,
+      "first_set_total": 260,
+      "first_set_win_match_win": 29,
+      "comeback_chances": 129,
+      "comeback_wins": 35,
+      "comeback_rate": 27.1,
+      "wins_2_0": 11,
+      "wins_2_1": 29,
+      "losses_0_2": 38,
+      "losses_1_2": 73,
       "ko_wins": 0,
       "ko_losses": 2,
       "ko_total": 2,
-      "group_wins": 59,
-      "group_losses": 189,
-      "group_total": 248,
+      "group_wins": 62,
+      "group_losses": 193,
+      "group_total": 255,
       "clutch_rate": null,
-      "group_win_rate": 23.8,
-      "form_last10": 20.0,
-      "form_trend": -4.1,
+      "group_win_rate": 24.3,
+      "form_last10": 30.0,
+      "form_trend": 5.4,
       "best_victim": {
         "name": "Colvin, Tom",
         "wins": 3,
@@ -202441,13 +203322,13 @@
         "win_pct": 0.0
       },
       "tournament_wins": 1,
-      "tournaments_played": 36,
-      "total_earnings": 7650,
-      "attendance_rate": 19.3,
-      "current_streak": 0,
+      "tournaments_played": 37,
+      "total_earnings": 7905,
+      "attendance_rate": 19.7,
+      "current_streak": 1,
       "longest_streak": 3,
-      "tournaments_since": 5,
-      "last_seen": "2026-10-05",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2024-11-11",
       "h2h": {
         "Mosiuk, Mykhailo": {
@@ -202626,9 +203507,9 @@
         },
         "Mousavi, Mohamad": {
           "wins": 0,
-          "losses": 2,
-          "sets_won": 2,
-          "sets_lost": 8
+          "losses": 3,
+          "sets_won": 3,
+          "sets_lost": 11
         },
         "Calderon, Andre": {
           "wins": 0,
@@ -202728,9 +203609,9 @@
         },
         "Almeida, Siddharta": {
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "sets_won": 2,
-          "sets_lost": 3
+          "sets_lost": 7
         },
         "Turrini, Rafael Vinicius": {
           "wins": 0,
@@ -202841,10 +203722,10 @@
           "sets_lost": 3
         },
         "Schmitt, Cosmo": {
-          "wins": 0,
+          "wins": 1,
           "losses": 2,
-          "sets_won": 4,
-          "sets_lost": 6
+          "sets_won": 7,
+          "sets_lost": 7
         },
         "Schäfer, Lorenz": {
           "wins": 0,
@@ -202884,9 +203765,9 @@
         },
         "Kraus, Luis": {
           "wins": 1,
-          "losses": 3,
-          "sets_won": 7,
-          "sets_lost": 11
+          "losses": 4,
+          "sets_won": 8,
+          "sets_lost": 14
         },
         "Moreno, Alex": {
           "wins": 4,
@@ -202896,9 +203777,9 @@
         },
         "Lam, Nathan": {
           "wins": 0,
-          "losses": 1,
+          "losses": 2,
           "sets_won": 0,
-          "sets_lost": 4
+          "sets_lost": 8
         },
         "Luu, Finn": {
           "wins": 0,
@@ -203001,46 +203882,68 @@
           "losses": 1,
           "sets_won": 0,
           "sets_lost": 4
+        },
+        "Hübner, Lars": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 3,
+          "sets_lost": 2
+        },
+        "Reichelt, Christian": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 0
         }
       },
       "recent_5": [
         {
-          "date": "2026-10-05",
-          "opponent": "Zimmermann, Karl",
-          "won": false,
-          "score": "2:3",
-          "tournament_id": "Timetable-Tournament-05.10.-06.10.2026"
+          "date": "2026-10-26",
+          "opponent": "Hübner, Lars",
+          "won": true,
+          "score": "3:2",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-05",
-          "opponent": "Löffler, Jeromy",
+          "date": "2026-10-26",
+          "opponent": "Mousavi, Mohamad",
           "won": false,
-          "score": "1:4",
-          "tournament_id": "Timetable-Tournament-05.10.-06.10.2026"
+          "score": "1:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-05",
-          "opponent": "Mendes, Enio",
+          "date": "2026-10-26",
+          "opponent": "Almeida, Siddharta",
           "won": false,
           "score": "0:4",
-          "tournament_id": "Timetable-Tournament-05.10.-06.10.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-05",
-          "opponent": "Naplokov, Oleksii",
+          "date": "2026-10-26",
+          "opponent": "Schmitt, Cosmo",
           "won": true,
           "score": "3:1",
-          "tournament_id": "Timetable-Tournament-05.10.-06.10.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-05",
-          "opponent": "Besnier, Celian",
+          "date": "2026-10-26",
+          "opponent": "Lam, Nathan",
           "won": false,
-          "score": "2:3",
-          "tournament_id": "Timetable-Tournament-05.10.-06.10.2026"
+          "score": "0:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 5,
+          "matches_won": 3,
+          "matches_lost": 4,
+          "sets_won": 12,
+          "sets_lost": 17,
+          "earnings": 255
+        },
         {
           "tournament_id": "Timetable-Tournament-05.10.-06.10.2026",
           "date": "2026-10-05",
@@ -203441,7 +204344,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 153,
+      "tournaments_since": 154,
       "last_seen": "2024-11-14",
       "first_seen": "2024-11-14",
       "h2h": {
@@ -203576,7 +204479,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 152,
+      "tournaments_since": 153,
       "last_seen": "2024-11-18",
       "first_seen": "2024-11-14",
       "h2h": {
@@ -203763,7 +204666,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 151,
+      "tournaments_since": 152,
       "last_seen": "2024-11-25",
       "first_seen": "2024-11-25",
       "h2h": {
@@ -203898,7 +204801,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 149,
+      "tournaments_since": 150,
       "last_seen": "2024-12-02",
       "first_seen": "2024-12-02",
       "h2h": {
@@ -204043,7 +204946,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 42,
+      "tournaments_since": 43,
       "last_seen": "2026-04-20",
       "first_seen": "2024-12-09",
       "h2h": {
@@ -204228,7 +205131,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 147,
+      "tournaments_since": 148,
       "last_seen": "2024-12-12",
       "first_seen": "2024-12-09",
       "h2h": {
@@ -204409,7 +205312,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 50,
+      "tournaments_since": 51,
       "last_seen": "2026-03-19",
       "first_seen": "2024-12-12",
       "h2h": {
@@ -204736,7 +205639,7 @@
       "attendance_rate": 6.4,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 47,
+      "tournaments_since": 48,
       "last_seen": "2026-04-02",
       "first_seen": "2024-12-16",
       "h2h": {
@@ -205209,7 +206112,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2024-12-16",
       "h2h": {
@@ -205398,7 +206301,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2024-12-16",
       "h2h": {
@@ -205641,7 +206544,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 146,
+      "tournaments_since": 147,
       "last_seen": "2024-12-16",
       "first_seen": "2024-12-16",
       "h2h": {
@@ -205722,7 +206625,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 61,
+      "tournaments_since": 62,
       "last_seen": "2026-02-02",
       "first_seen": "2024-12-19",
       "h2h": {
@@ -206021,7 +206924,7 @@
       "attendance_rate": 4.3,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 14,
+      "tournaments_since": 15,
       "last_seen": "2026-08-24",
       "first_seen": "2025-01-02",
       "h2h": {
@@ -206431,10 +207334,10 @@
       "tournament_wins": 0,
       "tournaments_played": 32,
       "total_earnings": 8400,
-      "attendance_rate": 17.1,
+      "attendance_rate": 17.0,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 1,
+      "tournaments_since": 2,
       "last_seen": "2026-10-19",
       "first_seen": "2025-01-02",
       "h2h": {
@@ -207311,7 +208214,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 144,
+      "tournaments_since": 145,
       "last_seen": "2025-01-02",
       "first_seen": "2025-01-02",
       "h2h": {
@@ -207446,7 +208349,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 17,
+      "tournaments_since": 18,
       "last_seen": "2026-08-10",
       "first_seen": "2025-01-02",
       "h2h": {
@@ -207627,7 +208530,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 130,
+      "tournaments_since": 131,
       "last_seen": "2025-03-10",
       "first_seen": "2025-01-06",
       "h2h": {
@@ -207858,7 +208761,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 84,
+      "tournaments_since": 85,
       "last_seen": "2025-10-06",
       "first_seen": "2025-01-13",
       "h2h": {
@@ -208159,7 +209062,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 124,
+      "tournaments_since": 125,
       "last_seen": "2025-04-07",
       "first_seen": "2025-01-16",
       "h2h": {
@@ -208406,7 +209309,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 124,
+      "tournaments_since": 125,
       "last_seen": "2025-04-07",
       "first_seen": "2025-01-16",
       "h2h": {
@@ -208607,7 +209510,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 140,
+      "tournaments_since": 141,
       "last_seen": "2025-01-16",
       "first_seen": "2025-01-16",
       "h2h": {
@@ -208678,7 +209581,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 139,
+      "tournaments_since": 140,
       "last_seen": "2025-01-20",
       "first_seen": "2025-01-20",
       "h2h": {
@@ -208820,10 +209723,10 @@
       "tournament_wins": 25,
       "tournaments_played": 41,
       "total_earnings": 29895,
-      "attendance_rate": 21.9,
+      "attendance_rate": 21.8,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 1,
+      "tournaments_since": 2,
       "last_seen": "2026-10-19",
       "first_seen": "2025-01-27",
       "h2h": {
@@ -209884,7 +210787,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 127,
+      "tournaments_since": 128,
       "last_seen": "2025-03-24",
       "first_seen": "2025-02-03",
       "h2h": {
@@ -210105,7 +211008,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 137,
+      "tournaments_since": 138,
       "last_seen": "2025-02-03",
       "first_seen": "2025-02-03",
       "h2h": {
@@ -210248,9 +211151,9 @@
       "tournaments_played": 6,
       "total_earnings": 1110,
       "attendance_rate": 3.2,
-      "current_streak": 1,
+      "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2025-02-03",
       "h2h": {
@@ -210591,7 +211494,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 136,
+      "tournaments_since": 137,
       "last_seen": "2025-02-10",
       "first_seen": "2025-02-10",
       "h2h": {
@@ -210736,7 +211639,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 83,
+      "tournaments_since": 84,
       "last_seen": "2025-10-13",
       "first_seen": "2025-02-13",
       "h2h": {
@@ -210979,7 +211882,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 135,
+      "tournaments_since": 136,
       "last_seen": "2025-02-13",
       "first_seen": "2025-02-13",
       "h2h": {
@@ -211124,7 +212027,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 86,
+      "tournaments_since": 87,
       "last_seen": "2025-09-25",
       "first_seen": "2025-02-24",
       "h2h": {
@@ -211355,7 +212258,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-02-24",
       "h2h": {
@@ -211488,54 +212391,54 @@
     },
     "Mousavi, Mohamad": {
       "name": "Mousavi, Mohamad",
-      "total_matches": 44,
-      "wins": 28,
-      "losses": 16,
-      "win_rate": 63.6,
-      "sets_won": 131,
-      "sets_lost": 83,
-      "deuce_won": 24,
-      "deuce_total": 47,
-      "deuce_win_rate": 51.1,
-      "first_set_total": 44,
-      "first_set_win_match_win": 16,
-      "comeback_chances": 22,
-      "comeback_wins": 12,
-      "comeback_rate": 54.5,
-      "wins_2_0": 8,
-      "wins_2_1": 10,
+      "total_matches": 53,
+      "wins": 34,
+      "losses": 19,
+      "win_rate": 64.2,
+      "sets_won": 159,
+      "sets_lost": 97,
+      "deuce_won": 32,
+      "deuce_total": 57,
+      "deuce_win_rate": 56.1,
+      "first_set_total": 53,
+      "first_set_win_match_win": 19,
+      "comeback_chances": 27,
+      "comeback_wins": 15,
+      "comeback_rate": 55.6,
+      "wins_2_0": 11,
+      "wins_2_1": 12,
       "losses_0_2": 1,
       "losses_1_2": 5,
       "ko_wins": 4,
-      "ko_losses": 5,
-      "ko_total": 9,
-      "group_wins": 23,
-      "group_losses": 11,
-      "group_total": 34,
-      "clutch_rate": 44.4,
-      "group_win_rate": 67.6,
-      "form_last10": 70.0,
-      "form_trend": 6.4,
+      "ko_losses": 6,
+      "ko_total": 10,
+      "group_wins": 28,
+      "group_losses": 13,
+      "group_total": 41,
+      "clutch_rate": 40.0,
+      "group_win_rate": 68.3,
+      "form_last10": 60.0,
+      "form_trend": -4.2,
       "best_victim": {
-        "name": "Fadeev, Kirill",
+        "name": "Koloidenko, Pylyp",
         "wins": 3,
         "losses": 0,
         "win_pct": 100.0
       },
       "nemesis": {
-        "name": "Fadeev, Kirill",
+        "name": "Koloidenko, Pylyp",
         "wins": 3,
         "losses": 0,
         "win_pct": 100.0
       },
       "tournament_wins": 1,
-      "tournaments_played": 5,
-      "total_earnings": 2835,
-      "attendance_rate": 2.7,
-      "current_streak": 0,
+      "tournaments_played": 6,
+      "total_earnings": 3405,
+      "attendance_rate": 3.2,
+      "current_streak": 1,
       "longest_streak": 2,
-      "tournaments_since": 58,
-      "last_seen": "2026-02-16",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2025-03-03",
       "h2h": {
         "Abedinian, Milad": {
@@ -211575,10 +212478,10 @@
           "sets_lost": 2
         },
         "Koloidenko, Pylyp": {
-          "wins": 2,
+          "wins": 3,
           "losses": 0,
-          "sets_won": 8,
-          "sets_lost": 2
+          "sets_won": 11,
+          "sets_lost": 3
         },
         "Löffler, Jeromy": {
           "wins": 0,
@@ -211683,10 +212586,10 @@
           "sets_lost": 7
         },
         "Kraus, Luis": {
-          "wins": 2,
+          "wins": 4,
           "losses": 0,
-          "sets_won": 7,
-          "sets_lost": 2
+          "sets_won": 14,
+          "sets_lost": 4
         },
         "Parmar, Dhairya": {
           "wins": 0,
@@ -211695,10 +212598,10 @@
           "sets_lost": 4
         },
         "Schmitt, Cosmo": {
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
-          "sets_won": 3,
-          "sets_lost": 2
+          "sets_won": 6,
+          "sets_lost": 3
         },
         "Mendes, Enio": {
           "wins": 0,
@@ -211711,46 +212614,80 @@
           "losses": 0,
           "sets_won": 4,
           "sets_lost": 0
+        },
+        "Lam, Nathan": {
+          "wins": 0,
+          "losses": 2,
+          "sets_won": 4,
+          "sets_lost": 7
+        },
+        "Almeida, Siddharta": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 3,
+          "sets_lost": 3
+        },
+        "Reichelt, Christian": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 0
+        },
+        "Hübner, Lars": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 0
         }
       },
       "recent_5": [
         {
-          "date": "2026-02-16",
-          "opponent": "Parmar, Dhairya",
+          "date": "2026-10-26",
+          "opponent": "Lam, Nathan",
           "won": false,
-          "score": "1:4",
-          "tournament_id": "Timetable-Tournament-16.02.-17.02.2026"
+          "score": "2:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-02-16",
+          "date": "2026-10-26",
+          "opponent": "Koloidenko, Pylyp",
+          "won": true,
+          "score": "3:1",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
           "opponent": "Kraus, Luis",
           "won": true,
           "score": "3:2",
-          "tournament_id": "Timetable-Tournament-16.02.-17.02.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-02-16",
-          "opponent": "Schmitt, Cosmo",
-          "won": true,
-          "score": "3:2",
-          "tournament_id": "Timetable-Tournament-16.02.-17.02.2026"
-        },
-        {
-          "date": "2026-02-16",
-          "opponent": "Koloidenko, Pylyp",
-          "won": true,
-          "score": "4:1",
-          "tournament_id": "Timetable-Tournament-16.02.-17.02.2026"
-        },
-        {
-          "date": "2026-02-16",
-          "opponent": "Mendes, Enio",
+          "date": "2026-10-26",
+          "opponent": "Almeida, Siddharta",
           "won": false,
-          "score": "2:3",
-          "tournament_id": "Timetable-Tournament-16.02.-17.02.2026"
+          "score": "3:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Reichelt, Christian",
+          "won": true,
+          "score": "4:0",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 3,
+          "matches_won": 7,
+          "matches_lost": 2,
+          "sets_won": 28,
+          "sets_lost": 14,
+          "earnings": 570
+        },
         {
           "tournament_id": "Timetable-Tournament-16.02.-17.02.2026",
           "date": "2026-02-16",
@@ -211841,7 +212778,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-03-03",
       "h2h": {
@@ -211976,7 +212913,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-03-03",
       "h2h": {
@@ -212047,7 +212984,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-03-03",
       "h2h": {
@@ -212118,7 +213055,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-03-03",
       "h2h": {
@@ -212189,7 +213126,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-03-03",
       "h2h": {
@@ -212260,7 +213197,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 132,
+      "tournaments_since": 133,
       "last_seen": "2025-03-03",
       "first_seen": "2025-03-03",
       "h2h": {
@@ -212338,10 +213275,10 @@
       "tournament_wins": 6,
       "tournaments_played": 14,
       "total_earnings": 9300,
-      "attendance_rate": 7.5,
+      "attendance_rate": 7.4,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 14,
+      "tournaments_since": 15,
       "last_seen": "2026-08-24",
       "first_seen": "2025-03-06",
       "h2h": {
@@ -212888,7 +213825,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 131,
+      "tournaments_since": 132,
       "last_seen": "2025-03-06",
       "first_seen": "2025-03-06",
       "h2h": {
@@ -213023,7 +213960,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 129,
+      "tournaments_since": 130,
       "last_seen": "2025-03-13",
       "first_seen": "2025-03-06",
       "h2h": {
@@ -213198,7 +214135,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-20",
       "h2h": {
@@ -213373,7 +214310,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 127,
+      "tournaments_since": 128,
       "last_seen": "2025-03-24",
       "first_seen": "2025-03-24",
       "h2h": {
@@ -213508,7 +214445,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 127,
+      "tournaments_since": 128,
       "last_seen": "2025-03-24",
       "first_seen": "2025-03-24",
       "h2h": {
@@ -213653,7 +214590,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 83,
+      "tournaments_since": 84,
       "last_seen": "2025-10-13",
       "first_seen": "2025-03-27",
       "h2h": {
@@ -213868,7 +214805,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 85,
+      "tournaments_since": 86,
       "last_seen": "2025-09-29",
       "first_seen": "2025-03-27",
       "h2h": {
@@ -214043,7 +214980,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-31",
       "h2h": {
@@ -214114,7 +215051,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-31",
       "h2h": {
@@ -214185,7 +215122,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-31",
       "h2h": {
@@ -214256,7 +215193,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-31",
       "h2h": {
@@ -214327,7 +215264,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-31",
       "h2h": {
@@ -214398,7 +215335,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 125,
+      "tournaments_since": 126,
       "last_seen": "2025-03-31",
       "first_seen": "2025-03-31",
       "h2h": {
@@ -214469,7 +215406,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 124,
+      "tournaments_since": 125,
       "last_seen": "2025-04-07",
       "first_seen": "2025-04-07",
       "h2h": {
@@ -214604,7 +215541,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 124,
+      "tournaments_since": 125,
       "last_seen": "2025-04-07",
       "first_seen": "2025-04-07",
       "h2h": {
@@ -214685,7 +215622,7 @@
       "attendance_rate": 3.7,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 53,
+      "tournaments_since": 54,
       "last_seen": "2026-03-09",
       "first_seen": "2025-04-10",
       "h2h": {
@@ -215024,7 +215961,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 122,
+      "tournaments_since": 123,
       "last_seen": "2025-04-14",
       "first_seen": "2025-04-14",
       "h2h": {
@@ -215159,7 +216096,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 117,
+      "tournaments_since": 118,
       "last_seen": "2025-05-05",
       "first_seen": "2025-04-17",
       "h2h": {
@@ -215368,7 +216305,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 41,
+      "tournaments_since": 42,
       "last_seen": "2026-04-27",
       "first_seen": "2025-05-01",
       "h2h": {
@@ -215645,7 +216582,7 @@
       "attendance_rate": 6.4,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 31,
+      "tournaments_since": 32,
       "last_seen": "2026-06-08",
       "first_seen": "2025-05-01",
       "h2h": {
@@ -216088,7 +217025,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 118,
+      "tournaments_since": 119,
       "last_seen": "2025-05-01",
       "first_seen": "2025-05-01",
       "h2h": {
@@ -216169,7 +217106,7 @@
       "attendance_rate": 4.8,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 7,
+      "tournaments_since": 8,
       "last_seen": "2026-09-24",
       "first_seen": "2025-05-05",
       "h2h": {
@@ -216616,7 +217553,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 40,
+      "tournaments_since": 41,
       "last_seen": "2026-04-30",
       "first_seen": "2025-05-05",
       "h2h": {
@@ -216899,7 +217836,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 92,
+      "tournaments_since": 93,
       "last_seen": "2025-08-25",
       "first_seen": "2025-05-15",
       "h2h": {
@@ -217114,7 +218051,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 116,
+      "tournaments_since": 117,
       "last_seen": "2025-05-15",
       "first_seen": "2025-05-15",
       "h2h": {
@@ -217213,34 +218150,34 @@
     },
     "Almeida, Siddharta": {
       "name": "Almeida, Siddharta",
-      "total_matches": 83,
-      "wins": 35,
-      "losses": 48,
-      "win_rate": 42.2,
-      "sets_won": 193,
-      "sets_lost": 212,
-      "deuce_won": 46,
-      "deuce_total": 96,
-      "deuce_win_rate": 47.9,
-      "first_set_total": 83,
-      "first_set_win_match_win": 19,
-      "comeback_chances": 41,
-      "comeback_wins": 16,
-      "comeback_rate": 39.0,
-      "wins_2_0": 6,
-      "wins_2_1": 12,
+      "total_matches": 92,
+      "wins": 42,
+      "losses": 50,
+      "win_rate": 45.7,
+      "sets_won": 224,
+      "sets_lost": 225,
+      "deuce_won": 51,
+      "deuce_total": 104,
+      "deuce_win_rate": 49.0,
+      "first_set_total": 92,
+      "first_set_win_match_win": 23,
+      "comeback_chances": 44,
+      "comeback_wins": 19,
+      "comeback_rate": 43.2,
+      "wins_2_0": 8,
+      "wins_2_1": 15,
       "losses_0_2": 7,
       "losses_1_2": 19,
-      "ko_wins": 0,
-      "ko_losses": 4,
-      "ko_total": 4,
-      "group_wins": 34,
-      "group_losses": 41,
-      "group_total": 75,
-      "clutch_rate": null,
-      "group_win_rate": 45.3,
-      "form_last10": 40.0,
-      "form_trend": -2.2,
+      "ko_wins": 1,
+      "ko_losses": 5,
+      "ko_total": 6,
+      "group_wins": 40,
+      "group_losses": 42,
+      "group_total": 82,
+      "clutch_rate": 16.7,
+      "group_win_rate": 48.8,
+      "form_last10": 70.0,
+      "form_trend": 24.3,
       "best_victim": {
         "name": "Moreno, Alex",
         "wins": 4,
@@ -217254,13 +218191,13 @@
         "win_pct": 0.0
       },
       "tournament_wins": 0,
-      "tournaments_played": 11,
-      "total_earnings": 3375,
-      "attendance_rate": 5.9,
-      "current_streak": 0,
+      "tournaments_played": 12,
+      "total_earnings": 4035,
+      "attendance_rate": 6.4,
+      "current_streak": 1,
       "longest_streak": 3,
-      "tournaments_since": 1,
-      "last_seen": "2026-10-19",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2025-05-19",
       "h2h": {
         "Turrini, Rafael Vinicius": {
@@ -217270,9 +218207,9 @@
           "sets_lost": 30
         },
         "Koloidenko, Pylyp": {
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
-          "sets_won": 3,
+          "sets_won": 7,
           "sets_lost": 2
         },
         "Brnovic, Boris": {
@@ -217426,10 +218363,10 @@
           "sets_lost": 3
         },
         "Schmitt, Cosmo": {
-          "wins": 3,
+          "wins": 4,
           "losses": 0,
-          "sets_won": 11,
-          "sets_lost": 2
+          "sets_won": 14,
+          "sets_lost": 4
         },
         "Mendes, Enio": {
           "wins": 0,
@@ -217474,10 +218411,10 @@
           "sets_lost": 3
         },
         "Kraus, Luis": {
-          "wins": 1,
+          "wins": 3,
           "losses": 0,
-          "sets_won": 3,
-          "sets_lost": 1
+          "sets_won": 10,
+          "sets_lost": 4
         },
         "Misal, John Russel": {
           "wins": 1,
@@ -217496,46 +218433,80 @@
           "losses": 0,
           "sets_won": 8,
           "sets_lost": 2
+        },
+        "Reichelt, Christian": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 1
+        },
+        "Hübner, Lars": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 0
+        },
+        "Mousavi, Mohamad": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 3,
+          "sets_lost": 3
+        },
+        "Lam, Nathan": {
+          "wins": 1,
+          "losses": 1,
+          "sets_won": 6,
+          "sets_lost": 4
         }
       },
       "recent_5": [
         {
-          "date": "2026-10-19",
-          "opponent": "Turrini, Rafael Vinicius",
-          "won": false,
-          "score": "0:4",
-          "tournament_id": "Timetable-Tournament-19.10.-20.10.2026-4"
-        },
-        {
-          "date": "2026-10-19",
-          "opponent": "Bertrand, Irvin",
-          "won": false,
-          "score": "1:4",
-          "tournament_id": "Timetable-Tournament-19.10.-20.10.2026-4"
-        },
-        {
-          "date": "2026-10-19",
-          "opponent": "Itagaki, Akito",
-          "won": true,
-          "score": "3:2",
-          "tournament_id": "Timetable-Tournament-19.10.-20.10.2026-4"
-        },
-        {
-          "date": "2026-10-19",
-          "opponent": "Rinderer, Daniel",
-          "won": false,
-          "score": "1:3",
-          "tournament_id": "Timetable-Tournament-19.10.-20.10.2026-4"
-        },
-        {
-          "date": "2026-10-19",
-          "opponent": "Nogami, Makoto",
+          "date": "2026-10-26",
+          "opponent": "Reichelt, Christian",
           "won": true,
           "score": "4:1",
-          "tournament_id": "Timetable-Tournament-19.10.-20.10.2026-4"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Hübner, Lars",
+          "won": true,
+          "score": "4:0",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Koloidenko, Pylyp",
+          "won": true,
+          "score": "4:0",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Mousavi, Mohamad",
+          "won": false,
+          "score": "3:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Schmitt, Cosmo",
+          "won": true,
+          "score": "3:2",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 2,
+          "matches_won": 7,
+          "matches_lost": 2,
+          "sets_won": 31,
+          "sets_lost": 13,
+          "earnings": 660
+        },
         {
           "tournament_id": "Timetable-Tournament-19.10.-20.10.2026-4",
           "date": "2026-10-19",
@@ -217686,7 +218657,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 102,
+      "tournaments_since": 103,
       "last_seen": "2025-07-14",
       "first_seen": "2025-06-02",
       "h2h": {
@@ -217942,10 +218913,10 @@
       "tournament_wins": 0,
       "tournaments_played": 16,
       "total_earnings": 5625,
-      "attendance_rate": 8.6,
+      "attendance_rate": 8.5,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 29,
+      "tournaments_since": 30,
       "last_seen": "2026-06-18",
       "first_seen": "2025-06-09",
       "h2h": {
@@ -218526,9 +219497,9 @@
       "tournaments_played": 7,
       "total_earnings": 1425,
       "attendance_rate": 3.7,
-      "current_streak": 1,
+      "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2025-06-09",
       "h2h": {
@@ -218891,7 +219862,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 108,
+      "tournaments_since": 109,
       "last_seen": "2025-06-16",
       "first_seen": "2025-06-16",
       "h2h": {
@@ -219026,7 +219997,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 104,
+      "tournaments_since": 105,
       "last_seen": "2025-07-07",
       "first_seen": "2025-06-16",
       "h2h": {
@@ -219245,7 +220216,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 89,
+      "tournaments_since": 90,
       "last_seen": "2025-09-11",
       "first_seen": "2025-06-30",
       "h2h": {
@@ -219494,7 +220465,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 63,
+      "tournaments_since": 64,
       "last_seen": "2026-01-22",
       "first_seen": "2025-06-30",
       "h2h": {
@@ -219645,34 +220616,34 @@
     },
     "Kraus, Luis": {
       "name": "Kraus, Luis",
-      "total_matches": 245,
-      "wins": 85,
-      "losses": 160,
-      "win_rate": 34.7,
-      "sets_won": 512,
-      "sets_lost": 638,
-      "deuce_won": 121,
-      "deuce_total": 230,
-      "deuce_win_rate": 52.6,
-      "first_set_total": 245,
-      "first_set_win_match_win": 50,
-      "comeback_chances": 112,
-      "comeback_wins": 35,
-      "comeback_rate": 31.2,
-      "wins_2_0": 21,
-      "wins_2_1": 41,
-      "losses_0_2": 37,
-      "losses_1_2": 61,
+      "total_matches": 254,
+      "wins": 88,
+      "losses": 166,
+      "win_rate": 34.6,
+      "sets_won": 530,
+      "sets_lost": 660,
+      "deuce_won": 124,
+      "deuce_total": 238,
+      "deuce_win_rate": 52.1,
+      "first_set_total": 254,
+      "first_set_win_match_win": 51,
+      "comeback_chances": 116,
+      "comeback_wins": 37,
+      "comeback_rate": 31.9,
+      "wins_2_0": 22,
+      "wins_2_1": 43,
+      "losses_0_2": 38,
+      "losses_1_2": 63,
       "ko_wins": 1,
-      "ko_losses": 10,
-      "ko_total": 11,
-      "group_wins": 81,
-      "group_losses": 144,
-      "group_total": 225,
-      "clutch_rate": 9.1,
-      "group_win_rate": 36.0,
-      "form_last10": 10.0,
-      "form_trend": -24.7,
+      "ko_losses": 11,
+      "ko_total": 12,
+      "group_wins": 84,
+      "group_losses": 148,
+      "group_total": 232,
+      "clutch_rate": 8.3,
+      "group_win_rate": 36.2,
+      "form_last10": 30.0,
+      "form_trend": -4.6,
       "best_victim": {
         "name": "Moreno, Alex",
         "wins": 3,
@@ -219686,13 +220657,13 @@
         "win_pct": 0.0
       },
       "tournament_wins": 0,
-      "tournaments_played": 33,
-      "total_earnings": 9150,
-      "attendance_rate": 17.6,
-      "current_streak": 0,
+      "tournaments_played": 34,
+      "total_earnings": 9450,
+      "attendance_rate": 18.1,
+      "current_streak": 1,
       "longest_streak": 4,
-      "tournaments_since": 3,
-      "last_seen": "2026-10-12",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2025-07-03",
       "h2h": {
         "Fadeev, Kirill": {
@@ -219913,9 +220884,9 @@
         },
         "Mousavi, Mohamad": {
           "wins": 0,
-          "losses": 2,
-          "sets_won": 2,
-          "sets_lost": 7
+          "losses": 4,
+          "sets_won": 4,
+          "sets_lost": 14
         },
         "Happek, Sven": {
           "wins": 2,
@@ -219954,10 +220925,10 @@
           "sets_lost": 4
         },
         "Koloidenko, Pylyp": {
-          "wins": 3,
+          "wins": 4,
           "losses": 1,
-          "sets_won": 11,
-          "sets_lost": 7
+          "sets_won": 14,
+          "sets_lost": 8
         },
         "Kishegyi, Akos": {
           "wins": 0,
@@ -219997,9 +220968,9 @@
         },
         "Lam, Nathan": {
           "wins": 0,
-          "losses": 1,
-          "sets_won": 1,
-          "sets_lost": 3
+          "losses": 2,
+          "sets_won": 2,
+          "sets_lost": 6
         },
         "Pillon, Elouan": {
           "wins": 0,
@@ -220063,9 +221034,9 @@
         },
         "Schmitt, Cosmo": {
           "wins": 3,
-          "losses": 0,
-          "sets_won": 11,
-          "sets_lost": 3
+          "losses": 1,
+          "sets_won": 13,
+          "sets_lost": 6
         },
         "Mendes, Enio": {
           "wins": 0,
@@ -220206,9 +221177,9 @@
           "sets_lost": 5
         },
         "Hübner, Lars": {
-          "wins": 2,
+          "wins": 3,
           "losses": 0,
-          "sets_won": 7,
+          "sets_won": 11,
           "sets_lost": 2
         },
         "Mino, Alberto": {
@@ -220237,55 +221208,71 @@
         },
         "Almeida, Siddharta": {
           "wins": 0,
-          "losses": 1,
-          "sets_won": 1,
-          "sets_lost": 3
+          "losses": 3,
+          "sets_won": 4,
+          "sets_lost": 10
         },
         "Misal, John Russel": {
           "wins": 0,
           "losses": 1,
           "sets_won": 3,
           "sets_lost": 3
+        },
+        "Reichelt, Christian": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 3,
+          "sets_lost": 1
         }
       },
       "recent_5": [
         {
-          "date": "2026-10-12",
-          "opponent": "Almeida, Siddharta",
-          "won": false,
-          "score": "1:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
-        },
-        {
-          "date": "2026-10-12",
-          "opponent": "Misal, John Russel",
-          "won": false,
-          "score": "3:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
-        },
-        {
-          "date": "2026-10-12",
-          "opponent": "Löffler, Jeromy",
+          "date": "2026-10-26",
+          "opponent": "Schmitt, Cosmo",
           "won": false,
           "score": "2:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-12",
-          "opponent": "Happek, Sven",
+          "date": "2026-10-26",
+          "opponent": "Lam, Nathan",
           "won": false,
-          "score": "3:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
+          "score": "1:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-12",
-          "opponent": "Zimmermann, Karl",
+          "date": "2026-10-26",
+          "opponent": "Mousavi, Mohamad",
           "won": false,
-          "score": "2:4",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
+          "score": "2:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Reichelt, Christian",
+          "won": true,
+          "score": "3:1",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Hübner, Lars",
+          "won": true,
+          "score": "4:0",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 4,
+          "matches_won": 3,
+          "matches_lost": 6,
+          "sets_won": 18,
+          "sets_lost": 22,
+          "earnings": 300
+        },
         {
           "tournament_id": "Timetable-Tournament-12.10.-13.10.2026",
           "date": "2026-10-12",
@@ -220656,7 +221643,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -220727,7 +221714,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -220856,7 +221843,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -220927,7 +221914,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -220998,7 +221985,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -221086,7 +222073,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -221157,7 +222144,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -221245,7 +222232,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 105,
+      "tournaments_since": 106,
       "last_seen": "2025-07-03",
       "first_seen": "2025-07-03",
       "h2h": {
@@ -221316,7 +222303,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 104,
+      "tournaments_since": 105,
       "last_seen": "2025-07-07",
       "first_seen": "2025-07-07",
       "h2h": {
@@ -221451,7 +222438,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 104,
+      "tournaments_since": 105,
       "last_seen": "2025-07-07",
       "first_seen": "2025-07-07",
       "h2h": {
@@ -221586,7 +222573,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 102,
+      "tournaments_since": 103,
       "last_seen": "2025-07-14",
       "first_seen": "2025-07-10",
       "h2h": {
@@ -221755,7 +222742,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 102,
+      "tournaments_since": 103,
       "last_seen": "2025-07-14",
       "first_seen": "2025-07-14",
       "h2h": {
@@ -221894,7 +222881,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 11,
+      "tournaments_since": 12,
       "last_seen": "2026-09-11",
       "first_seen": "2025-07-21",
       "h2h": {
@@ -222162,10 +223149,10 @@
       "tournament_wins": 0,
       "tournaments_played": 14,
       "total_earnings": 3615,
-      "attendance_rate": 7.5,
+      "attendance_rate": 7.4,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 5,
+      "tournaments_since": 6,
       "last_seen": "2026-10-05",
       "first_seen": "2025-07-21",
       "h2h": {
@@ -222722,7 +223709,7 @@
       "attendance_rate": 3.7,
       "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 14,
+      "tournaments_since": 15,
       "last_seen": "2026-08-24",
       "first_seen": "2025-07-21",
       "h2h": {
@@ -223091,7 +224078,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 101,
+      "tournaments_since": 102,
       "last_seen": "2025-07-21",
       "first_seen": "2025-07-21",
       "h2h": {
@@ -223226,7 +224213,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-24",
       "h2h": {
@@ -223297,7 +224284,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-24",
       "h2h": {
@@ -223368,7 +224355,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-24",
       "h2h": {
@@ -223439,7 +224426,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-24",
       "h2h": {
@@ -223510,7 +224497,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 100,
+      "tournaments_since": 101,
       "last_seen": "2025-07-24",
       "first_seen": "2025-07-24",
       "h2h": {
@@ -223581,7 +224568,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 98,
+      "tournaments_since": 99,
       "last_seen": "2025-07-31",
       "first_seen": "2025-07-31",
       "h2h": {
@@ -223726,7 +224713,7 @@
       "attendance_rate": 4.3,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 11,
+      "tournaments_since": 12,
       "last_seen": "2026-09-11",
       "first_seen": "2025-08-04",
       "h2h": {
@@ -224117,7 +225104,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224195,7 +225182,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224266,7 +225253,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224337,7 +225324,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 95,
+      "tournaments_since": 96,
       "last_seen": "2025-08-14",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224506,7 +225493,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224577,7 +225564,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224648,7 +225635,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224719,7 +225706,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 96,
+      "tournaments_since": 97,
       "last_seen": "2025-08-11",
       "first_seen": "2025-08-11",
       "h2h": {
@@ -224790,7 +225777,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 95,
+      "tournaments_since": 96,
       "last_seen": "2025-08-14",
       "first_seen": "2025-08-14",
       "h2h": {
@@ -224925,7 +225912,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 30,
+      "tournaments_since": 31,
       "last_seen": "2026-06-15",
       "first_seen": "2025-08-21",
       "h2h": {
@@ -225152,7 +226139,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 90,
+      "tournaments_since": 91,
       "last_seen": "2025-09-08",
       "first_seen": "2025-09-08",
       "h2h": {
@@ -225285,9 +226272,9 @@
       "tournaments_played": 3,
       "total_earnings": 1065,
       "attendance_rate": 1.6,
-      "current_streak": 1,
+      "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2025-09-08",
       "h2h": {
@@ -225484,39 +226471,39 @@
     },
     "Schmitt, Cosmo": {
       "name": "Schmitt, Cosmo",
-      "total_matches": 70,
-      "wins": 9,
-      "losses": 61,
-      "win_rate": 12.9,
-      "sets_won": 108,
-      "sets_lost": 227,
-      "deuce_won": 27,
-      "deuce_total": 64,
-      "deuce_win_rate": 42.2,
-      "first_set_total": 70,
+      "total_matches": 77,
+      "wins": 10,
+      "losses": 67,
+      "win_rate": 13.0,
+      "sets_won": 117,
+      "sets_lost": 250,
+      "deuce_won": 29,
+      "deuce_total": 69,
+      "deuce_win_rate": 42.0,
+      "first_set_total": 77,
       "first_set_win_match_win": 6,
-      "comeback_chances": 36,
-      "comeback_wins": 3,
-      "comeback_rate": 8.3,
+      "comeback_chances": 40,
+      "comeback_wins": 4,
+      "comeback_rate": 10.0,
       "wins_2_0": 1,
       "wins_2_1": 4,
-      "losses_0_2": 16,
-      "losses_1_2": 23,
+      "losses_0_2": 18,
+      "losses_1_2": 25,
       "ko_wins": 0,
       "ko_losses": 0,
       "ko_total": 0,
-      "group_wins": 9,
-      "group_losses": 61,
-      "group_total": 70,
+      "group_wins": 10,
+      "group_losses": 67,
+      "group_total": 77,
       "clutch_rate": null,
-      "group_win_rate": 12.9,
-      "form_last10": 0.0,
-      "form_trend": -12.9,
+      "group_win_rate": 13.0,
+      "form_last10": 10.0,
+      "form_trend": -3.0,
       "best_victim": {
-        "name": "Stefanidis, Marco",
+        "name": "Koloidenko, Pylyp",
         "wins": 1,
-        "losses": 3,
-        "win_pct": 25.0
+        "losses": 2,
+        "win_pct": 33.3
       },
       "nemesis": {
         "name": "Happek, Sven",
@@ -225525,13 +226512,13 @@
         "win_pct": 0.0
       },
       "tournament_wins": 0,
-      "tournaments_played": 10,
-      "total_earnings": 1590,
-      "attendance_rate": 5.3,
-      "current_streak": 0,
+      "tournaments_played": 11,
+      "total_earnings": 1725,
+      "attendance_rate": 5.9,
+      "current_streak": 1,
       "longest_streak": 2,
-      "tournaments_since": 3,
-      "last_seen": "2026-10-12",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2025-09-08",
       "h2h": {
         "Kupfer, Manuel": {
@@ -225608,9 +226595,9 @@
         },
         "Koloidenko, Pylyp": {
           "wins": 1,
-          "losses": 1,
-          "sets_won": 6,
-          "sets_lost": 4
+          "losses": 2,
+          "sets_won": 7,
+          "sets_lost": 7
         },
         "Bosbach, Lukas": {
           "wins": 0,
@@ -225662,15 +226649,15 @@
         },
         "Mousavi, Mohamad": {
           "wins": 0,
-          "losses": 1,
-          "sets_won": 2,
-          "sets_lost": 3
+          "losses": 2,
+          "sets_won": 3,
+          "sets_lost": 6
         },
         "Kraus, Luis": {
-          "wins": 0,
+          "wins": 1,
           "losses": 3,
-          "sets_won": 3,
-          "sets_lost": 11
+          "sets_won": 6,
+          "sets_lost": 13
         },
         "Parmar, Dhairya": {
           "wins": 0,
@@ -225770,9 +226757,9 @@
         },
         "Almeida, Siddharta": {
           "wins": 0,
-          "losses": 3,
-          "sets_won": 2,
-          "sets_lost": 11
+          "losses": 4,
+          "sets_won": 4,
+          "sets_lost": 14
         },
         "Kosolosky, Olav": {
           "wins": 0,
@@ -225785,46 +226772,74 @@
           "losses": 1,
           "sets_won": 2,
           "sets_lost": 3
+        },
+        "Reichelt, Christian": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 0,
+          "sets_lost": 4
+        },
+        "Hübner, Lars": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 2,
+          "sets_lost": 4
+        },
+        "Lam, Nathan": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 0,
+          "sets_lost": 4
         }
       },
       "recent_5": [
         {
-          "date": "2026-10-12",
-          "opponent": "Zimmermann, Karl",
-          "won": false,
-          "score": "2:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
+          "date": "2026-10-26",
+          "opponent": "Kraus, Luis",
+          "won": true,
+          "score": "3:2",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-12",
-          "opponent": "Turrini, Rafael Vinicius",
-          "won": false,
-          "score": "1:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
-        },
-        {
-          "date": "2026-10-12",
-          "opponent": "Happek, Sven",
-          "won": false,
-          "score": "1:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
-        },
-        {
-          "date": "2026-10-12",
-          "opponent": "Almeida, Siddharta",
+          "date": "2026-10-26",
+          "opponent": "Reichelt, Christian",
           "won": false,
           "score": "0:4",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-10-12",
-          "opponent": "Misal, John Russel",
+          "date": "2026-10-26",
+          "opponent": "Hübner, Lars",
+          "won": false,
+          "score": "2:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Koloidenko, Pylyp",
+          "won": false,
+          "score": "1:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Almeida, Siddharta",
           "won": false,
           "score": "2:3",
-          "tournament_id": "Timetable-Tournament-12.10.-13.10.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 7,
+          "matches_won": 1,
+          "matches_lost": 6,
+          "sets_won": 9,
+          "sets_lost": 23,
+          "earnings": 135
+        },
         {
           "tournament_id": "Timetable-Tournament-12.10.-13.10.2026",
           "date": "2026-10-12",
@@ -225965,7 +226980,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 89,
+      "tournaments_since": 90,
       "last_seen": "2025-09-11",
       "first_seen": "2025-09-11",
       "h2h": {
@@ -226100,7 +227115,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 88,
+      "tournaments_since": 89,
       "last_seen": "2025-09-15",
       "first_seen": "2025-09-15",
       "h2h": {
@@ -226235,7 +227250,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 85,
+      "tournaments_since": 86,
       "last_seen": "2025-09-29",
       "first_seen": "2025-09-29",
       "h2h": {
@@ -226377,10 +227392,10 @@
       "tournament_wins": 1,
       "tournaments_played": 16,
       "total_earnings": 5745,
-      "attendance_rate": 8.6,
-      "current_streak": 3,
+      "attendance_rate": 8.5,
+      "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2025-09-29",
       "h2h": {
@@ -226923,7 +227938,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 85,
+      "tournaments_since": 86,
       "last_seen": "2025-09-29",
       "first_seen": "2025-09-29",
       "h2h": {
@@ -226994,7 +228009,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 83,
+      "tournaments_since": 84,
       "last_seen": "2025-10-13",
       "first_seen": "2025-10-13",
       "h2h": {
@@ -227129,7 +228144,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 60,
+      "tournaments_since": 61,
       "last_seen": "2026-02-09",
       "first_seen": "2025-10-13",
       "h2h": {
@@ -227350,7 +228365,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 59,
+      "tournaments_since": 60,
       "last_seen": "2026-02-12",
       "first_seen": "2025-10-27",
       "h2h": {
@@ -227537,7 +228552,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 70,
+      "tournaments_since": 71,
       "last_seen": "2025-12-15",
       "first_seen": "2025-10-27",
       "h2h": {
@@ -227768,7 +228783,7 @@
       "attendance_rate": 3.2,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 9,
+      "tournaments_since": 10,
       "last_seen": "2026-09-17",
       "first_seen": "2025-11-03",
       "h2h": {
@@ -228061,7 +229076,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 67,
+      "tournaments_since": 68,
       "last_seen": "2026-01-08",
       "first_seen": "2025-11-03",
       "h2h": {
@@ -228236,7 +229251,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 71,
+      "tournaments_since": 72,
       "last_seen": "2025-12-08",
       "first_seen": "2025-11-03",
       "h2h": {
@@ -228363,44 +229378,44 @@
     },
     "Lam, Nathan": {
       "name": "Lam, Nathan",
-      "total_matches": 17,
-      "wins": 10,
-      "losses": 7,
-      "win_rate": 58.8,
-      "sets_won": 49,
-      "sets_lost": 32,
-      "deuce_won": 10,
-      "deuce_total": 17,
-      "deuce_win_rate": 58.8,
-      "first_set_total": 17,
-      "first_set_win_match_win": 7,
-      "comeback_chances": 6,
-      "comeback_wins": 3,
-      "comeback_rate": 50.0,
-      "wins_2_0": 3,
-      "wins_2_1": 5,
+      "total_matches": 26,
+      "wins": 17,
+      "losses": 9,
+      "win_rate": 65.4,
+      "sets_won": 78,
+      "sets_lost": 45,
+      "deuce_won": 13,
+      "deuce_total": 22,
+      "deuce_win_rate": 59.1,
+      "first_set_total": 26,
+      "first_set_win_match_win": 11,
+      "comeback_chances": 10,
+      "comeback_wins": 6,
+      "comeback_rate": 60.0,
+      "wins_2_0": 5,
+      "wins_2_1": 8,
       "losses_0_2": 1,
-      "losses_1_2": 2,
-      "ko_wins": 0,
-      "ko_losses": 2,
-      "ko_total": 2,
-      "group_wins": 8,
-      "group_losses": 5,
-      "group_total": 13,
+      "losses_1_2": 3,
+      "ko_wins": 1,
+      "ko_losses": 3,
+      "ko_total": 4,
+      "group_wins": 14,
+      "group_losses": 6,
+      "group_total": 20,
       "clutch_rate": null,
-      "group_win_rate": 61.5,
-      "form_last10": 60.0,
-      "form_trend": 1.2,
+      "group_win_rate": 70.0,
+      "form_last10": 80.0,
+      "form_trend": 14.6,
       "best_victim": null,
       "nemesis": null,
-      "tournament_wins": 0,
-      "tournaments_played": 2,
-      "total_earnings": 1050,
-      "attendance_rate": 1.1,
-      "current_streak": 0,
+      "tournament_wins": 1,
+      "tournaments_played": 3,
+      "total_earnings": 1890,
+      "attendance_rate": 1.6,
+      "current_streak": 1,
       "longest_streak": 1,
-      "tournaments_since": 69,
-      "last_seen": "2025-12-18",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2025-11-17",
       "h2h": {
         "Turrini, Rafael Vinicius": {
@@ -228410,9 +229425,9 @@
           "sets_lost": 7
         },
         "Koloidenko, Pylyp": {
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
-          "sets_won": 4,
+          "sets_won": 8,
           "sets_lost": 0
         },
         "Sverdlik, Alexander": {
@@ -228440,10 +229455,10 @@
           "sets_lost": 5
         },
         "Kraus, Luis": {
-          "wins": 1,
+          "wins": 2,
           "losses": 0,
-          "sets_won": 3,
-          "sets_lost": 1
+          "sets_won": 6,
+          "sets_lost": 2
         },
         "Pillon, Elouan": {
           "wins": 1,
@@ -228474,46 +229489,86 @@
           "losses": 2,
           "sets_won": 3,
           "sets_lost": 6
+        },
+        "Mousavi, Mohamad": {
+          "wins": 2,
+          "losses": 0,
+          "sets_won": 7,
+          "sets_lost": 4
+        },
+        "Reichelt, Christian": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 3,
+          "sets_lost": 1
+        },
+        "Hübner, Lars": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 1
+        },
+        "Almeida, Siddharta": {
+          "wins": 0,
+          "losses": 2,
+          "sets_won": 4,
+          "sets_lost": 6
+        },
+        "Schmitt, Cosmo": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 0
         }
       },
       "recent_5": [
         {
-          "date": "2025-12-18",
-          "opponent": "Pillon, Elouan",
+          "date": "2026-10-26",
+          "opponent": "Mousavi, Mohamad",
           "won": true,
           "score": "3:2",
-          "tournament_id": "Timetable-Tournament-18.12.-19.12.2025"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2025-12-18",
-          "opponent": "Grauer, Juri",
+          "date": "2026-10-26",
+          "opponent": "Kraus, Luis",
           "won": true,
-          "score": "3:2",
-          "tournament_id": "Timetable-Tournament-18.12.-19.12.2025"
+          "score": "3:1",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2025-12-18",
-          "opponent": "Moosmann, Kai",
+          "date": "2026-10-26",
+          "opponent": "Reichelt, Christian",
+          "won": true,
+          "score": "3:1",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Hübner, Lars",
           "won": true,
           "score": "4:1",
-          "tournament_id": "Timetable-Tournament-18.12.-19.12.2025"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2025-12-18",
-          "opponent": "Schärrer, Mauro",
+          "date": "2026-10-26",
+          "opponent": "Koloidenko, Pylyp",
           "won": true,
-          "score": "4:1",
-          "tournament_id": "Timetable-Tournament-18.12.-19.12.2025"
-        },
-        {
-          "date": "2025-12-18",
-          "opponent": "Fadeev, Kirill",
-          "won": false,
-          "score": "1:3",
-          "tournament_id": "Timetable-Tournament-18.12.-19.12.2025"
+          "score": "4:0",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 1,
+          "matches_won": 8,
+          "matches_lost": 1,
+          "sets_won": 29,
+          "sets_lost": 13,
+          "earnings": 840
+        },
         {
           "tournament_id": "Timetable-Tournament-18.12.-19.12.2025",
           "date": "2025-12-18",
@@ -228582,9 +229637,9 @@
       "tournaments_played": 24,
       "total_earnings": 3300,
       "attendance_rate": 12.8,
-      "current_streak": 3,
+      "current_streak": 0,
       "longest_streak": 3,
-      "tournaments_since": 0,
+      "tournaments_since": 1,
       "last_seen": "2026-10-22",
       "first_seen": "2025-11-17",
       "h2h": {
@@ -229309,7 +230364,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 74,
+      "tournaments_since": 75,
       "last_seen": "2025-11-24",
       "first_seen": "2025-11-24",
       "h2h": {
@@ -229444,7 +230499,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 74,
+      "tournaments_since": 75,
       "last_seen": "2025-11-24",
       "first_seen": "2025-11-24",
       "h2h": {
@@ -229573,7 +230628,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 73,
+      "tournaments_since": 74,
       "last_seen": "2025-12-01",
       "first_seen": "2025-12-01",
       "h2h": {
@@ -229708,7 +230763,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 71,
+      "tournaments_since": 72,
       "last_seen": "2025-12-08",
       "first_seen": "2025-12-08",
       "h2h": {
@@ -229853,7 +230908,7 @@
       "attendance_rate": 4.8,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 7,
+      "tournaments_since": 8,
       "last_seen": "2026-09-24",
       "first_seen": "2025-12-15",
       "h2h": {
@@ -230266,7 +231321,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 68,
+      "tournaments_since": 69,
       "last_seen": "2025-12-22",
       "first_seen": "2025-12-22",
       "h2h": {
@@ -230411,7 +231466,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 47,
+      "tournaments_since": 48,
       "last_seen": "2026-04-02",
       "first_seen": "2026-01-08",
       "h2h": {
@@ -230660,7 +231715,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 64,
+      "tournaments_since": 65,
       "last_seen": "2026-01-19",
       "first_seen": "2026-01-19",
       "h2h": {
@@ -230795,7 +231850,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 60,
+      "tournaments_since": 61,
       "last_seen": "2026-02-09",
       "first_seen": "2026-02-09",
       "h2h": {
@@ -230866,7 +231921,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 50,
+      "tournaments_since": 51,
       "last_seen": "2026-03-19",
       "first_seen": "2026-03-05",
       "h2h": {
@@ -231041,7 +232096,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 50,
+      "tournaments_since": 51,
       "last_seen": "2026-03-19",
       "first_seen": "2026-03-19",
       "h2h": {
@@ -231112,7 +232167,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 49,
+      "tournaments_since": 50,
       "last_seen": "2026-03-23",
       "first_seen": "2026-03-23",
       "h2h": {
@@ -231247,7 +232302,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 47,
+      "tournaments_since": 48,
       "last_seen": "2026-04-02",
       "first_seen": "2026-04-02",
       "h2h": {
@@ -231386,7 +232441,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 6,
+      "tournaments_since": 7,
       "last_seen": "2026-09-28",
       "first_seen": "2026-04-06",
       "h2h": {
@@ -231633,7 +232688,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 13,
+      "tournaments_since": 14,
       "last_seen": "2026-08-31",
       "first_seen": "2026-05-04",
       "h2h": {
@@ -231824,7 +232879,7 @@
       "attendance_rate": 2.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2026-05-07",
       "h2h": {
@@ -232103,7 +233158,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 38,
+      "tournaments_since": 39,
       "last_seen": "2026-05-07",
       "first_seen": "2026-05-07",
       "h2h": {
@@ -232238,7 +233293,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 37,
+      "tournaments_since": 38,
       "last_seen": "2026-05-11",
       "first_seen": "2026-05-11",
       "h2h": {
@@ -232373,7 +233428,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 13,
+      "tournaments_since": 14,
       "last_seen": "2026-08-31",
       "first_seen": "2026-05-14",
       "h2h": {
@@ -232570,7 +233625,7 @@
       "attendance_rate": 2.7,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2026-05-14",
       "h2h": {
@@ -232871,7 +233926,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -232942,7 +233997,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233013,7 +234068,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233084,7 +234139,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233155,7 +234210,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233226,7 +234281,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233297,7 +234352,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233368,7 +234423,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 35,
+      "tournaments_since": 36,
       "last_seen": "2026-05-18",
       "first_seen": "2026-05-18",
       "h2h": {
@@ -233439,7 +234494,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 24,
+      "tournaments_since": 25,
       "last_seen": "2026-07-13",
       "first_seen": "2026-05-25",
       "h2h": {
@@ -233620,7 +234675,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 24,
+      "tournaments_since": 25,
       "last_seen": "2026-07-13",
       "first_seen": "2026-06-15",
       "h2h": {
@@ -233835,7 +234890,7 @@
       "attendance_rate": 1.1,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 25,
+      "tournaments_since": 26,
       "last_seen": "2026-07-06",
       "first_seen": "2026-06-29",
       "h2h": {
@@ -234014,7 +235069,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 2,
-      "tournaments_since": 18,
+      "tournaments_since": 19,
       "last_seen": "2026-08-06",
       "first_seen": "2026-07-20",
       "h2h": {
@@ -234241,7 +235296,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 22,
+      "tournaments_since": 23,
       "last_seen": "2026-07-20",
       "first_seen": "2026-07-20",
       "h2h": {
@@ -234340,44 +235395,54 @@
     },
     "Hübner, Lars": {
       "name": "Hübner, Lars",
-      "total_matches": 14,
-      "wins": 1,
-      "losses": 13,
-      "win_rate": 7.1,
-      "sets_won": 11,
-      "sets_lost": 50,
-      "deuce_won": 6,
-      "deuce_total": 14,
-      "deuce_win_rate": 42.9,
-      "first_set_total": 14,
-      "first_set_win_match_win": 0,
-      "comeback_chances": 10,
+      "total_matches": 21,
+      "wins": 2,
+      "losses": 19,
+      "win_rate": 9.5,
+      "sets_won": 20,
+      "sets_lost": 74,
+      "deuce_won": 7,
+      "deuce_total": 17,
+      "deuce_win_rate": 41.2,
+      "first_set_total": 21,
+      "first_set_win_match_win": 1,
+      "comeback_chances": 14,
       "comeback_wins": 1,
-      "comeback_rate": 10.0,
+      "comeback_rate": 7.1,
       "wins_2_0": 0,
       "wins_2_1": 0,
-      "losses_0_2": 8,
-      "losses_1_2": 2,
+      "losses_0_2": 11,
+      "losses_1_2": 3,
       "ko_wins": 0,
       "ko_losses": 0,
       "ko_total": 0,
-      "group_wins": 1,
-      "group_losses": 13,
-      "group_total": 14,
+      "group_wins": 2,
+      "group_losses": 19,
+      "group_total": 21,
       "clutch_rate": null,
-      "group_win_rate": 7.1,
-      "form_last10": 0.0,
-      "form_trend": -7.1,
-      "best_victim": null,
-      "nemesis": null,
+      "group_win_rate": 9.5,
+      "form_last10": 10.0,
+      "form_trend": 0.5,
+      "best_victim": {
+        "name": "Kraus, Luis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
+      "nemesis": {
+        "name": "Kraus, Luis",
+        "wins": 0,
+        "losses": 3,
+        "win_pct": 0.0
+      },
       "tournament_wins": 0,
-      "tournaments_played": 2,
-      "total_earnings": 210,
-      "attendance_rate": 1.1,
-      "current_streak": 0,
+      "tournaments_played": 3,
+      "total_earnings": 345,
+      "attendance_rate": 1.6,
+      "current_streak": 1,
       "longest_streak": 1,
-      "tournaments_since": 19,
-      "last_seen": "2026-08-03",
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
       "first_seen": "2026-07-23",
       "h2h": {
         "Kizakisz, Nikolaosz": {
@@ -234388,9 +235453,9 @@
         },
         "Kraus, Luis": {
           "wins": 0,
-          "losses": 2,
+          "losses": 3,
           "sets_won": 2,
-          "sets_lost": 7
+          "sets_lost": 11
         },
         "Qiu, Liang": {
           "wins": 0,
@@ -234451,46 +235516,92 @@
           "losses": 1,
           "sets_won": 0,
           "sets_lost": 4
+        },
+        "Koloidenko, Pylyp": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 2,
+          "sets_lost": 3
+        },
+        "Almeida, Siddharta": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 0,
+          "sets_lost": 4
+        },
+        "Schmitt, Cosmo": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 2
+        },
+        "Lam, Nathan": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 1,
+          "sets_lost": 4
+        },
+        "Mousavi, Mohamad": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 0,
+          "sets_lost": 4
+        },
+        "Reichelt, Christian": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 2,
+          "sets_lost": 3
         }
       },
       "recent_5": [
         {
-          "date": "2026-08-03",
-          "opponent": "Willeke, Johannes",
-          "won": false,
-          "score": "0:4",
-          "tournament_id": "Timetable-Tournament-03.08.-04.08.2026"
-        },
-        {
-          "date": "2026-08-03",
-          "opponent": "Nogami, Makoto",
-          "won": false,
-          "score": "0:4",
-          "tournament_id": "Timetable-Tournament-03.08.-04.08.2026"
-        },
-        {
-          "date": "2026-08-03",
-          "opponent": "Löffler, Jeromy",
-          "won": false,
-          "score": "0:4",
-          "tournament_id": "Timetable-Tournament-03.08.-04.08.2026"
-        },
-        {
-          "date": "2026-08-03",
-          "opponent": "Kraus, Luis",
+          "date": "2026-10-26",
+          "opponent": "Koloidenko, Pylyp",
           "won": false,
           "score": "2:3",
-          "tournament_id": "Timetable-Tournament-03.08.-04.08.2026"
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         },
         {
-          "date": "2026-08-03",
-          "opponent": "Mino, Alberto",
+          "date": "2026-10-26",
+          "opponent": "Almeida, Siddharta",
           "won": false,
-          "score": "1:3",
-          "tournament_id": "Timetable-Tournament-03.08.-04.08.2026"
+          "score": "0:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Schmitt, Cosmo",
+          "won": true,
+          "score": "4:2",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Lam, Nathan",
+          "won": false,
+          "score": "1:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Kraus, Luis",
+          "won": false,
+          "score": "0:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
         }
       ],
       "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 8,
+          "matches_won": 1,
+          "matches_lost": 6,
+          "sets_won": 9,
+          "sets_lost": 24,
+          "earnings": 135
+        },
         {
           "tournament_id": "Timetable-Tournament-03.08.-04.08.2026",
           "date": "2026-08-03",
@@ -234551,7 +235662,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 18,
+      "tournaments_since": 19,
       "last_seen": "2026-08-06",
       "first_seen": "2026-08-06",
       "h2h": {
@@ -234696,7 +235807,7 @@
       "attendance_rate": 1.6,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 6,
+      "tournaments_since": 7,
       "last_seen": "2026-09-28",
       "first_seen": "2026-08-10",
       "h2h": {
@@ -234911,7 +236022,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 10,
+      "tournaments_since": 11,
       "last_seen": "2026-09-14",
       "first_seen": "2026-09-14",
       "h2h": {
@@ -235046,7 +236157,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 5,
+      "tournaments_since": 6,
       "last_seen": "2026-10-05",
       "first_seen": "2026-10-05",
       "h2h": {
@@ -235181,7 +236292,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2026-10-08",
       "h2h": {
@@ -235316,7 +236427,7 @@
       "attendance_rate": 0.5,
       "current_streak": 0,
       "longest_streak": 1,
-      "tournaments_since": 4,
+      "tournaments_since": 5,
       "last_seen": "2026-10-08",
       "first_seen": "2026-10-08",
       "h2h": {
@@ -235410,6 +236521,141 @@
           "sets_won": 24,
           "sets_lost": 23,
           "earnings": 420
+        }
+      ]
+    },
+    "Reichelt, Christian": {
+      "name": "Reichelt, Christian",
+      "total_matches": 7,
+      "wins": 2,
+      "losses": 5,
+      "win_rate": 28.6,
+      "sets_won": 10,
+      "sets_lost": 20,
+      "deuce_won": 3,
+      "deuce_total": 8,
+      "deuce_win_rate": 37.5,
+      "first_set_total": 7,
+      "first_set_win_match_win": 1,
+      "comeback_chances": 4,
+      "comeback_wins": 1,
+      "comeback_rate": 25.0,
+      "wins_2_0": 1,
+      "wins_2_1": 0,
+      "losses_0_2": 2,
+      "losses_1_2": 3,
+      "ko_wins": 0,
+      "ko_losses": 0,
+      "ko_total": 0,
+      "group_wins": 2,
+      "group_losses": 5,
+      "group_total": 7,
+      "clutch_rate": null,
+      "group_win_rate": 28.6,
+      "form_last10": 28.6,
+      "form_trend": 0.0,
+      "best_victim": null,
+      "nemesis": null,
+      "tournament_wins": 0,
+      "tournaments_played": 1,
+      "total_earnings": 195,
+      "attendance_rate": 0.5,
+      "current_streak": 1,
+      "longest_streak": 1,
+      "tournaments_since": 0,
+      "last_seen": "2026-10-26",
+      "first_seen": "2026-10-26",
+      "h2h": {
+        "Almeida, Siddharta": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 1,
+          "sets_lost": 4
+        },
+        "Schmitt, Cosmo": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 4,
+          "sets_lost": 0
+        },
+        "Lam, Nathan": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 1,
+          "sets_lost": 3
+        },
+        "Kraus, Luis": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 1,
+          "sets_lost": 3
+        },
+        "Mousavi, Mohamad": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 0,
+          "sets_lost": 4
+        },
+        "Koloidenko, Pylyp": {
+          "wins": 0,
+          "losses": 1,
+          "sets_won": 0,
+          "sets_lost": 4
+        },
+        "Hübner, Lars": {
+          "wins": 1,
+          "losses": 0,
+          "sets_won": 3,
+          "sets_lost": 2
+        }
+      },
+      "recent_5": [
+        {
+          "date": "2026-10-26",
+          "opponent": "Almeida, Siddharta",
+          "won": false,
+          "score": "1:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Schmitt, Cosmo",
+          "won": true,
+          "score": "4:0",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Lam, Nathan",
+          "won": false,
+          "score": "1:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Kraus, Luis",
+          "won": false,
+          "score": "1:3",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        },
+        {
+          "date": "2026-10-26",
+          "opponent": "Mousavi, Mohamad",
+          "won": false,
+          "score": "0:4",
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026"
+        }
+      ],
+      "tournament_results": [
+        {
+          "tournament_id": "Timetable-Tournament-26.10.-27.10.2026",
+          "date": "2026-10-26",
+          "rank": 6,
+          "matches_won": 2,
+          "matches_lost": 5,
+          "sets_won": 10,
+          "sets_lost": 20,
+          "earnings": 195
         }
       ]
     }
